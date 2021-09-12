@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import '../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+@import 'override';
+@import '../node_modules/bulma/sass/utilities/_all.sass';
+
+@import '../node_modules/bulma/sass/base/_all.sass';
+@import '../node_modules/bulma/sass/elements/_all.sass';
+@import '../node_modules/bulma/sass/components/card.sass';
+@import '../node_modules/bulma/sass/components/navbar.sass';
+@import '../node_modules/bulma/sass/components/tabs.sass';
+@import '../node_modules/bulma/sass/grid/_all.sass';
+@import '../node_modules/bulma/sass/helpers/_all.sass';
+@import '../node_modules/bulma/sass/layout/_all.sass';
+
+@import '../node_modules/bulma-timeline/dist/css/bulma-timeline.sass';
+
+@include desktop {
+  .main {
+    font-size: 20px;
+    min-height: 960px;
+  }
+
+  .cover .hero-body {
+    padding-top: 23em !important;
+    padding-bottom: 10em !important;
+  }
+}
+
+.main-button {
+  background-color: transparent;
+  border: 2px solid $primary;
+  padding: 0.25em 0.75em;
+  color: $text;
+  transition: background-color 0.1s ease-in;
+
+  &:hover,
+  &:focus {
+    color: $text;
+    background-color: $primary;
+  }
+}
+
+.cover {
+  background: url('/2021/assets/images/cover.jpg') center center no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .shade {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(
+      90deg,
+      $scheme-main,
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.25),
+      transparent
+    );
+  }
+}
+
+h1.section-title {
+  font-size: $size-3;
+  font-weight: $weight-bold;
+  margin-bottom: 1em;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 5em;
+    height: 0.5em;
+    background-color: $light;
+    bottom: 0;
+    left: 0.5em;
+    z-index: -1;
+  }
+}
+
+.card {
+  box-shadow: none;
+  transition: box-shadow 0.3 ease-in;
+  border: 1px solid $grey-lighter;
+
+  &:hover {
+    box-shadow: $card-shadow;
+  }
+}

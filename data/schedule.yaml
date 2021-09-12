@@ -1,0 +1,19 @@
+# - start: 10:00
+#   end: 10:45
+#   title: justo sit amet sapien
+#   speaker: 万哲恒
+#   intro: Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.
+#     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+#     Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.
+#   desc: Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.
+#     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+#     Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.
+#   avatar: http://dummyimage.com/200x200.png/cc0000/ffffff
+#   slug: justo-sit-amet-sapien
+#   keynote: true
+schedule:
+  - date: '10/16'
+    events: []
+
+  - date: '10/17'
+    events: []

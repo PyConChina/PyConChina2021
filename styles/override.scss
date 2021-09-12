@@ -1,0 +1,11 @@
+$primary: #ff482a;
+$light: lighten($primary, 30%);
+$lighter: lighten($primary, 35%);
+$scheme-main: lighten($primary, 40%);
+$scheme-main-bis: $lighter;
+$family-sans-serif: Roboto, sans-serif;
+
+$background: $scheme-main-bis;
+$link: $primary;
+$hero-body-padding-large: 22rem 6rem;
+$background-gradient: linear-gradient(109deg, #ffba4e, #ff482a 70%, #ff482a);
