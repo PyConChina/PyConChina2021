@@ -30,6 +30,12 @@
   }
 }
 
+@include fullhd {
+  .cover .hero-body {
+    padding-top: 36em !important;
+  }
+}
+
 .main-button {
   background-color: transparent;
   border: 2px solid $primary;
