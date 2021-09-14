@@ -1,10 +1,9 @@
 import { useTranslation } from 'next-i18next';
-import Link from 'next/link';
 
 const Footer = function () {
   const { t } = useTranslation('common');
   return (
-    <div className="columns has-text-centered">
+    <div className="columns has-text-centered footer-body">
       <div className="column">
         <p className="pl-1">© 2021 PyCon China</p>
         <div className="social-links is-size-4 mt-2">

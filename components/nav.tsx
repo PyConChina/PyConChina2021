@@ -25,7 +25,7 @@ const Nav = function () {
       <div className="navbar-brand">
         <Link href="/">
           <a className="navbar-item">
-            <img src="/2021/logo.png" alt="pychina" />
+            <img src="/2021/assets/images/logo2021.png" alt="pychina" />
             <span className="ml-2 has-text-weight-bold">PyCon China</span>
           </a>
         </Link>

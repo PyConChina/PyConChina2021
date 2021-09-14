@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/2021/logo.png" />
+        <link rel="shortcut icon" href="/2021/assets/images/logo2021.png" />
       </Head>
 
       <DefaultSeo
@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         <Nav />
       </header>
       <Component {...pageProps} />
-      <footer className="footer">
+      <footer className="myfooter">
         <Footer />
       </footer>
     </>

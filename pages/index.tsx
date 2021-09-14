@@ -35,7 +35,12 @@ const Home = (props: IndexProps) => {
       <div className="hero is-large cover">
         {/* <div className="shade" /> */}
         <div className="hero-body">
-          <div className="buttons is-centered">
+          <div className="has-text-centered">
+            <div><img alt="pycon title" src="/2021/assets/images/title.png" /></div>
+            <p className="title is-size-2-desktop is-size-4 has-text-white has-text-weight-normal mb-6">2021 中国 Python 开发者大会</p>
+            <p className="subtitle is-size-3-desktop has-text-white">2021.10.16 - 17</p>
+          </div>
+          <div className="buttons is-centered mt-2">
             {shouldShowLive ? (
               <a className="button is-primary is-large is-rounded">{t('live_address')}</a>
             ) : (

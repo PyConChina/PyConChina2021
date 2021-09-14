@@ -25,16 +25,16 @@
     min-height: 960px;
   }
 
-  .cover .hero-body {
-    padding-top: 23em !important;
-    padding-bottom: 10em !important;
-  }
+  //   .cover .hero-body {
+  //     padding-top: 23em !important;
+  //     padding-bottom: 10em !important;
+  //   }
 }
 
 @include fullhd {
-  .cover .hero-body {
-    padding-top: 36em !important;
-  }
+  //   .cover .hero-body {
+  //     padding-top: 36em !important;
+  //   }
 }
 
 .main-button {
@@ -52,7 +52,7 @@
 }
 
 .cover {
-  background: url('/2021/assets/images/cover.jpg') center center no-repeat;
+  background: url('/2021/assets/images/cover.png') center center no-repeat;
   background-size: cover;
   position: relative;
 
@@ -97,5 +97,15 @@ h1.section-title {
 
   &:hover {
     box-shadow: $card-shadow;
+  }
+}
+
+.myfooter {
+  background-color: $lighter;
+
+  .footer-body {
+    padding: 3rem 1.5rem;
+    background: url('/2021/assets/images/bgtext.png') right 5% center no-repeat;
+    background-size: contain;
   }
 }
