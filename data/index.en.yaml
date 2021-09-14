@@ -13,4 +13,9 @@ introduction: |
 
   There is an old saying that “a conference is not a matter of one person, but a group of people”, so here we welcome every student who loves the Python community to join us, participate in our work, and let us make this year’s conference together Become a Dream Conference! Yes, we need you!
 
-sponsors: []
+sponsors:
+  - level: Social Media
+    items:
+      - name: VSCode CC
+        icon: '/2021/assets/sponsors/vscodecn.png'
+        link: 'https://github.com/vscodecc/vscodecc'

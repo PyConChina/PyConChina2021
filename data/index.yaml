@@ -15,8 +15,8 @@ introduction: |
   有句老话叫“一个大会不是一个人的事，而是一群人的事”，在这里，我们诚挚邀请每一位热爱 Python 社区的同学加入我们，一起举办又一场 Python 开发者自己的 PyCon ！We need you！
 
 sponsors:
-  []
-  # - level: 铂金赞助
-  #   items:
-  #     - name: Brittni Pinare
-  #       icon: '/2021/assets/sponsors/bestvpn_co.png'
+  - level: 社区合作
+    items:
+      - name: VSCode 中文社区
+        icon: '/2021/assets/sponsors/vscodecn.png'
+        link: 'https://github.com/vscodecc/vscodecc'
