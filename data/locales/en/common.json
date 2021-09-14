@@ -22,7 +22,7 @@
   "end": "End",
   "start": "Start",
   "add_to_calendar": "Add to Calendar",
-  "sponsor_us": "Sponsor Us",
+  "sponsor_us": "Be a Sponsor",
   "latest_news": "Latest News",
   "introduction": "Introduction",
   "keynote_speakers": "Keynote Speakers",
@@ -34,5 +34,8 @@
   "survey": "Survey",
   "souvenir": "Souvenir",
   "notfound": "Page Not Found",
-  "notfoundmessage": "If you believe this is an issue, please report to us."
+  "notfoundmessage": "If you believe this is an issue, please",
+  "report-bugs": "Report Bugs",
+  "contact-us": "Contact Us",
+  "report-to-us": "report to us"
 }

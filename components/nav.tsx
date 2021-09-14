@@ -67,6 +67,9 @@ const Nav = function () {
               <Link href="/cfp">
                 <a className="navbar-item">{t('cfp')}</a>
               </Link>
+              <Link href="/souvenir">
+                <a className="navbar-item">{t('souvenir')}</a>
+              </Link>
             </div>
           </div>
           <div className="navbar-item has-dropdown is-hoverable">
@@ -84,20 +87,22 @@ const Nav = function () {
             <a className="navbar-link">{t('staff')}</a>
 
             <div className="navbar-dropdown">
-              <Link href="/staff"><a className="navbar-item">{t('volunteers')}</a></Link>
+              <Link href="/staff">
+                <a className="navbar-item">{t('volunteers')}</a>
+              </Link>
               <Link href="/joinus">
                 <a className="navbar-item">{t('joinus')}</a>
               </Link>
             </div>
           </div>
-          <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link">{t('derivatives')}</a>
-
-            <div className="navbar-dropdown">
-              <a className="navbar-item" href="https://www.wjx.cn/vm/r20RGqF.aspx">{t('survey')}</a>
-              <Link href="/souvenir"><a className="navbar-item">{t('souvenir')}</a></Link>
-            </div>
-          </div>
+          <a
+            className="navbar-item"
+            href="https://www.wjx.cn/vm/r20RGqF.aspx"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {t('survey')}
+          </a>
 
           <div className="navbar-item has-dropdown is-hoverable">
             <a className="navbar-link">{t('history')}</a>
