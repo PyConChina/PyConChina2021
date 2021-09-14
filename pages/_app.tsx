@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         openGraph={{
           type: 'website',
           url,
-          images: [],
+          images: [{ url: 'https://cn.pycon.org/2021/assets/images/cover.png' }],
         }}
         canonical={url}
       />
