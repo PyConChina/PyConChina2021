@@ -19,6 +19,8 @@ yarn install
 yarn dev
 ```
 
+使用浏览器访问 http://localhost:3000
+
 **注意：推送提交至 GitHub 将会触发持续集成，部署至远程服务器。**
 
 ## 数据说明
