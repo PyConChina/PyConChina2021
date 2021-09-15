@@ -57,7 +57,7 @@ PPT 模板下载地址：
 国内推荐以下几类录制工具进行视频录制：
 
 - 腾讯会议
-  - 下载：[https://meeting.tencent.com/](https://meeting.tencent.com/)
+  - 下载：[https://meeting.tencent.com/download-center.html](https://meeting.tencent.com/download-center.html)
   - 使用说明：[https://meeting.tencent.com/support.html](https://meeting.tencent.com/support.html)
 - ZOOM：
   - 下载：[https://zoom.us/](https://zoom.us/)
