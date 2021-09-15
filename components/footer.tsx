@@ -68,7 +68,7 @@ const Footer = function () {
             {t('contact-us')}
           </a>
           <a
-            href="https://github.com/PyConChina/PyConChina2021/issues/new/choose"
+            href="https://github.com/PyConChina/PyConChina2021/issues/new"
             target="_blank"
             rel="noreferrer"
             className="ml-4"
