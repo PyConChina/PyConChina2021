@@ -15,7 +15,7 @@ const NotFound = () => {
               <p className="subtitle mt-2">
                 {t('notfoundmessage')}
                 <a
-                  href="https://github.com/PyConChina/PyConChina2021/issues/new/choose"
+                  href="https://github.com/PyConChina/PyConChina2021/issues/new"
                   target="_blank"
                   rel="noreferrer"
                 >
