@@ -67,6 +67,9 @@ const Nav = function () {
               <Link href="/cfp">
                 <a className="navbar-item">{t('cfp')}</a>
               </Link>
+              <Link href="/video-guide">
+                <a className="navbar-item">{t('video-guide')}</a>
+              </Link>
               <Link href="/souvenir">
                 <a className="navbar-item">{t('souvenir')}</a>
               </Link>

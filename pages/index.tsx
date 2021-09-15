@@ -32,12 +32,16 @@ const Home = (props: IndexProps) => {
 
   return (
     <Layout title="首页">
-      <div className="hero is-large cover">
+      <div className="hero is-medium cover">
         {/* <div className="shade" /> */}
         <div className="hero-body">
           <div className="has-text-centered">
-            <div><img alt="pycon title" src="/2021/assets/images/title.png" /></div>
-            <p className="title is-size-2-desktop is-size-4 has-text-white has-text-weight-normal mb-6">2021 中国 Python 开发者大会</p>
+            <div>
+              <img alt="pycon title" src="/2021/assets/images/title.png" />
+            </div>
+            <p className="title is-size-2-desktop is-size-4 has-text-white has-text-weight-normal mt-4 mb-6">
+              2021 中国 Python 开发者大会
+            </p>
             <p className="subtitle is-size-3-desktop has-text-white">2021.10.16 - 17</p>
           </div>
           <div className="buttons is-centered mt-2">

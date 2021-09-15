@@ -24,4 +24,6 @@ We welcome all kinds of presentation related to Python, including artificial int
 
 At the same time, interested partners are welcome to apply to become members of the conference organizing committee and participate in a PyCon China in your mind!
 
+[**Video Guide**](/video-guide)
+
 <p class="has-text-centered"><a class="button is-primary">Click to apply</a></p>
