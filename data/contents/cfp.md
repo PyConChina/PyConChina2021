@@ -29,6 +29,6 @@
 
 欢迎申报演讲主题，大会组委会将评审后给予答复。同时欢迎有意向的伙伴，申请成为大会组委会成员，一起举办一场你心中的 PyCon China 大会！
 
-[**视频录制说明**](/video-guide)
+[**视频录制说明**](/2021/video-guide)
 
 <p class="has-text-centered"><a class="button is-primary" href="https://jinshuju.net/f/DoStnR">点此申请</a></p>
