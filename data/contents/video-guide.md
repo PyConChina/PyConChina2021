@@ -47,7 +47,7 @@ PPT 模板下载地址：
 
 4. 视频人像虚拟背景（非强制，根据自己偏好确定是否设置）
 
-   ![recording_bg](/2021/assets/images/recording_bg.png)
+   ![recording_bg](/2021/assets/images/slide-dark.jpg)
 
 5. 因为无观众互动，可能无法得到现场演讲时的反馈感，所以要时刻注意控制自己的语气&语速，把握节奏，富有激情。
 6. 注意时间，请在自己的规定的时间内完成
