@@ -2,7 +2,7 @@
 
 ---
 
-> 本指导是精简版本，旨在让大家快速了解录制的规则及重要事项，需要更详细的操作指导请大家点击下载：演讲录像指导完整版.PDF
+> 本指导是精简版本，旨在让大家快速了解录制的规则及重要事项，需要更详细的操作指导请大家点击下载：[演讲录像指导完整版.PDF](/2021/assets/pycon_guide_full_zh.pdf)
 
 ## 第一步：制作演讲幻灯片
 
@@ -41,33 +41,29 @@ PPT 模板下载地址：
 2. 演讲过程中眼睛注意聚焦摄像头方向，有与观众对视的感觉
 3. 录制时，材料在全屏展示，自己头像在右上角小屏展示，如有其他参会人，请隐藏（其他人不开启视频，通过转到 **“设置”>“视频”>“会议”** 来隐藏不使用视频的参与者，然后选中“ 隐藏非视频参与者”），**最终效果如下图两种均可**
 
-   ![recording1](/2021/assets/images/recording1.png)
+   ![recording1](/2021/assets/images/pybg1.jpg)
 
-   ![recording2](/2021/assets/images/recording2.png)
+   ![recording2](/2021/assets/images/pybg2.png)
 
-4. 视频人像虚拟背景（非强制，根据自己偏好确定是否设置）
-
-   ![recording_bg](/2021/assets/images/slide-dark.jpg)
-
-5. 因为无观众互动，可能无法得到现场演讲时的反馈感，所以要时刻注意控制自己的语气&语速，把握节奏，富有激情。
-6. 注意时间，请在自己的规定的时间内完成
+4. 因为无观众互动，可能无法得到现场演讲时的反馈感，所以要时刻注意控制自己的语气&语速，把握节奏，富有激情。
+5. 注意时间，请在自己的规定的时间内完成
 
 ### 4.2 如何录制
 
 国内推荐以下几类录制工具进行视频录制：
 
 - 腾讯会议
-  - 下载：[https://meeting.tencent.com/download-center.html](https://meeting.tencent.com/download-center.html)
-  - 使用说明：[https://meeting.tencent.com/support.html](https://meeting.tencent.com/support.html)
+  - 下载：<https://meeting.tencent.com/download-center.html>
+  - 使用说明：<https://meeting.tencent.com/support.html>
 - ZOOM：
-  - 下载：[https://zoom.us/](https://zoom.us/)
+  - 下载：<https://zoom.us/>
   - 使用教程：见文末完整指导文档
 - OBS：
-  - 下载地址：[https://obsproject.com](https://obsproject.com/)
-  - 使用教程：[https://www.bilibili.com/video/av540757352/](https://www.bilibili.com/video/av540757352/)
+  - 下载地址：<https://obsproject.com>
+  - 使用教程：<https://www.bilibili.com/video/av540757352/>
 - 瞩目：
-  - 下载地址：[https://zhumu.com/client](https://zhumu.com/client)
-  - 使用说明：[http://help.zhumu.me/hc/kb/section/27101/](http://help.zhumu.me/hc/kb/section/27101/)
+  - 下载地址：<https://zhumu.com/client>
+  - 使用说明：<http://help.zhumu.me/hc/kb/section/27101/>
 
 如果您有其它软件也能实现上面说明的规范效果亦可。
 
@@ -75,11 +71,11 @@ PPT 模板下载地址：
 
 1. 视频的命名格式为：姓名-演讲主题-Track 名称 （如：张三-Python 特性解读）
 2. 检查音质，可以有电流底噪，但不要有明显噪音(如翻书声、拖动椅子、 汽车鸣笛、鸟叫声等)
-3. 检查画面像素是否为 1920\*1080，比例为 windows16:9 或 mac16:10
+3. 检查画面像素是否为 1920\*1080，比例为 windows 16:9 或 mac 16:10
 4. 视频帧速率不低于 30fps(单击鼠标右键，“属性”中“详细信息”查看)， 画面不能出现明显锯齿，发虚的现象
 
 ## 第六步：视频交付
 
-自检属性符合标准后，请上传至网盘，并将分享链接交付录制文件给会议出品人或对应的志愿者，他们会把视频中存在的问题反馈给你，如有需要请及时修正。
+自检属性符合标准后，请上传至网盘，并将下载链接发送至邮箱：**jamiexu@python-china.org.cn**，如视频中存在问题会反馈给你，如有需要请及时修正。
 
-更多详尽指导请下载：演讲录像指导完整版.PDF
+更多详尽指导请下载：[演讲录像指导完整版.PDF](/2021/assets/pycon_guide_full_zh.pdf)

@@ -2,7 +2,7 @@
 
 ---
 
->This guide is a simplified version,  which aims to let you quickly understand the recording rules and important matters. For more detailed guide, please download: [full_recording_guide]()
+>This guide is a simplified version,  which aims to let you quickly understand the recording rules and important matters. For more detailed guide, please download: [full_recording_guide](/2021/assets/pycon_guide_full_en.pdf)
 
 ## Step 1: Make a presentation slide
 
@@ -41,16 +41,16 @@ Pay attention to 5 key points:
 2. During the speech, make your eyes pay attention to the direction of the camera and have the feeling of looking at the audience.
 3. During the recording, your materials should be displayed on the full screen, and your own avatars should be displayed on the small screen in the upper right corner. If there are other participants, please hide them (if others do not open the video, please go to "Settings" >"Video" >"Meeting", select "Hide Non-video Participants" to hide participants who do not use video). **The final effect can be as follows in two ways**:
 
-   ![recording1](/2021/assets/images/recording1.png)
+   ![recording1](/2021/assets/images/pybg1.jpg)
 
-   ![recording2](/2021/assets/images/recording2.png)
+   ![recording2](/2021/assets/images/pybg2.png)
 
 4. Because there is no audience interaction, you could not get the feedback like live speech, so you must always pay attention to your voice-speed, rhythm and passion.
 5. Grasp the time. Please complete within the specified time.
 
 ### 4.2 Recording tools
 
-We recommend using ZOOM to recording, for the ZOOM tutorial, see the download file in this articl head/end.
+We recommend using ZOOM to recording, for the ZOOM tutorial, see the download file in this article head/end.
 
 It will be okay if you have other tools that can achieve the similar effect.
 
@@ -63,8 +63,8 @@ It will be okay if you have other tools that can achieve the similar effect.
 
 ## Step 6: Video delivery
 
-Once the self-test properties are met, please upload the video to a web drive and deliver the recorded file to Track Chair by sharing the link.
+Once the self-test properties are met, please upload the video to a web drive and send the link to: **jamiexu@python-china.org.cn**
 
-Track Chair will provide you with feedback on any problems with the video, so please correct them if necessary.
+We will provide you with feedback on any problems with the video, so please correct them if necessary.
 
-For more detailed guide, please download : [full_recording_guide]()
+For more detailed guide, please download : [full_recording_guide](/2021/assets/pycon_guide_full_en.pdf)
