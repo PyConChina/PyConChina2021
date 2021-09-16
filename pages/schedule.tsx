@@ -32,9 +32,9 @@ const EmptySchedule = () => {
       <div className="hero-body has-text-centered">
         <p className="title">{t('stay_tuned')}</p>
         <p>
-          <a href="#" className="button is-primary is-large">
-            {t('cfp')}
-          </a>
+          <Link href="/cfp">
+            <a className="button is-primary is-large">{t('cfp')}</a>
+          </Link>
         </p>
       </div>
     </div>
@@ -66,7 +66,9 @@ const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
               ))}
             </ul>
           </div>
-          {events.length === 0 ? <EmptySchedule /> : (
+          {events.length === 0 ? (
+            <EmptySchedule />
+          ) : (
             <div className="timeline mx-auto">
               <header className="timeline-header">
                 <span className="tag is-medium is-primary">{t('start')}</span>

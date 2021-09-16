@@ -21,7 +21,7 @@ yarn dev
 
 使用浏览器访问 http://localhost:3000
 
-**注意：推送提交至 GitHub 将会触发持续集成，部署至远程服务器。**
+**注意：推送提交至 main 分支将会触发持续集成，部署至正式服务器。**
 
 ## 数据说明
 
@@ -32,3 +32,5 @@ yarn dev
 - `contents/` 对应页面的 Markdown 文档
 - `meetups/` Meetup 页面的 Markdown 文档
 - `locales/` 翻译文件
+
+（文件名带 `.en` 的为英文翻译文件）
