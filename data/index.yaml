@@ -17,6 +17,14 @@ introduction: |
 sponsors:
   - level: 社区合作
     items:
+      - name: CSDN
+        icon: '/2021/assets/sponsors/csdn.png'
+        link: 'https://www.csdn.net/'
+
+      - name: 思否
+        icon: '/2021/assets/sponsors/segmentfault.png'
+        link: 'https://segmentfault.com/'
+
       - name: VSCode 中文社区
         icon: '/2021/assets/sponsors/vscodecn.png'
         link: 'https://github.com/vscodecc/vscodecc'

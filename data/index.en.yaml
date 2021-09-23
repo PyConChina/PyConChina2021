@@ -16,6 +16,14 @@ introduction: |
 sponsors:
   - level: Social Media
     items:
+      - name: CSDN
+        icon: '/2021/assets/sponsors/csdn.png'
+        link: 'https://www.csdn.net/'
+
+      - name: SegmentFault
+        icon: '/2021/assets/sponsors/segmentfault.png'
+        link: 'https://segmentfault.com/'
+
       - name: VSCode CC
         icon: '/2021/assets/sponsors/vscodecn.png'
         link: 'https://github.com/vscodecc/vscodecc'
