@@ -1,7 +1,7 @@
 const ical = require('ical-generator');
 const dayjs = require('dayjs');
-var utc = require('dayjs/plugin/utc')
-dayjs.extend(utc)
+var utc = require('dayjs/plugin/utc');
+dayjs.extend(utc);
 const path = require('path');
 const fs = require('fs').promises;
 const yaml = require('js-yaml');
@@ -11,12 +11,12 @@ const baseUrl = 'https://cn.pycon.org';
 
 const parseTime = (date, time) => {
   return dayjs(`${year}/${date} ${time}`, 'YYYY/MM/DD H:mm', 'Asia/Shanghai');
-}
+};
 
 const loadData = async () => {
   const filePath = path.join(process.cwd(), 'data', 'schedule.yaml');
   return yaml.load(await fs.readFile(filePath)).schedule;
-}
+};
 
 const getDescription = ({ speaker, intro, desc }) => {
   const blocks = [];
@@ -37,10 +37,13 @@ const getDescription = ({ speaker, intro, desc }) => {
 
 const generate = async () => {
   const data = await loadData();
-  const calendar = ical({name: 'PyConChina 2021 Calendar'});
+  const calendar = ical({ name: 'PyConChina 2021 Calendar' });
   data.forEach(({ date, events }) => {
-    events.forEach(event => {
+    events.forEach((event) => {
       if (event.calendar === false) {
+        return;
+      }
+      if (!event.start) {
         return;
       }
       const start = parseTime(date, event.start);
@@ -51,10 +54,10 @@ const generate = async () => {
         end,
         summary: event.title,
         description: getDescription(event),
-        url: event.slug ? `${baseUrl}/talks/${event.slug}` : null
+        url: event.slug ? `${baseUrl}/talks/${event.slug}` : null,
       });
-    })
-  })
+    });
+  });
   const destPath = path.join(process.cwd(), 'public', 'calendar.ics');
   console.log(`Saving calendar to ${destPath}`);
   await calendar.save(destPath);

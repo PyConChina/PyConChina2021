@@ -101,10 +101,15 @@ const Home = (props: IndexProps) => {
           <div className="has-text-centered">
             {props.sponsors.map(({ level, items }, i) => (
               <div key={i} className="sponsor-group">
-                <h3 className="title is-4 my-6">{level}</h3>
+                <h3 className="title is-4 mt-6">{level}</h3>
                 {items.map((item, j) => (
                   <a href={item.link || '#'} key={j} className="mx-4 my-2 is-inline-block">
-                    <img alt={item.name} src={item.icon} style={{ width: '200px' }} />
+                    <img
+                      alt={item.name}
+                      src={item.icon}
+                      style={{ width: '200px' }}
+                      title={item.name}
+                    />
                   </a>
                 ))}
               </div>
