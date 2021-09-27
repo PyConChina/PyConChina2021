@@ -115,9 +115,13 @@ const Home = (props: IndexProps) => {
               </div>
             ))}
             <p>
-              <Link href="/sponsorship">
-                <a className="button is-primary is-large">{t('sponsor_us')}</a>
-              </Link>
+              <a
+                className="button is-primary is-large"
+                href="/2021/assets/sponsorship.pdf"
+                target="_blank"
+              >
+                {t('sponsor_us')}
+              </a>
             </p>
           </div>
         </section>
