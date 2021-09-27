@@ -148,7 +148,7 @@ const Nav = function () {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
-              <Link href={router.pathname} locale={router.locale === 'zh' ? 'en' : 'zh'}>
+              <Link href={router.asPath} locale={router.locale === 'zh' ? 'en' : 'zh'}>
                 <a className="button is-rounded">{t('locale')}</a>
               </Link>
               <a className="button is-primary is-rounded">

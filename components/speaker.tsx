@@ -20,12 +20,11 @@ export default function Speaker(props: SpeakerType) {
         </div>
         <div className="card-content">
           <p className="title is-4">{props.speaker}</p>
-          <p className="subtitle is-6">{props.desc}</p>
           <div className="content">{props.title}</div>
         </div>
         <style jsx>{`
           .card-content {
-            height: 300px;
+            height: 200px;
           }
         `}</style>
       </a>

@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Layout from '../components/layout';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import ReactMarkdown from 'react-markdown';
 
 export type ScheduleEvent = {
   start: string;
@@ -77,20 +78,24 @@ const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
                 <div className="timeline-item" key={i}>
                   <div className="timeline-marker"></div>
                   <div className="timeline-content">
-                    <p className="heading">{`${e.start} - ${e.end}`}</p>
+                    <p className="heading">{e.start ? `${e.start} - ${e.end}` : t('TBD')}</p>
                     {e.slug ? (
                       <Link href={`/talks/${e.slug}`}>
                         <a className="box">
                           <p className="title is-5">{e.title}</p>
                           {e.speaker && <p className="subtitle is-6">{e.speaker}</p>}
-                          {e.desc && <p>{e.desc}</p>}
+                          {e.desc && (
+                            <div className="content is-size-6">
+                              <ReactMarkdown>{e.desc}</ReactMarkdown>
+                            </div>
+                          )}
                         </a>
                       </Link>
                     ) : (
                       <div className="box">
                         <p className="title is-5">{e.title}</p>
                         {e.speaker && <p className="subtitle is-6">{e.speaker}</p>}
-                        {e.desc && <p>{e.desc}</p>}
+                        {e.desc && <ReactMarkdown>{e.desc}</ReactMarkdown>}
                       </div>
                     )}
                   </div>

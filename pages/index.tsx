@@ -83,7 +83,7 @@ const Home = (props: IndexProps) => {
           </h1>
           <div className="columns is-clearfix is-multiline is-centered is-8-desktop is-variable">
             {props.speakers.map((speaker, i) => (
-              <div className="column is-half is-one-third-desktop" key={i}>
+              <div className="column is-half is-one-quarter-desktop" key={i}>
                 <Speaker {...speaker} />
               </div>
             ))}

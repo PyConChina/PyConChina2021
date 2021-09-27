@@ -11,6 +11,7 @@ type Path = {
   params: {
     id: string;
   };
+  locale: string;
 };
 
 type TalkEvent = {
@@ -19,6 +20,7 @@ type TalkEvent = {
   end: string;
   title: string;
   speaker: string;
+  company: string;
   intro: string;
   desc: string;
   avatar?: string;
@@ -40,11 +42,11 @@ const Talk = (props: TalkEvent) => {
             <i className="far fa-calendar mr-1" />
             {props.date}
             <i className="far fa-clock mr-1 ml-3" />
-            {props.start} - {props.end}
+            {props.start && `${props.start} - ${props.end}`}
           </p>
           <hr />
-          <div className="is-flex">
-            <div className="mr-6">
+          <div className="columns">
+            <div className="column is-one-fifth">
               <figure className="image mx-0">
                 <img
                   src={props.avatar || defaultAvatar}
@@ -53,8 +55,11 @@ const Talk = (props: TalkEvent) => {
                 />
               </figure>
             </div>
-            <div className="is-flex-grow-1 is-flex-shrink-1">
-              <p className="subtitle is-3">{props.speaker}</p>
+            <div className="column">
+              <p className="subtitle is-3">
+                {props.speaker}
+                <span className="ml-4 is-size-4 has-text-light">{props.company}</span>
+              </p>
               {props.intro && <ReactMarkdown>{props.intro}</ReactMarkdown>}
             </div>
           </div>
@@ -70,17 +75,21 @@ const Talk = (props: TalkEvent) => {
   );
 };
 
-export const getStaticPaths: GetStaticPaths = async () => {
+export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
   const { schedule } = await loadYaml('schedule.yaml');
   const paths = [] as Array<Path>;
   schedule.forEach((s: ScheduleItem) => {
     s.events.forEach((e: ScheduleEvent) => {
-      e.slug && paths.push({ params: { id: e.slug } });
+      if (e.slug) {
+        for (let locale of locales as Array<string>) {
+          paths.push({ params: { id: e.slug }, locale });
+        }
+      }
     });
   });
   return {
     paths,
-    fallback: false,
+    fallback: true,
   };
 };
 

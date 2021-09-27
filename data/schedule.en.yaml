@@ -1,0 +1,132 @@
+# - start: 10:00
+#   end: 10:45
+#   title: justo sit amet sapien
+#   speaker: 万哲恒
+#   company: Microsoft
+#   intro: Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.
+#     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+#     Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.
+#   desc: Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.
+#     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+#     Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.
+#   avatar: http://dummyimage.com/200x200.png/cc0000/ffffff
+#   slug: justo-sit-amet-sapien
+#   keynote: true
+schedule:
+  - date: '10/16'
+    events:
+      - start:
+        end:
+        speaker: Evgeny Demchenko
+        company: Stealth Startup
+        intro: |
+          Experienced CTO, team lead, CSM, architect, Agile practitioner, front-end and back-end software developer
+          with enormous experience in a large range of modern web technologies. Also experienced in desktop and mobile
+          application development and Web APIs. Particularly passionate about Python, Django, Extreme Programming,
+          DevOps culture, and Agile/Lean software development.
+          The organizer of the Beijing Python Meetup.
+        title: Behavior-driven Development in Python
+        desc: |
+          Behavior-driven Development (or Acceptance Test-driven Development) is a powerful Agile engineering practice
+          that compliments other Agile and XP practices such as TDD, Continuous Delivery, etc.
+
+          BDD Scenarios are high-level feature tests acting as "Specification by Example" written in a Gherkin DSL
+          which is accessible to non-technical team members (like Product Managers, QA, etc).
+
+          In this talk, we'll explore:
+          - what BDD is
+          - what are its technical and team benefits
+          - what are the best Python tools for BDD (behave, pytest-bdd, cucumber)
+          - how to use those tools and how to write BDD scenarios
+
+          This will be a powerful new tool in your arsenal that you can bring back to your project and your team!
+        avatar: /2021/assets/people/edemchenko.jpg
+        slug: bdd-python
+        keynote: true
+
+      - start:
+        end:
+        speaker: Feng Li
+        company: Indie Developer
+        intro: |
+          Had been worked in Motorola, Samsung, etc, now I am an indie developer.
+          Accumulated more than ten years experience in mobile development on various platforms,
+          and focused on Cloud & Edge Infrastructure during the past few years.
+
+          The main translator of the book «Gray Hat Hacking The Ethical Hacker's Handbook, Fourth Edition» (ISBN：9787302428671)
+          and «Linux Hardening in Hostile Networks, First Edition»（ISBN: 9787115544384）.
+
+          With strong interest and practical ability in technology innovation, I am enthusiastic in take part in various
+          activities of the Open Source Community, and please refer to the following URL for my previous speaking experience:
+          <https://github.com/XianBeiTuoBaFeng2015/MySlides>
+        title: A survey of current Python implementations
+        desc: |
+          Python has been ranked among the top 3 programming languages in the world for the past decade steadily,
+          and is the most preferred language in the fields of Artificial Intelligence、Data Processing、Scientific
+          Computing and DevOps etc. However, the performance of Python is still not satisfied due to many reasons.
+
+          Fortunately, many emerging Python runtimes are coming in recent years and bringing new ideas to overcome the
+          bottlenecks of Python runtime performance. This topic summarizes and compares various Python implementations
+          that available today, and comes with the following sub-topics:
+
+          1. C-based Python implementation
+             a. make CPython faster;
+             b. newly-arrived project Cinder;
+          2. Java-based Python implementation, e.g. GraalPython and Jython;
+          3. LLVM-based Python implementation, e.g. Pyston;
+          4. DotNet-based Python implementation, e.g. IronPython and Pyjion;
+          5. WASM-based Python implementation, e.g. Pyodide;
+          6. Rust-based Python implementation, e.g. RustPython;
+          7. Comparison of the above Python implementations and their benchmarkings.
+
+          Major reference links for tech stack:
+          1. https://en.wikipedia.org/wiki/Python_(programming_language)
+          1. https://wiki.python.org/moin/PythonImplementations
+          1. https://github.com/python/cpython
+          1. https://github.com/facebookincubator/cinder
+          1. https://github.com/oracle/graalpython
+          1. https://github.com/jython/jython3
+          1. https://github.com/pyston/pyston
+          1. https://github.com/IronLanguages/ironpython3
+          1. https://github.com/tonybaloney/Pyjion
+          1. https://github.com/pyodide/pyodide
+          1. https://github.com/RustPython/RustPython
+        avatar: /2021/assets/people/lifeng.jpg
+        slug: python-impl
+        keynote: true
+
+      - start:
+        end:
+        speaker: Frost Ming
+        company: Foris Co. Ltd.
+        intro: |
+          PyPA member, creator of PDM, maintainer of Pipenv. I am devoted to improving
+          the Python packaging ecosystem and am an experienced Web developer.
+        title: Python Packaging 101
+        desc: |
+          Python packaging is a thing that every Pythonista may need to know and use.
+          The talk tries to bring the best practice of modern Python packaging to the audienc
+          by introducing the history of Python packaging and demonstrating what is happening behind `pip install`.
+        avatar: /2021/assets/people/mingxi.png
+        slug: python-packaging-101
+        keynote: true
+
+      - start:
+        end:
+        speaker: Aber
+        company: ANTIY Lab
+        intro: |
+          The creator of some infamous Web frameworks and toolboxes such as MingShe, Index.py, Baize
+        title: Sugarizing Python——MingShe
+        desc: |
+          This talk focuses on how to use Guido's PEG parser for Python 3.9 to create a Python superset,
+          adding as much syntax as you want to bring Python to life.
+          Next, I'll demonstrate a superset language I wrote using this technique, MingShe,
+          which includes convenient syntax for pipes, partial functions, null merging, optional chaining, and more.
+          And you can import MingShe's code directly as a Python module, without having to compile it in advance.
+        avatar: /2021/assets/people/Aber.jpg
+        slug: python-with-sugar
+        keynote: true
+
+  - date: '10/17'
+    events: []

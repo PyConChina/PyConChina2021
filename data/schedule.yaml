@@ -2,6 +2,7 @@
 #   end: 10:45
 #   title: justo sit amet sapien
 #   speaker: 万哲恒
+#   company: Microsoft
 #   intro: Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.
 #     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 #     Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.
@@ -13,7 +14,109 @@
 #   keynote: true
 schedule:
   - date: '10/16'
-    events: []
+    events:
+      - start:
+        end:
+        speaker: Evgeny Demchenko
+        company: Stealth Startup
+        intro: |
+          经验丰富的CTO、团队领导、CSM、架构师、敏捷实践者、前端和后端软件开发人员，在大量的现代网络技术方面具有丰富的经验。
+          在桌面和移动应用开发和网络 API 方面也有丰富的经验。
+          特别热衷于Python、Django、极限编程、DevOps文化和敏捷/精益软件开发。
+          北京Python Meetup的组织者。
+        title: Behavior-driven Development in Python
+        desc: |
+          行为驱动开发（或验收测试驱动开发）是一种强大的敏捷工程实践，与其他敏捷和 XP 实践（如 TDD、持续交付等）相得益彰。
+
+          BDD 场景是高层次的功能测试，作为「实例规范」，用 Gherkin DSL 编写。
+          非技术团队成员（如产品经理、QA 等）也可以使用。
+
+          在本讲座中，我们将探讨。
+          - 什么是 BDD
+          - 其技术和团队优势是什么
+          - 什么是BDD的最佳Python工具（behave、pytest-bdd、cucumber）？
+          - 如何使用这些工具以及如何编写 BDD 方案
+
+          这将是你武器库中的一个强大的新工具，你可以把它带回到你的项目和你的团队中去!
+        avatar: /2021/assets/people/edemchenko.jpg
+        slug: bdd-python
+        keynote: true
+
+      - start:
+        end:
+        speaker: 李枫
+        company: 独立开发
+        intro: |
+          先后就职于摩托罗拉, 三星等 IT 公司, 现为独立开发者。
+          在移动平台上积累了十年以上年研发经验, 近几年主要专注于边缘计算/云计算基础设施领域。
+
+          是《灰帽黑客 第4版：正义黑客的道德规范、渗透测试、攻击方法和漏洞分析技术》（ISBN：9787302428671）
+          和《恶意网络环境下的Linux防御之道 》（ISBN: 9787115544384）中文版的主要译者。
+
+          对技术创新具有浓厚的兴趣和实践能力，热心参与开源社区的各种活动，之前参加的各种IT会议和技术分享请见:
+          <https://github.com/XianBeiTuoBaFeng2015/MySlides>
+        title: Python 当前实现综述
+        desc: |
+          最近十年 Python 已经稳居世界编程语言排名的前三, 在诸如人工智能、数据处理、科学计算、运维等领域 Python 几乎都是首选开发语言。
+          但由于很多原因迄今 Python 代码的执行效率仍然不尽如人意，幸运地是近些年新兴的 Python 运行时不断涌现，带来了很多克服影响 Python 运行时
+          性能瓶颈的实现新思路。
+
+          本议题总结和比较了目前已有的各类 Python 实现，并包含下列子话题：
+
+          1. 基于C的Python实现
+             a. 让CPython更快；
+             b. 新的Cinder项目；
+          2. 基于Java的Python实现（如 GraalPython 和 Jython）；
+          3. 基于LLVM的Python实现（如 Pyston）；
+          4. 基于.Net的Python实现（如 IronPython 和 Pyjion）；
+          5. 基于WASM的Python实现（如 Pyodide）；
+          6. 基于Rust的Python实现（如 RustPython）；
+          7. 上述 Python 实现的比较和性能测试。
+
+          主要技术栈参考链接：
+          1. https://en.wikipedia.org/wiki/Python_(programming_language)
+          1. https://wiki.python.org/moin/PythonImplementations
+          1. https://github.com/python/cpython
+          1. https://github.com/facebookincubator/cinder
+          1. https://github.com/oracle/graalpython
+          1. https://github.com/jython/jython3
+          1. https://github.com/pyston/pyston
+          1. https://github.com/IronLanguages/ironpython3
+          1. https://github.com/tonybaloney/Pyjion
+          1. https://github.com/pyodide/pyodide
+          1. https://github.com/RustPython/RustPython
+        avatar: /2021/assets/people/lifeng.jpg
+        slug: python-impl
+        keynote: true
+
+      - start:
+        end:
+        speaker: 明希
+        company: 福里斯信息技术
+        intro: |
+          PyPA 成员，PDM 作者及 Pipenv 维护者。致力于改善 Python 打包生态，同是也是一位有丰富经验的 Python Web 开发者。
+        title: Python 打包 101
+        desc: |
+          Python 打包是个每个 Python 开发都可能用到并且需要了解的知识。
+          演讲试图从Python打包的历史进程开始，阐述 pip install 背后发生的过程，同时介绍当前 Python 打包的最佳实践。
+        avatar: /2021/assets/people/mingxi.png
+        slug: python-packaging-101
+        keynote: true
+
+      - start:
+        end:
+        speaker: Aber
+        company: 安天实验室
+        intro: |
+          鸣蛇的创造者，Index.py、baize 等非知名 Web 框架、工具箱的制作者。
+        title: 为 Python 加糖——鸣蛇
+        desc: |
+          本演讲主要阐述如何使用 Guido 为 Python3.9 编写的 PEG 解析器创造一个 Python 超集，加入自己想要的语法，给 Python 带来新的活力。
+          其次演示我使用这种技术编写的超集语言——鸣蛇，它包含管道，偏函数，空值合并、可选链等便捷的语法，
+          并且可以直接把鸣蛇的代码作为 Python 的模块进行导入，而不需要提前编译。
+        avatar: /2021/assets/people/Aber.jpg
+        slug: python-with-sugar
+        keynote: true
 
   - date: '10/17'
     events: []
