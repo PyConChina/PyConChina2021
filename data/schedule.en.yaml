@@ -97,6 +97,49 @@ schedule:
 
       - start:
         end:
+        speaker: Binxin Wang
+        company: Alibaba Cloud
+        intro: |
+          A technical expert, Microsoft MVP, translator of the Chinese version of _Hitchhiker's Guide to Python_,
+          I love to participate in open source projects and technology sharing, and am currently engaged in R&D in cloud computing.
+        title: How to develop and maintain large Python server-side applications
+        desc: |
+          Many people think that Python is not suitable for developing large server-side applications because it is slow, error-prone,
+          and difficult to maintain. Is this really the case? Or how do we deal with these issues?
+
+          This talk will share why Python was chosen as the primary language for development of a large cloud service, how it was used
+          for architecture design, development, testing, monitoring, team collaboration, and how to ensure fast and smooth implementation
+          of business functions and maintainable code in architecture design, development, testing, monitoring, team collaboration,
+          application release, and more.
+        avatar: /2021/assets/people/wangbinxin.png
+        slug: python-big-scale
+        keynote: true
+
+      - start:
+        end:
+        speaker: 刘宇宙
+        company: fuzhi.ai
+        intro: |
+          I am a senior development engineer, currently working in fuzhi.ai, engaged in artificial intelligence-related research and development.
+          I have worked for Shanghai Haiding, Guangzhou Banggu and other tech companies.
+          I have been engaged in R&D of cloud computing IaaS, big data, IoT and artificial intelligence, and has deep research on Python.
+
+          At present, I have published "Python3.5 Learn from Scratch", "Python3.7 Learn from Scratch", "Python3.8 Learn from Scratch", "Python Practical Tutorial",
+          and "Python Practical Database Tutorial", "Python Practical Database Application and Data Acquisition", "Python Practical Data Analysis and Processing",
+          "Learn Python Well from Zero to Project Practice", "Python Advanced Programming: Writing More Efficient and Elegant Python Code" and other Python books.
+        title: Exploration of AI backend architecture
+        desc: |
+          In the current period of rapid development of artificial intelligence, more and more companies are gradually joining this track, and more
+          good AI products are emerging. However, as AI technology is maturing continuously, some problems are also exposed, such as how to better
+          realize the landing of AI products?
+
+          To achieve better implementation of AI products, having a good backend to interact with AI is very critical,
+          and having a mature and stable AI backend architecture is a tiger's wing for companies that use a lot of AI technology.
+        slug: ai-backend-architect
+        keynote: true
+
+      - start:
+        end:
         speaker: Frost Ming
         company: Foris Co. Ltd.
         intro: |
@@ -126,6 +169,40 @@ schedule:
           And you can import MingShe's code directly as a Python module, without having to compile it in advance.
         avatar: /2021/assets/people/Aber.jpg
         slug: python-with-sugar
+        keynote: true
+
+      - start:
+        end:
+        speaker: Siwei Gu
+        company: VeSoft.Inc
+        intro: |
+          A Shanghai-based software engineer working at vesoft as a developer advocate for Nebula Graph (an open source distributed graph database).
+
+          My job is to improve the learning, development, and community engagement experience for developers by creating content and
+          building tools around the Nebula Graph Database. I consider it a privilege and a valuable opportunity to work openly in the
+          open source community and (having spent the first few years of my career realizing) love helping others with my ideas and learned skills.
+
+          More about my presentation: https://siwei.io/about/ \
+          Some of my past talks: https://siwei.io/talk/ \
+          Personal twitter: https://twitter.com/wey_gu
+
+          I worked at Ericsson for almost 10 years: 2011 to 2021. My role was System Manager for the Cloud Execution Envrioment (CEE)
+          development team, where I spent most of my time helping Ericsson IaaS products and solutions evolve by designing and developing
+          more than 20 CEE 6.6.2 and CEE 10 features and enhancements across compute, storage, networking, lifecycle management and security
+          products and solutions. I am also responsible for evangelizing CEE products in China (both externally and internally).
+
+          I am the host of the Open Source Face-to-Face Podcast (unfortunately, only the zero issue has been sent out yet)
+
+        title: Graph database puzzle solving and quick start application
+        desc: |
+          What is a graph database? Why Yet Another Database? What problems can it solve?
+
+          This talk will demystify graph databases and share, demo from zero to one, the speaker's own interesting open source
+          projects built in Python based on graph databases.
+          - Nebula Siwi, a full-stack single-domain intelligent question-and-answer bot built on graph database and Python
+          - Equity penetration, a small project based on Python Faker to generate data to demonstrate the equity relationship penetration query
+        avatar: /2021/assets/people/gusiwei.png
+        slug: graph-database
         keynote: true
 
   - date: '10/17'

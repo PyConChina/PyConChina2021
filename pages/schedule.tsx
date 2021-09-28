@@ -14,6 +14,7 @@ export type ScheduleEvent = {
   title: string;
   speaker?: string;
   avatar?: string;
+  company?: string;
   desc?: string;
   intro?: string;
   slug?: string;
