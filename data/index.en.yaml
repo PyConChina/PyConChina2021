@@ -14,11 +14,21 @@ introduction: |
   There is an old saying that “a conference is not a matter of one person, but a group of people”, so here we welcome every student who loves the Python community to join us, participate in our work, and let us make this year’s conference together Become a Dream Conference! Yes, we need you!
 
 sponsors:
+  - level: Diamond Sponsors
+    items:
+      - name: MATPool
+        icon: '/2021/assets/sponsors/juchiyun.png'
+        link: https://matpool.com/
   - level: Platinum Sponsors
     items:
       - name: Jina AI
         icon: '/2021/assets/sponsors/jina.png'
         link: https://jina.ai/
+  - level: Organizer
+    items:
+      - name: PyChina
+        icon: '/2021/assets/sponsors/pychina.png'
+        link: https://pychina.org
   - level: Social Media
     items:
       - name: CSDN

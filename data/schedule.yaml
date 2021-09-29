@@ -17,6 +17,23 @@ schedule:
     events:
       - start:
         end:
+        speaker: Ewa Jodlowska
+        company: PSF 执行董事
+        intro: |
+          Ewa Jodlowska 是 Python 软件基金会的执行董事，从 2012 年开始在 PSF 工作。
+          在此之前，她以承包商的身份协助 PyCon US 的工作。Ewa 的职责包括管理员工，为基金会提供指导和领导，与董事会合作制定长期战略，
+          开展社区宣传，以及监督财务和项目运作等，不一而足。Ewa 将在 2021 年底离开 PSF 开启新的职业生涯，
+          她将怀念与世界各地伟大的 Pythonistas 一起工作的日子。
+
+          通过 Ewa 的 Twitter 账户与她联系!
+        title: Python 软件基金会在 Python 生态中的角色
+        desc:
+        keynote: true
+        avatar: /2021/assets/people/ewa.jpg
+        slug: psf-in-python-ecosystem
+
+      - start:
+        end:
         speaker: Evgeny Demchenko
         company: Stealth Startup
         intro: |

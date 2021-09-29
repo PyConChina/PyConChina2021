@@ -15,11 +15,21 @@ introduction: |
   We need you！有句老话叫“一个大会不是一个人的事，而是一群人的事”，在这里，我们诚挚邀请每一位热爱 Python 社区的同学加入我们，一起举办又一场 Python 开发者自己的 PyCon ！
 
 sponsors:
+  - level: 钻石赞助
+    items:
+      - name: 矩池云
+        icon: '/2021/assets/sponsors/juchiyun.png'
+        link: https://matpool.com/
   - level: 白金赞助
     items:
       - name: 极纳科技
         icon: '/2021/assets/sponsors/jina.png'
         link: https://jina.ai/
+  - level: 主办方
+    items:
+      - name: PyChina
+        icon: '/2021/assets/sponsors/pychina.png'
+        link: https://pychina.org
   - level: 社区合作
     items:
       - name: CSDN

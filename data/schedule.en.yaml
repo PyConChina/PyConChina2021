@@ -17,6 +17,24 @@ schedule:
     events:
       - start:
         end:
+        speaker: Ewa Jodlowska
+        company: PSF Executive Director
+        intro: |
+          Ewa Jodlowska is the Executive Director of the Python Software Foundation. Ewa has been with the PSF since 2012
+          and prior to that she assisted with PyCon US as a contractor. Ewa's responsibilities include managing the staff,
+          giving direction and leadership to the Foundation, working with the board of directors on long-range strategic
+          planning, community outreach, and overseeing financial and program operations to name a few. Ewa is embarking
+          on a new career path at the end of 2021 and will miss working with great Pythonistas all around the world!
+
+          Connect with Ewa via her Twitter account!
+        title: The Python Software Foundation's role in Python's ecosystem
+        desc:
+        keynote: true
+        avatar: /2021/assets/people/ewa.jpg
+        slug: psf-in-python-ecosystem
+
+      - start:
+        end:
         speaker: Evgeny Demchenko
         company: Stealth Startup
         intro: |
