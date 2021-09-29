@@ -159,7 +159,7 @@ schedule:
         speaker: Aber
         company: ANTIY Lab
         intro: |
-          The creator of some infamous Web frameworks and toolboxes such as MingShe, Index.py, Baize
+          The creator of some non-famous Web frameworks and toolboxes such as MingShe, Index.py, Baize
         title: Sugarizing Python——MingShe
         desc: |
           This talk focuses on how to use Guido's PEG parser for Python 3.9 to create a Python superset,
