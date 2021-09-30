@@ -30,7 +30,7 @@ sponsors:
       - name: PyChina
         icon: '/2021/assets/sponsors/pychina.png'
         link: https://pychina.org
-  - level: 社区合作
+  - level: 战略媒体
     items:
       - name: CSDN
         icon: '/2021/assets/sponsors/csdn.png'
@@ -40,6 +40,11 @@ sponsors:
         icon: '/2021/assets/sponsors/segmentfault.png'
         link: 'https://segmentfault.com/'
 
+  - level: 社区合作
+    items:
       - name: VSCode 中文社区
         icon: '/2021/assets/sponsors/vscodecn.png'
         link: 'https://github.com/vscodecc/vscodecc'
+      - name: 捕蛇者说
+        icon: '/2021/assets/sponsors/pythonhunter.png'
+        link: https://pythonhunter.org

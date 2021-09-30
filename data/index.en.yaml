@@ -29,7 +29,7 @@ sponsors:
       - name: PyChina
         icon: '/2021/assets/sponsors/pychina.png'
         link: https://pychina.org
-  - level: Social Media
+  - level: Strategic Media
     items:
       - name: CSDN
         icon: '/2021/assets/sponsors/csdn.png'
@@ -39,6 +39,11 @@ sponsors:
         icon: '/2021/assets/sponsors/segmentfault.png'
         link: 'https://segmentfault.com/'
 
+  - level: Community Cooperation
+    items:
       - name: VSCode CC
         icon: '/2021/assets/sponsors/vscodecn.png'
         link: 'https://github.com/vscodecc/vscodecc'
+      - name: Python Hunter Podcast
+        icon: '/2021/assets/sponsors/pythonhunter.png'
+        link: https://pythonhunter.org
