@@ -56,13 +56,13 @@ PPT 模板下载地址：
   - 下载：<https://meeting.tencent.com/download-center.html>
   - 使用说明：<https://meeting.tencent.com/support.html>
 - ZOOM：
-  - 下载：<https://zoom.us/>
+  - 下载：<https://zoom.us/download#client_4meeting>
   - 使用教程：见文末完整指导文档
 - OBS：
   - 下载地址：<https://obsproject.com>
   - 使用教程：<https://www.bilibili.com/video/av540757352/>
 - 瞩目：
-  - 下载地址：<https://zhumu.com/client>
+  - 下载地址：<https://zhumu.com/download>
   - 使用说明：<http://help.zhumu.me/hc/kb/section/27101/>
 
 如果您有其它软件也能实现上面说明的规范效果亦可。
