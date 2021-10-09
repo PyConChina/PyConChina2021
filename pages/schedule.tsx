@@ -46,7 +46,7 @@ const EmptySchedule = () => {
 const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
   const [activeDate, setActiveDate] = useState(0);
   const { t } = useTranslation('common');
-  const { events } = schedule[activeDate];
+  const events = schedule[activeDate].events.sort((a, b) => a.start.localeCompare(b.start));
   return (
     <Layout title={t('schedule')}>
       <section className="section">
