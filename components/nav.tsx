@@ -151,7 +151,12 @@ const Nav = function () {
               <Link href={router.asPath} locale={router.locale === 'zh' ? 'en' : 'zh'}>
                 <a className="button is-rounded">{t('locale')}</a>
               </Link>
-              <a className="button is-primary is-rounded">
+              <a
+                className="button is-primary is-rounded"
+                href="https://www.huodongxing.com/event/9618480117522"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <strong>{t('purchase')}</strong>
               </a>
             </div>

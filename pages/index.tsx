@@ -52,7 +52,14 @@ const Home = (props: IndexProps) => {
                 <a className="button is-primary is-large is-rounded">{t('cfp')}</a>
               </Link>
             )}
-            <a className="button is-primary is-large is-rounded">{t('purchase')}</a>
+            <a
+              className="button is-primary is-large is-rounded"
+              href="https://www.huodongxing.com/event/9618480117522"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t('purchase')}
+            </a>
           </div>
         </div>
       </div>

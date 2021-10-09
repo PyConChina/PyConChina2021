@@ -17,3 +17,10 @@ export async function readData(filename: string, locale: string = 'zh'): Promise
 export async function loadYaml(filename: string, locale: string = 'zh'): Promise<any> {
   return yaml.load(await readData(filename, locale));
 }
+
+export async function getMarkdownFiles(): Promise<string[]> {
+  const contents = path.join(process.cwd(), 'data/contents');
+  return (await fs.readdir(contents))
+    .filter((name) => /^[^\.]+\.md$/.test(name))
+    .map((name) => name.split('.')[0]);
+}
