@@ -5,6 +5,10 @@ import cn from 'classnames';
 import { useRouter } from 'next//router';
 import { useTranslation } from 'next-i18next';
 
+const range = (start: number, end: number): number[] => {
+  return Array.from({ length: end - start + 1 }, (_, i) => i + start);
+};
+
 const Nav = function () {
   const [active, setActive] = useState(false);
   const router = useRouter();
@@ -111,36 +115,17 @@ const Nav = function () {
             <a className="navbar-link">{t('history')}</a>
 
             <div className="navbar-dropdown">
-              <a href="/2011" target="_blank" className="navbar-item">
-                2011
-              </a>
-              <a href="/2012" target="_blank" className="navbar-item">
-                2012
-              </a>
-              <a href="/2013" target="_blank" className="navbar-item">
-                2013
-              </a>
-              <a href="/2014" target="_blank" className="navbar-item">
-                2014
-              </a>
-              <a href="/2015" target="_blank" className="navbar-item">
-                2015
-              </a>
-              <a href="/2016" target="_blank" className="navbar-item">
-                2016
-              </a>
-              <a href="/2017" target="_blank" className="navbar-item">
-                2017
-              </a>
-              <a href="/2018" target="_blank" className="navbar-item">
-                2018
-              </a>
-              <a href="/2019" target="_blank" className="navbar-item">
-                2019
-              </a>
-              <a href="/2020" target="_blank" className="navbar-item">
-                2020
-              </a>
+              {range(2011, 2021).map((year) => (
+                <a
+                  className="navbar-item"
+                  target="_blank"
+                  href={`/${year}`}
+                  key={year}
+                  rel="noreferrer"
+                >
+                  {year}
+                </a>
+              ))}
             </div>
           </div>
         </div>

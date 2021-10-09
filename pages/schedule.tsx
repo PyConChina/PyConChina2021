@@ -46,16 +46,20 @@ const EmptySchedule = () => {
 const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
   const [activeDate, setActiveDate] = useState(0);
   const { t } = useTranslation('common');
-  const events = schedule[activeDate].events.sort((a, b) => a.start.localeCompare(b.start));
+  const events = schedule[activeDate].events.sort((a, b) =>
+    (a.start || '').localeCompare(b.start || '')
+  );
   return (
     <Layout title={t('schedule')}>
       <section className="section">
         <div className="container">
           <h1 className="title">{t('schedule')}</h1>
           <div className="has-text-centered">
-            <a href="/2021/calendar.ics" download className="button is-primary">
-              {t('add_to_calendar')}(.ics)
-            </a>
+            <Link href="/calendar.ics">
+              <a download className="button is-primary">
+                {t('add_to_calendar')}(.ics)
+              </a>
+            </Link>
           </div>
           <div className="tabs is-centered is-large">
             <ul>
