@@ -8,9 +8,8 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import ReactMarkdown from 'react-markdown';
 
-export type ScheduleEvent = {
-  start: string;
-  end: string;
+export type ScheduleMeetings = {
+  meeting_place?: string;
   title: string;
   speaker?: string;
   avatar?: string;
@@ -20,7 +19,14 @@ export type ScheduleEvent = {
   slug?: string;
   calendar?: string;
   keynote?: boolean;
+}
+
+export type ScheduleEvent = {
+  start: string;
+  end: string;
+  meetings: Array<ScheduleMeetings>;
 };
+
 
 export type ScheduleItem = {
   date: string;
@@ -84,25 +90,36 @@ const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
                   <div className="timeline-marker"></div>
                   <div className="timeline-content">
                     <p className="heading">{e.start ? `${e.start} - ${e.end}` : t('TBD')}</p>
-                    {e.slug ? (
-                      <Link href={`/talks/${e.slug}`}>
-                        <a className="box">
-                          <p className="title is-5">{e.title}</p>
-                          {e.speaker && <p className="subtitle is-6">{e.speaker}</p>}
-                          {e.desc && (
-                            <div className="content is-size-6">
-                              <ReactMarkdown>{e.desc}</ReactMarkdown>
-                            </div>
-                          )}
-                        </a>
-                      </Link>
-                    ) : (
-                      <div className="box">
-                        <p className="title is-5">{e.title}</p>
-                        {e.speaker && <p className="subtitle is-6">{e.speaker}</p>}
-                        {e.desc && <ReactMarkdown>{e.desc}</ReactMarkdown>}
+                    <div className="meetings-container">
+                    { e.meetings.map((m, j) => (
+                      <div className={`meeting col-${e.meetings.length}`}>
+                        { m.slug ? (
+                          <Link href={`/talks/${m.slug}`}>
+                            <a className="box">
+                              <p className="title is-5">{m.title}</p>
+                              <div className="inline-content">
+                                {m.speaker && <p className="speaker">{m.speaker}</p>}
+                                {m.meeting_place && <p className="meeting-place">{t('meeting_place')} {m.meeting_place }</p>}
+                              </div>
+                              {/*m.desc && (
+
+                                <div className="content is-size-6">
+                                  <ReactMarkdown>{m.desc}</ReactMarkdown>
+                                </div>
+
+                              )*/}
+                            </a>
+                          </Link>
+                        ) : (
+                          <div className="box">
+                            <p className="title is-5">{m.title}</p>
+                            { m.speaker && <p className="subtitle is-6">{m.speaker}</p>}
+                            {/*m.desc && <ReactMarkdown>{m.desc}</ReactMarkdown>*/}
+                          </div>
+                        )}
                       </div>
-                    )}
+                    ))}
+                    </div>
                   </div>
                 </div>
               ))}
