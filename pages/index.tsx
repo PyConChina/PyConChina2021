@@ -46,7 +46,9 @@ const Home = (props: IndexProps) => {
           </div>
           <div className="buttons is-centered mt-2">
             {shouldShowLive ? (
-              <a className="button is-primary is-large is-rounded">{t('live_address')}</a>
+              <Link href="/404">
+                <a className="button is-primary is-large is-rounded">{t('live_address')}</a>
+              </Link>
             ) : (
               <Link href="/cfp">
                 <a className="button is-primary is-large is-rounded">{t('cfp')}</a>

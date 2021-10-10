@@ -83,10 +83,18 @@ const Nav = function () {
             <a className="navbar-link">{t('meetup')}</a>
 
             <div className="navbar-dropdown">
-              <a className="navbar-item">{t('beijing')}</a>
-              <a className="navbar-item">{t('shanghai')}</a>
-              <a className="navbar-item">{t('shenzhen')}</a>
-              <a className="navbar-item">{t('hangzhou')}</a>
+              <Link href="/beijing">
+                <a className="navbar-item">{t('beijing')}</a>
+              </Link>
+              <Link href="/shanghai">
+                <a className="navbar-item">{t('shanghai')}</a>
+              </Link>
+              <Link href="/shenzhen">
+                <a className="navbar-item">{t('shenzhen')}</a>
+              </Link>
+              <Link href="/hangzhou">
+                <a className="navbar-item">{t('hangzhou')}</a>
+              </Link>
             </div>
           </div>
 
