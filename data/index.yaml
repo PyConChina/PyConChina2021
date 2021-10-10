@@ -42,7 +42,7 @@ sponsors:
       name: 微软
     level: 黄金赞助
   - items:
-    - icon: /2021/assets/sponsors/turing.jpg
+    - icon: /2021/assets/sponsors/turing.png
       link: https://www.ituring.com.cn/
       name: 图灵
     level: 图书赞助
@@ -61,7 +61,7 @@ sponsors:
     - icon: /2021/assets/sponsors/pythonhunter.png
       link: https://pythonhunter.org
       name: 捕蛇者说
-    - icon: /2021/assets/sponsors/freecodecamp.jpg
+    - icon: /2021/assets/sponsors/freecodecamp.png
       link: https://www.freecodecamp.org/
       name: free Code Camp
     level: 社区合作

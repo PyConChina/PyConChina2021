@@ -41,7 +41,7 @@ sponsors:
       name: Microsoft
     level: Gold Sponsors
   - items:
-    - icon: /2021/assets/sponsors/turing.jpg
+    - icon: /2021/assets/sponsors/turing.png
       link: https://www.ituring.com.cn/
       name: Turing
     level: Books Sponsors
@@ -60,7 +60,7 @@ sponsors:
     - icon: /2021/assets/sponsors/pythonhunter.png
       link: https://pythonhunter.org
       name: Python Hunter
-    - icon: /2021/assets/sponsors/freecodecamp.jpg
+    - icon: /2021/assets/sponsors/freecodecamp.png
       link: https://www.freecodecamp.org/
       name: free Code Camp
     level: Community Cooperation
