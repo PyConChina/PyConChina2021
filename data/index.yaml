@@ -15,36 +15,58 @@ introduction: |
   We need you！有句老话叫“一个大会不是一个人的事，而是一群人的事”，在这里，我们诚挚邀请每一位热爱 Python 社区的同学加入我们，一起举办又一场 Python 开发者自己的 PyCon ！
 
 sponsors:
-  - level: 钻石赞助
-    items:
-      - name: 矩池云
-        icon: '/2021/assets/sponsors/juchiyun.png'
-        link: https://matpool.com/
-  - level: 白金赞助
-    items:
-      - name: 极纳科技
-        icon: '/2021/assets/sponsors/jina.png'
-        link: https://jina.ai/
-  - level: 主办方
-    items:
-      - name: PyChina
-        icon: '/2021/assets/sponsors/pychina.png'
-        link: https://pychina.org
-  - level: 战略媒体
-    items:
-      - name: CSDN
-        icon: '/2021/assets/sponsors/csdn.png'
-        link: 'https://www.csdn.net/'
-
-      - name: 思否
-        icon: '/2021/assets/sponsors/segmentfault.png'
-        link: 'https://segmentfault.com/'
-
-  - level: 社区合作
-    items:
-      - name: VSCode 中文社区
-        icon: '/2021/assets/sponsors/vscodecn.png'
-        link: 'https://github.com/vscodecc/vscodecc'
-      - name: 捕蛇者说
-        icon: '/2021/assets/sponsors/pythonhunter.png'
-        link: https://pythonhunter.org
+  - items:
+    - icon: /2021/assets/sponsors/pychina.png
+      link: https://pychina.org
+      name: PyChina
+    level: 主办方
+  - items:
+    - icon: /2021/assets/sponsors/juchiyun.png
+      link: https://matpool.com/
+      name: 矩池云
+    level: 钻石赞助
+  - items:
+    - icon: /2021/assets/sponsors/jinaai.jpg
+      link: https://jina.ai/
+      name: 极纳科技
+    - icon: /2021/assets/sponsors/taichi.png
+      link: https://taichi.graphics/
+      name: 太极
+    level: 白金赞助
+  - items:
+    - icon: /2021/assets/sponsors/neo4j.jpg
+      link: https://neo4j.com/
+      name: Neo4j
+    - icon: /2021/assets/sponsors/azure.jpg
+      link: https://www.microsoft.com/zh-cn
+      name: 微软
+    level: 黄金赞助
+  - items:
+    - icon: /2021/assets/sponsors/turing.jpg
+      link: https://www.ituring.com.cn/
+      name: 图灵
+    level: 图书赞助
+  - items:
+    - icon: /2021/assets/sponsors/csdn.png
+      link: https://www.csdn.net/
+      name: CSDN
+    - icon: /2021/assets/sponsors/segmentfault.png
+      link: https://segmentfault.com/
+      name: 思否
+    level: 战略合作媒体
+  - items:
+    - icon: /2021/assets/sponsors/vscodecn.png
+      link: https://github.com/vscodecc/vscodecc
+      name: VS Code
+    - icon: /2021/assets/sponsors/pythonhunter.png
+      link: https://pythonhunter.org
+      name: 捕蛇者说
+    - icon: /2021/assets/sponsors/freecodecamp.jpg
+      link: https://www.freecodecamp.org/
+      name: free Code Camp
+    level: 社区合作
+  - items:
+    - icon: /2021/assets/sponsors/huodongxing.png
+      link: https://www.huodongxing.com/
+      name: 活动行
+    level: 报名支持伙伴
