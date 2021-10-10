@@ -113,8 +113,11 @@ const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
                         ) : (
                           <div className="box">
                             <p className="title is-5">{m.title}</p>
-                            { m.speaker && <p className="subtitle is-6">{m.speaker}</p>}
-                            {/*m.desc && <ReactMarkdown>{m.desc}</ReactMarkdown>*/}
+                            <div className="inline-content">
+                              { m.speaker && <p className="speaker">{m.speaker}</p>}
+                              {m.meeting_place && <p className="meeting-place">{t('meeting_place')} {m.meeting_place }</p>}
+                              {/*m.desc && <ReactMarkdown>{m.desc}</ReactMarkdown>*/}
+                            </div>
                           </div>
                         )}
                       </div>
