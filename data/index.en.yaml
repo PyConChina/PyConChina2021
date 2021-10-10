@@ -14,36 +14,58 @@ introduction: |
   There is an old saying that “a conference is not a matter of one person, but a group of people”, so here we welcome every student who loves the Python community to join us, participate in our work, and let us make this year’s conference together Become a Dream Conference! Yes, we need you!
 
 sponsors:
-  - level: Diamond Sponsors
-    items:
-      - name: MATPool
-        icon: '/2021/assets/sponsors/juchiyun.png'
-        link: https://matpool.com/
-  - level: Platinum Sponsors
-    items:
-      - name: Jina AI
-        icon: '/2021/assets/sponsors/jina.png'
-        link: https://jina.ai/
-  - level: Organizer
-    items:
-      - name: PyChina
-        icon: '/2021/assets/sponsors/pychina.png'
-        link: https://pychina.org
-  - level: Strategic Media
-    items:
-      - name: CSDN
-        icon: '/2021/assets/sponsors/csdn.png'
-        link: 'https://www.csdn.net/'
-
-      - name: SegmentFault
-        icon: '/2021/assets/sponsors/segmentfault.png'
-        link: 'https://segmentfault.com/'
-
-  - level: Community Cooperation
-    items:
-      - name: VSCode CC
-        icon: '/2021/assets/sponsors/vscodecn.png'
-        link: 'https://github.com/vscodecc/vscodecc'
-      - name: Python Hunter Podcast
-        icon: '/2021/assets/sponsors/pythonhunter.png'
-        link: https://pythonhunter.org
+  - items:
+    - icon: /2021/assets/sponsors/pychina.png
+      link: https://pychina.org
+      name: PyChina
+    level: Organizer
+  - items:
+    - icon: /2021/assets/sponsors/juchiyun.png
+      link: https://matpool.com/
+      name: MATPool
+    level: Diamond Sponsors
+  - items:
+    - icon: /2021/assets/sponsors/jina.png
+      link: https://jina.ai/
+      name: Jina AI
+    - icon: /2021/assets/sponsors/taichi.png
+      link: https://taichi.graphics/
+      name: Taichi Graphics
+    level: Platinum Sponsors
+  - items:
+    - icon: /2021/assets/sponsors/neo4j.jpg
+      link: https://neo4j.com/
+      name: Neo4j
+    - icon: /2021/assets/sponsors/azure.jpg
+      link: https://www.microsoft.com/zh-cn
+      name: Microsoft
+    level: Gold Sponsors
+  - items:
+    - icon: /2021/assets/sponsors/turing.png
+      link: https://www.ituring.com.cn/
+      name: Turing
+    level: Books Sponsors
+  - items:
+    - icon: /2021/assets/sponsors/csdn.png
+      link: https://www.csdn.net/
+      name: CSDN
+    - icon: /2021/assets/sponsors/segmentfault.png
+      link: https://segmentfault.com/
+      name: SegmentFault
+    level: Strategic Media
+  - items:
+    - icon: /2021/assets/sponsors/vscodecn.png
+      link: https://github.com/vscodecc/vscodecc
+      name: VS Code
+    - icon: /2021/assets/sponsors/pythonhunter.png
+      link: https://pythonhunter.org
+      name: Python Hunter
+    - icon: /2021/assets/sponsors/freecodecamp.png
+      link: https://www.freecodecamp.org/
+      name: free Code Camp
+    level: Community Cooperation
+  - items:
+    - icon: /2021/assets/sponsors/huodongxing.png
+      link: https://www.huodongxing.com/
+      name: 活动行
+    level: Sign Up
