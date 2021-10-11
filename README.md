@@ -29,8 +29,9 @@ yarn dev
 
 - `index.yaml` 首页数据
 - `schedule.yaml` 时间表
+- `staff.yaml` 工作人员名单
 - `contents/` 对应页面的 Markdown 文档
-- `meetups/` Meetup 页面的 Markdown 文档
+- `meetup/` Meetup 页面的 Markdown 文档
 - `locales/` 翻译文件
 
 （文件名带 `.en` 的为英文翻译文件）

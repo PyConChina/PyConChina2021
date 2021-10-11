@@ -31,7 +31,7 @@ const Home = (props: IndexProps) => {
   const shouldShowLive = new Date() >= new Date('2021-10-02T00:00:00+08:00');
 
   return (
-    <Layout title="首页">
+    <Layout title={t('home')}>
       <div className="hero is-medium cover">
         {/* <div className="shade" /> */}
         <div className="hero-body">
@@ -146,7 +146,9 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
 
   const speakers = [] as Array<SpeakerType>;
   schedule.forEach((s: ScheduleItem) => {
-    return speakers.push(...(s.events.filter((e) => e.keynote) as Array<SpeakerType>));
+    s.events.forEach((e) => {
+      speakers.push(...(e.talks.filter((t) => t.keynote) as SpeakerType[]));
+    });
   });
   return {
     props: {

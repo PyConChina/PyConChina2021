@@ -27,7 +27,7 @@ type Path = {
 
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
   const paths: Path[] = [];
-  const names = await getMarkdownFiles();
+  const names = await getMarkdownFiles('contents');
   names.forEach((name) => {
     paths.push(
       ...(locales as string[]).map((locale) => ({

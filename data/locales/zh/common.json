@@ -14,7 +14,7 @@
   "shenzhen": "深圳",
   "hangzhou": "杭州",
   "staff": "工作组",
-  "volunteers": "工作人员",
+  "volunteers": "志愿者",
   "joinus": "成为志愿者",
   "history": "历届网站",
   "purchase": "购票/捐赠",
@@ -38,5 +38,11 @@
   "contact-us": "联系我们",
   "report-bugs": "报告问题 ",
   "report-to-us": "报告给我们",
-  "video-guide": "视频录制说明"
+  "video-guide": "视频录制说明",
+  "venue": "分会场",
+  "main_venue": "主会场",
+  "home": "首页",
+  "staff_list": "工作人员",
+  "organizers": "组委会",
+  "changsha": "长沙"
 }
