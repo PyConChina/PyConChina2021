@@ -88,7 +88,7 @@ schedule:
             desc: |
               Python 打包是个每个 Python 开发都可能用到并且需要了解的知识。
               演讲试图从Python打包的历史进程开始，阐述 pip install 背后发生的过程，同时介绍当前 Python 打包的最佳实践。
-            avatar: /2021/assets/people/mingxi.png
+            avatar: /2021/assets/people/FrostMing.jpg
             slug: python-packaging-101
             keynote: true
 
@@ -170,7 +170,7 @@ schedule:
               本次演讲会给大家解谜图数据库，并分享、Demo从零到一，分享讲者自己用 Python 搭建的基于图数据库做出来的有趣开源项目：
               - Nebula Siwi，一个基于图数据库+ Python 搭建的全栈单一领域智能问答机器人
               - 股权穿透，一个基于 Python Faker 生成数据，演示股权关系穿透查询的小项目
-            avatar: /2021/assets/people/gusiwei.png
+            avatar: /2021/assets/people/GuSiwei.jpg
             slug: graph-database
             keynote: true
 
@@ -214,6 +214,6 @@ schedule:
               - 如何使用这些工具以及如何编写 BDD 方案
 
               这将是你武器库中的一个强大的新工具，你可以把它带回到你的项目和你的团队中去!
-            avatar: /2021/assets/people/edemchenko.jpg
+            avatar: /2021/assets/people/EvgenyDemchenko.jpg
             slug: bdd-python
             keynote: true

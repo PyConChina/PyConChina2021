@@ -60,7 +60,7 @@ schedule:
               - how to use those tools and how to write BDD scenarios
 
               This will be a powerful new tool in your arsenal that you can bring back to your project and your team!
-            avatar: /2021/assets/people/edemchenko.jpg
+            avatar: /2021/assets/people/EvgenyDemchenko.jpg
             slug: bdd-python
             keynote: true
 
@@ -150,7 +150,7 @@ schedule:
               Python packaging is a thing that every Pythonista may need to know and use.
               The talk tries to bring the best practice of modern Python packaging to the audienc
               by introducing the history of Python packaging and demonstrating what is happening behind `pip install`.
-            avatar: /2021/assets/people/mingxi.png
+            avatar: /2021/assets/people/FrostMing.jpg
             slug: python-packaging-101
             keynote: true
 
@@ -203,7 +203,7 @@ schedule:
               projects built in Python based on graph databases.
               - Nebula Siwi, a full-stack single-domain intelligent question-and-answer bot built on graph database and Python
               - Equity penetration, a small project based on Python Faker to generate data to demonstrate the equity relationship penetration query
-            avatar: /2021/assets/people/gusiwei.png
+            avatar: /2021/assets/people/GuSiwei.jpg
             slug: graph-database
             keynote: true
 
