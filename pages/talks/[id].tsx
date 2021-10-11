@@ -24,6 +24,7 @@ type TalkEvent = {
   intro: string;
   desc: string;
   avatar?: string;
+  venue?: string;
 };
 
 const defaultAvatar = '/2021/assets/people/anonymous.jpg';
@@ -36,6 +37,9 @@ const Talk = (props: TalkEvent) => {
         <div className="content px-2">
           <div>
             <span className="tag is-primary is-light">{t('talk')}</span>
+            <span className="tag is-success is-light ml-2">
+              {props.venue ? `${t('venue')} ${props.venue}` : t('main_venue')}
+            </span>
           </div>
           <h1 className="is-size-1 mt-1">{props.title}</h1>
           <p className="has-text-grey-light">
@@ -100,8 +104,10 @@ export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
   let matchedEvent = {} as TalkEvent;
   for (let item of schedule) {
     for (let event of item.events) {
-      if (event.slug === params?.id) {
-        matchedEvent = { date: item.date, ...event };
+      for (let talk of event.talks) {
+        if (talk.slug === params?.id) {
+          matchedEvent = { date: item.date, ...talk };
+        }
       }
     }
   }
