@@ -16,7 +16,8 @@ schedule:
 - date: 10/16
   events:
   - end: '10:15'
-    meetings:
+    start: 09:30
+    talks:
     - avatar: /2021/assets/people/Ewa.jpg
       company: Executive Director of the Python Software Foundation
       desc: ''
@@ -35,9 +36,9 @@ schedule:
       speaker: Ewa Jodlowska
       title: The Python Software Foundation's role in Python's ecosystem
       venue: 主会场
-    start: 09:30
   - end: '11:00'
-    meetings:
+    start: '10:15'
+    talks:
     - avatar: /2021/assets/people/XiaoHan.jpg
       company: The Founder & Chairman of Jina AI
       desc: ''
@@ -52,9 +53,9 @@ schedule:
       speaker: Han Xiao
       title: 'The First Step to AI-First: Forget About AI'
       venue: 主会场
-    start: '10:15'
   - end: '11:45'
-    meetings:
+    start: '11:00'
+    talks:
     - avatar: null
       company: ''
       desc: ''
@@ -64,9 +65,9 @@ schedule:
       speaker: ''
       title: 在 “Python” 中实现高性能并行计算
       venue: 主会场
-    start: '11:00'
   - end: '12:00'
-    meetings:
+    start: '11:45'
+    talks:
     - avatar: /2021/assets/people/LiZheao.png
       company: Senior Engineer of Taichi Graphics, Microsoft MVP
       desc: ''
@@ -76,9 +77,9 @@ schedule:
       speaker: Manjusaka
       title: 分会场介绍 & 抽奖
       venue: ''
-    start: '11:45'
   - end: '13:00'
-    meetings:
+    start: '12:00'
+    talks:
     - avatar: null
       company: ''
       desc: ''
@@ -88,9 +89,9 @@ schedule:
       speaker: ''
       title: 午间休息
       venue: ''
-    start: '12:00'
   - end: '13:45'
-    meetings:
+    start: '13:00'
+    talks:
     - avatar: /2021/assets/people/Aber.jpg
       company: 鸣蛇的创造者，Index.py、baize 等非知名 Web 框架、工具箱的制作者
       desc: This talk focuses on how to use the PEG parser Guido wrote for Python
@@ -104,9 +105,9 @@ schedule:
       speaker: Aber
       title: 为 Python 加糖 —— 鸣蛇
       venue: 分会场A
-    start: '13:00'
   - end: '14:30'
-    meetings:
+    start: '13:45'
+    talks:
     - avatar: /2021/assets/people/FrostMing.jpg
       company: PyPA member, creator of PDM, maintainer of Pipenv
       desc: Python packaging is a thing that every Pythonista may need to know and
@@ -120,9 +121,9 @@ schedule:
       speaker: Frost Ming
       title: Python 打包 101
       venue: 分会场A
-    start: '13:45'
   - end: '15:15'
-    meetings:
+    start: '14:30'
+    talks:
     - avatar: /2021/assets/people/TanXiao.jpg
       company: Advanced Development in AsiaInfo
       desc: Python 3.10's new syntax feature Structual Pattern Matching is just an
@@ -138,9 +139,9 @@ schedule:
       speaker: Xiao Tan
       title: 如何用好 Python 的模式匹配语法
       venue: 分会场A
-    start: '14:30'
   - end: '16:15'
-    meetings:
+    start: '15:30'
+    talks:
     - avatar: /2021/assets/people/LiZheao.png
       company: Senior Engineer of Taichi Graphics, Microsoft MVP
       desc: 'With the further development of cloud computing, the online problems
@@ -162,9 +163,9 @@ schedule:
       speaker: Manjusaka
       title: Python 与 BCC 的结合：内核可观测性的新手段
       venue: 分会场A
-    start: '15:30'
   - end: '17:00'
-    meetings:
+    start: '16:15'
+    talks:
     - avatar: /2021/assets/people/SongCongwei.jpg
       company: Assistant Researcher, Beijing Yanqi Lake Institute of Applied Mathematics
       desc: After Learning many computer languages, many people may have the idea
@@ -233,9 +234,9 @@ schedule:
       speaker: yingshaoxo
       title: Python 助你快速上手 Apache APISIX 开发
       venue: 分会场A
-    start: '16:15'
   - end: '13:45'
-    meetings:
+    start: '13:00'
+    talks:
     - avatar: /2021/assets/people/ZhangJintao.jpg
       company: 技术专家，Kubernetes ingress-nginx reviewer, Apache APISIX committer
       desc: 'Cloud-native has become one of the hottest technology trends. Along with
@@ -253,9 +254,9 @@ schedule:
       speaker: Jintao Zhang
       title: 打造 Python 项目的云原生 GitOps 工具链
       venue: 分会场B
-    start: '13:00'
   - end: '14:30'
-    meetings:
+    start: '13:45'
+    talks:
     - avatar: /2021/assets/people/WangBo.jpg
       company: AI Engineer in Jina AI
       desc: "Every Python developer knows `ndarray` is the basic data structure of\
@@ -285,9 +286,9 @@ schedule:
       title: 'Robust & Ease to use: The Design and Evolution of Python-based Primitive
         Data Types'
       venue: 分会场B
-    start: '13:45'
   - end: '15:15'
-    meetings:
+    start: '14:30'
+    talks:
     - avatar: /2021/assets/people/WangHailiang.jpg
       company: Co-founder & CEO of Chatopera
       desc: "For data scientists and developers, natural language processing is a\
@@ -305,9 +306,9 @@ schedule:
       speaker: Hai Liang WANG
       title: 使用 Python 完成若干自然语言处理任务
       venue: 分会场B
-    start: '14:30'
   - end: '16:15'
-    meetings:
+    start: '15:30'
+    talks:
     - avatar: /2021/assets/people/LomisChen.jpg
       company: Program Manager at Microsoft
       desc: The usage of python in data science and machine learning has been explosive
@@ -327,9 +328,9 @@ schedule:
       speaker: Lomis Chen
       title: 如何用 Github、VSCode 和 Azure 优化数据科学工作效率
       venue: 分会场B
-    start: '15:30'
   - end: '17:00'
-    meetings:
+    start: '16:15'
+    talks:
     - avatar: /2021/assets/people/WangNan.jpg
       company: Co-founder and CTO of Jina AI
       desc: This talk focuses on how we help the Jina Hub developer community balance
@@ -402,9 +403,9 @@ schedule:
       speaker: Ralph Wu
       title: Python 安全测试之二进制漏洞挖掘
       venue: 分会场B
-    start: '16:15'
   - end: '15:30'
-    meetings:
+    start: '15:15'
+    talks:
     - avatar: null
       company: ''
       desc: ''
@@ -414,9 +415,9 @@ schedule:
       speaker: ''
       title: 中场休息 / 抽奖
       venue: ''
-    start: '15:15'
   - end: '17:15'
-    meetings:
+    start: '17:00'
+    talks:
     - avatar: null
       company: ''
       desc: ''
@@ -426,11 +427,11 @@ schedule:
       speaker: ''
       title: 抽奖
       venue: ''
-    start: '17:00'
 - date: 10/17
   events:
   - end: '10:15'
-    meetings:
+    start: 09:30
+    talks:
     - avatar: /2021/assets/people/LiFeng.jpg
       company: Independent developer
       desc: "Python has been ranked among the top 3 programming languages in the world\
@@ -468,9 +469,9 @@ schedule:
       speaker: Feng Li
       title: Python 当前实现综述
       venue: 主会场
-    start: 09:30
   - end: '11:00'
-    meetings:
+    start: '10:15'
+    talks:
     - avatar: /2021/assets/people/LaiqiangDing.jpg
       company: Head of Alibaba Cloud SLS Shanghai team
       desc: 'As business innovation accelerates in the era of digital intelligence
@@ -506,9 +507,9 @@ schedule:
       speaker: Laiqiang Ding
       title: 可观测性平台下的低代码技术实践
       venue: 主会场
-    start: '10:15'
   - end: '11:45'
-    meetings:
+    start: '11:00'
+    talks:
     - avatar: null
       company: ''
       desc: ''
@@ -518,9 +519,9 @@ schedule:
       speaker: ''
       title: 神秘大咖
       venue: 主会场
-    start: '11:00'
   - end: '12:00'
-    meetings:
+    start: '11:45'
+    talks:
     - avatar: null
       company: ''
       desc: ''
@@ -530,9 +531,9 @@ schedule:
       speaker: ''
       title: 分会场介绍
       venue: ''
-    start: '11:45'
   - end: '13:00'
-    meetings:
+    start: '12:00'
+    talks:
     - avatar: null
       company: ''
       desc: ''
@@ -542,9 +543,9 @@ schedule:
       speaker: ''
       title: 午间休息
       venue: ''
-    start: '12:00'
   - end: '13:45'
-    meetings:
+    start: '13:00'
+    talks:
     - avatar: /2021/assets/people/GuSiwei.jpg
       company: Vesoft Inc.
       desc: 'What is a graph database? Why Yet Another Database? What problems can
@@ -588,9 +589,9 @@ schedule:
       speaker: Siwei Gu
       title: 图数据库解谜与上手应用
       venue: 分会场A
-    start: '13:00'
   - end: '14:30'
-    meetings:
+    start: '13:45'
+    talks:
     - avatar: /2021/assets/people/anonymous.jpg
       company: ''
       desc: Deep learning has been adopted in more and more industries in the recent
@@ -612,9 +613,9 @@ schedule:
       speaker: Shaogang Lv
       title: 用 Python 搭建图像识别神经网络
       venue: 分会场A
-    start: '13:45'
   - end: '15:15'
-    meetings:
+    start: '14:30'
+    talks:
     - avatar: /2021/assets/people/ZhuXingliang.jpg
       company: Neo4j certified expert, Microsoft MCT, former Microsoft MVP
       desc: A movie has multiple roles such as actor, director, producer, and writer.
@@ -634,9 +635,9 @@ schedule:
       speaker: Xingliang Zhu
       title: 使用 Python 和图模型构建一个电影应用
       venue: 分会场A
-    start: '14:30'
   - end: '16:15'
-    meetings:
+    start: '15:30'
+    talks:
     - avatar: /2021/assets/people/MengFanchao.jpg
       company: ''
       desc: In this talk, we will introduce how to use dash and echarts to quickly
@@ -653,9 +654,9 @@ schedule:
       speaker: Fanchao Meng
       title: Building Interactive Dashboards with Dash & ECharts
       venue: 分会场A
-    start: '15:30'
   - end: '17:00'
-    meetings:
+    start: '16:15'
+    talks:
     - avatar: /2021/assets/people/WuJingjing.jpg
       company: School of Artificial Intelligence, Beijing University of Posts and
         Telecommunications
@@ -672,9 +673,9 @@ schedule:
       speaker: Jingjing Wu
       title: Python-Wechaty：对话式 RPA SDK
       venue: 分会场A
-    start: '16:15'
   - end: '13:45'
-    meetings:
+    start: '13:00'
+    talks:
     - avatar: /2021/assets/people/WangBinxin.png
       company: Ali Cloud
       desc: 'Many people think that Python is not suitable for developing large server-side
@@ -691,9 +692,9 @@ schedule:
       speaker: Binxin Wang
       title: 如何开发和维护大型 Python 服务端应用
       venue: 分会场B
-    start: '13:00'
   - end: '14:30'
-    meetings:
+    start: '13:45'
+    talks:
     - avatar: /2021/assets/people/KinfeyLo.jpg
       company: Microsoft Cloud Advocate
       desc: "I believe that every developer used Github , but do you know Github Action\
@@ -709,9 +710,9 @@ schedule:
       speaker: Kinfey Lo
       title: 让 Github Action 加快你的 Python 应用场景迭代
       venue: 分会场B
-    start: '13:45'
   - end: '15:15'
-    meetings:
+    start: '14:30'
+    talks:
     - avatar: /2021/assets/people/ZhaoXin.jpg
       company: Qihoo360, network security expert
       desc: "\"The \"art\" of Python security testing automation focuses on information\
@@ -730,9 +731,9 @@ schedule:
       speaker: Xin Zhao
       title: Python 安全测试之自动化的 "艺术"
       venue: 分会场B
-    start: '14:30'
   - end: '15:30'
-    meetings:
+    start: '15:15'
+    talks:
     - avatar: null
       company: ''
       desc: ''
@@ -742,9 +743,9 @@ schedule:
       speaker: ''
       title: 中场休息 / 抽奖
       venue: ''
-    start: '15:15'
   - end: '16:15'
-    meetings:
+    start: '15:30'
+    talks:
     - avatar: /2021/assets/people/EvgenyDemchenko.jpg
       company: Stealth Startup
       desc: "Behavior-driven Development (or Acceptance Test-driven Development) is\
@@ -771,9 +772,9 @@ schedule:
       speaker: Evgeny Demchenko
       title: Behavior-driven Development in Python
       venue: 分会场B
-    start: '15:30'
   - end: '17:00'
-    meetings:
+    start: '16:15'
+    talks:
     - avatar: /2021/assets/people/anonymous.jpg
       company: A software engineer from Intel, whose main job is the development and
         maintenance of RayDP
@@ -817,9 +818,9 @@ schedule:
       speaker: yingshaoxo
       title: What Python could learn from Golang
       venue: 分会场B
-    start: '16:15'
   - end: '17:15'
-    meetings:
+    start: '17:00'
+    talks:
     - avatar: null
       company: ''
       desc: ''
@@ -829,4 +830,3 @@ schedule:
       speaker: ''
       title: 抽奖
       venue: ''
-    start: '17:00'
