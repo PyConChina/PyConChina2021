@@ -87,6 +87,7 @@ const Nav = function () {
               <a className="navbar-item">{t('shanghai')}</a>
               <a className="navbar-item">{t('shenzhen')}</a>
               <a className="navbar-item">{t('hangzhou')}</a>
+              <a className="navbar-item">{t('changsha')}</a>
             </div>
           </div>
 
@@ -95,7 +96,7 @@ const Nav = function () {
 
             <div className="navbar-dropdown">
               <Link href="/staff">
-                <a className="navbar-item">{t('volunteers')}</a>
+                <a className="navbar-item">{t('staff_list')}</a>
               </Link>
               <Link href="/joinus">
                 <a className="navbar-item">{t('joinus')}</a>

@@ -6,7 +6,6 @@ import Link from 'next/link';
 import Layout from '../components/layout';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import ReactMarkdown from 'react-markdown';
 
 export type ScheduleTalk = {
   venue?: string;

@@ -31,7 +31,7 @@ const Home = (props: IndexProps) => {
   const shouldShowLive = new Date() >= new Date('2021-10-02T00:00:00+08:00');
 
   return (
-    <Layout title="首页">
+    <Layout title={t('home')}>
       <div className="hero is-medium cover">
         {/* <div className="shade" /> */}
         <div className="hero-body">

@@ -1,15 +1,15 @@
 /*
-Each entry of this page is a markdown file under /data/contents/
+Each entry of this page is a markdown file under /data/meetup/
 */
 
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import Layout from '../components/layout';
-import TextPage from '../components/TextPage';
-import { getMarkdownFiles, readData } from '../utils';
+import Layout from '../../components/layout';
+import TextPage from '../../components/TextPage';
+import { getMarkdownFiles, readData } from '../../utils';
 
-const Markdown = ({ name, content }: { name: string; content: string }) => {
+const Meetup = ({ name, content }: { name: string; content: string }) => {
   const { t } = useTranslation('common');
   return (
     <Layout title={t(name)}>
@@ -20,18 +20,18 @@ const Markdown = ({ name, content }: { name: string; content: string }) => {
 
 type Path = {
   params: {
-    md: string;
+    id: string;
   };
   locale: string;
 };
 
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
   const paths: Path[] = [];
-  const names = await getMarkdownFiles('contents');
+  const names = await getMarkdownFiles('meetup');
   names.forEach((name) => {
     paths.push(
       ...(locales as string[]).map((locale) => ({
-        params: { md: name },
+        params: { id: name },
         locale,
       }))
     );
@@ -43,11 +43,11 @@ export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
-  const md = params?.md;
-  const content = await readData(`contents/${md}.md`, locale);
+  const id = params?.id;
+  const content = await readData(`meetup/${id}.md`, locale);
   return {
-    props: { name: md, content, ...(await serverSideTranslations(locale as string, ['common'])) },
+    props: { name: id, content, ...(await serverSideTranslations(locale as string, ['common'])) },
   };
 };
 
-export default Markdown;
+export default Meetup;
