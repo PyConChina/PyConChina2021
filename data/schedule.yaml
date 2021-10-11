@@ -15,24 +15,10 @@
 schedule:
   - date: '10/16'
     events:
-      - start: 23:00
-        end:  23:01
-        meetings:
-          - meeting_place:  A
-            title:
-            speaker:
-            company:
-            intro:
-            desc:
-            avatar:
-            slug:
-            keynote:
-
       - start: 09:30
-        end:  10:00
-        meetings:
-          - meeting_place:  A
-            speaker: Ewa Jodlowska
+        end: 10:15
+        talks:
+          - speaker: Ewa Jodlowska
             company: PSF 执行董事
             intro: |
               Ewa Jodlowska 是 Python 软件基金会的执行董事，从 2012 年开始在 PSF 工作。
@@ -47,37 +33,23 @@ schedule:
             avatar: /2021/assets/people/ewa.jpg
             slug: psf-in-python-ecosystem
 
-      - start: 10:00
-        end:  10:15
-        meetings:
-          - meeting_place:  A
-            title: Q&A
-            speaker:
-            company:
-            intro:
-            desc:
-            avatar:
-            slug:
-            keynote:
-
       - start: 10:15
-        end:  11:00
-        meetings:
-          - meeting_place:  A
-            title: The First Step to AI-First, Forget About AI
+        end: 11:00
+        talks:
+          - title: The First Step to AI-First, Forget About AI
             speaker: 肖涵
             company: JINA AI
             intro: |
               肖涵为Jina AI创始人及CEO，热门开源项目Fashion-MNIST 和Bert-as-service的作者。曾在腾讯AI Lab负责基于深度学习搜索项目研发，其作为是腾讯开源办公室成员，代表腾讯担任LFAI开源基金会董事，并促进腾讯加入TODO基金会。此前肖涵在德国Zalando公司担任高级研究员。2014年获得德国慕尼黑工业大学计算机博士学位。
             desc:
             avatar:
-            slug:
-            keynote:
+            slug: ai-first
+            keynote: true
 
       - start: 13:00
-        end:  13:45
-        meetings:
-          - meeting_place:  A
+        end: 13:45
+        talks:
+          - venue: A
             speaker: Aber
             company: 安天实验室
             intro: |
@@ -90,11 +62,24 @@ schedule:
             avatar: /2021/assets/people/Aber.jpg
             slug: python-with-sugar
             keynote: true
+          - venue: B
+            speaker: 张晋涛
+            company: 支流科技
+            intro: |
+              技术专家，Kubernetes ingress-nginx reviewer, Apache APISIX committer
+            title: 打造 Python 项目的云原生 GitOps 工具链
+            desc: |
+              云原生已成为当前最火热的技术趋势之一。伴随着一众 CI/CD、GitOps理念的流行，如何保障 Python 项目的高效交付，
+              及提升应用整体的稳定性也是众多开发者面临的共同问题之一。
+
+              本次分享将从实践出发，介绍如何打造 Python 项目的云原生 GitOps 工具链，在保障应用稳定性的前提下，更高效的完成项目的交付。
+            slug: python-cloud-git-ops
+            keynote: true
 
       - start: 13:45
-        end:  14:30
-        meetings:
-          - meeting_place:  A
+        end: 14:30
+        talks:
+          - venue: A
             speaker: 明希
             company: 福里斯信息技术
             intro: |
@@ -111,8 +96,8 @@ schedule:
     events:
       - start: 09:30
         end: 10:00
-        meetings:
-          - meeting_place:  A
+        talks:
+          - venue: A
             speaker: 李枫
             company: 独立开发者
             intro: |
@@ -159,9 +144,9 @@ schedule:
             keynote: true
 
       - start: 13:00
-        end:  13:45
-        meetings:
-          - meeting_place:  A
+        end: 13:45
+        talks:
+          - venue: A
             speaker: 古思为
             company: VeSoft.Inc
             intro: |
@@ -189,8 +174,7 @@ schedule:
             slug: graph-database
             keynote: true
 
-
-          - meeting_place:  B
+          - venue: B
             speaker: 王斌鑫
             company: 阿里云
             intro: |
@@ -206,9 +190,9 @@ schedule:
             keynote: true
 
       - start: 16:15
-        end:  17:00
-        meetings:
-          - meeting_place:  A
+        end: 17:00
+        talks:
+          - venue: A
             speaker: Evgeny Demchenko
             company: Stealth Startup
             intro: |

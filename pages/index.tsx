@@ -146,7 +146,9 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
 
   const speakers = [] as Array<SpeakerType>;
   schedule.forEach((s: ScheduleItem) => {
-    return speakers.push(...(s.events.filter((e) => e.keynote) as Array<SpeakerType>));
+    s.events.forEach((e) => {
+      speakers.push(...(e.talks.filter((t) => t.keynote) as SpeakerType[]));
+    });
   });
   return {
     props: {

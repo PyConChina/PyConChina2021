@@ -8,8 +8,8 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import ReactMarkdown from 'react-markdown';
 
-export type ScheduleMeetings = {
-  meeting_place?: string;
+export type ScheduleTalk = {
+  venue?: string;
   title: string;
   speaker?: string;
   avatar?: string;
@@ -17,20 +17,19 @@ export type ScheduleMeetings = {
   desc?: string;
   intro?: string;
   slug?: string;
-  calendar?: string;
+  calendar?: boolean;
   keynote?: boolean;
-}
+};
 
 export type ScheduleEvent = {
   start: string;
   end: string;
-  meetings: Array<ScheduleMeetings>;
+  talks: ScheduleTalk[];
 };
-
 
 export type ScheduleItem = {
   date: string;
-  events: Array<ScheduleEvent>;
+  events: ScheduleEvent[];
 };
 
 const EmptySchedule = () => {
@@ -88,40 +87,36 @@ const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
               {events.map((e, i) => (
                 <div className="timeline-item" key={i}>
                   <div className="timeline-marker"></div>
-                  <div className="timeline-content">
+                  <div className="timeline-content is-flex-grow-1">
                     <p className="heading">{e.start ? `${e.start} - ${e.end}` : t('TBD')}</p>
-                    <div className="meetings-container">
-                    { e.meetings.map((m, j) => (
-                      <div className={`meeting col-${e.meetings.length}`}>
-                        { m.slug ? (
-                          <Link href={`/talks/${m.slug}`}>
-                            <a className="box">
-                              <p className="title is-5">{m.title}</p>
-                              <div className="inline-content">
-                                {m.speaker && <p className="speaker">{m.speaker}</p>}
-                                {m.meeting_place && <p className="meeting-place">{t('meeting_place')} {m.meeting_place }</p>}
-                              </div>
-                              {/*m.desc && (
-
-                                <div className="content is-size-6">
-                                  <ReactMarkdown>{m.desc}</ReactMarkdown>
+                    <div className="columns">
+                      {e.talks.map((m, j) => (
+                        <div className="column" key={j}>
+                          {m.slug ? (
+                            <Link href={`/talks/${m.slug}`}>
+                              <a className="box">
+                                <div className="is-flex is-justify-content-space-between">
+                                  <p className="title is-5">{m.title}</p>
+                                  <p className="has-text-grey is-size-6">
+                                    {m.venue ? `${t('venue')} ${m.venue}` : t('main_venue')}
+                                  </p>
                                 </div>
-
-                              )*/}
-                            </a>
-                          </Link>
-                        ) : (
-                          <div className="box">
-                            <p className="title is-5">{m.title}</p>
-                            <div className="inline-content">
-                              { m.speaker && <p className="speaker">{m.speaker}</p>}
-                              {m.meeting_place && <p className="meeting-place">{t('meeting_place')} {m.meeting_place }</p>}
-                              {/*m.desc && <ReactMarkdown>{m.desc}</ReactMarkdown>*/}
+                                {m.speaker && <p className="subtitle mt-2">{m.speaker}</p>}
+                              </a>
+                            </Link>
+                          ) : (
+                            <div className="box">
+                              <div className="is-flex is-justify-content-space-between">
+                                <p className="title is-5">{m.title}</p>
+                                <p className="has-text-grey is-size-6">
+                                  {m.venue ? `${t('venue')} ${m.venue}` : t('main_venue')}
+                                </p>
+                              </div>
+                              {m.speaker && <p className="subtitle mt-2">{m.speaker}</p>}
                             </div>
-                          </div>
-                        )}
-                      </div>
-                    ))}
+                          )}
+                        </div>
+                      ))}
                     </div>
                   </div>
                 </div>
@@ -132,13 +127,6 @@ const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
             </div>
           )}
         </div>
-        <style jsx>
-          {`
-            .timeline {
-              max-width: 800px;
-            }
-          `}
-        </style>
       </section>
     </Layout>
   );
@@ -148,7 +136,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const data = await loadYaml('schedule.yaml', locale);
   return {
     props: {
-      schedule: data.schedule as Array<ScheduleItem>,
+      schedule: data.schedule as ScheduleItem[],
       ...(await serverSideTranslations(locale as string, ['common'])),
     },
   };

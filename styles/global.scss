@@ -109,38 +109,3 @@ h1.section-title {
     background-size: contain;
   }
 }
-
-
-.meetings-container{
-    display:flex;
-    width:650px;
-}
-
-.meeting{
-    float:left;
-    vertical-align:middle;
-}
-
-.inline-content{
-    padding-bottom: 10px;
-}
-
-.meeting-place{
-    display:inline-block;
-    float: right;
-    font-size:13px;
-}
-.speaker{
-    display:inline-block;
-    float:left;
-    font-size:13px;
-}
-
-.col-1{
-    width:100%;
-}
-
-.col-2{
-    width:50%;
-    margin-left:10px;
-}

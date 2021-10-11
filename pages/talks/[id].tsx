@@ -79,12 +79,14 @@ export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
   const { schedule } = await loadYaml('schedule.yaml');
   const paths = [] as Array<Path>;
   schedule.forEach((s: ScheduleItem) => {
-    s.events.forEach((e: ScheduleEvent) => {
-      if (e.slug) {
-        for (let locale of locales as Array<string>) {
-          paths.push({ params: { id: e.slug }, locale });
+    s.events.forEach((e) => {
+      e.talks.forEach((t) => {
+        if (t.slug) {
+          for (let locale of locales as string[]) {
+            paths.push({ params: { id: t.slug }, locale });
+          }
         }
-      }
+      });
     });
   });
   return {

@@ -17,211 +17,219 @@ schedule:
     events:
       - start:
         end:
-        speaker: Ewa Jodlowska
-        company: PSF Executive Director
-        intro: |
-          Ewa Jodlowska is the Executive Director of the Python Software Foundation. Ewa has been with the PSF since 2012
-          and prior to that she assisted with PyCon US as a contractor. Ewa's responsibilities include managing the staff,
-          giving direction and leadership to the Foundation, working with the board of directors on long-range strategic
-          planning, community outreach, and overseeing financial and program operations to name a few. Ewa is embarking
-          on a new career path at the end of 2021 and will miss working with great Pythonistas all around the world!
+        talks:
+          - speaker: Ewa Jodlowska
+            company: PSF Executive Director
+            intro: |
+              Ewa Jodlowska is the Executive Director of the Python Software Foundation. Ewa has been with the PSF since 2012
+              and prior to that she assisted with PyCon US as a contractor. Ewa's responsibilities include managing the staff,
+              giving direction and leadership to the Foundation, working with the board of directors on long-range strategic
+              planning, community outreach, and overseeing financial and program operations to name a few. Ewa is embarking
+              on a new career path at the end of 2021 and will miss working with great Pythonistas all around the world!
 
-          Connect with Ewa via her Twitter account!
-        title: The Python Software Foundation's role in Python's ecosystem
-        desc:
-        keynote: true
-        avatar: /2021/assets/people/ewa.jpg
-        slug: psf-in-python-ecosystem
-
-      - start:
-        end:
-        speaker: Evgeny Demchenko
-        company: Stealth Startup
-        intro: |
-          Experienced CTO, team lead, CSM, architect, Agile practitioner, front-end and back-end software developer
-          with enormous experience in a large range of modern web technologies. Also experienced in desktop and mobile
-          application development and Web APIs. Particularly passionate about Python, Django, Extreme Programming,
-          DevOps culture, and Agile/Lean software development.
-          The organizer of the Beijing Python Meetup.
-        title: Behavior-driven Development in Python
-        desc: |
-          Behavior-driven Development (or Acceptance Test-driven Development) is a powerful Agile engineering practice
-          that compliments other Agile and XP practices such as TDD, Continuous Delivery, etc.
-
-          BDD Scenarios are high-level feature tests acting as "Specification by Example" written in a Gherkin DSL
-          which is accessible to non-technical team members (like Product Managers, QA, etc).
-
-          In this talk, we'll explore:
-          - what BDD is
-          - what are its technical and team benefits
-          - what are the best Python tools for BDD (behave, pytest-bdd, cucumber)
-          - how to use those tools and how to write BDD scenarios
-
-          This will be a powerful new tool in your arsenal that you can bring back to your project and your team!
-        avatar: /2021/assets/people/edemchenko.jpg
-        slug: bdd-python
-        keynote: true
+              Connect with Ewa via her Twitter account!
+            title: The Python Software Foundation's role in Python's ecosystem
+            desc:
+            keynote: true
+            avatar: /2021/assets/people/ewa.jpg
+            slug: psf-in-python-ecosystem
 
       - start:
         end:
-        speaker: Feng Li
-        company: Indie Developer
-        intro: |
-          Had been worked in Motorola, Samsung, etc, now I am an indie developer.
-          Accumulated more than ten years experience in mobile development on various platforms,
-          and focused on Cloud & Edge Infrastructure during the past few years.
+        talks:
+          - speaker: Evgeny Demchenko
+            company: Stealth Startup
+            intro: |
+              Experienced CTO, team lead, CSM, architect, Agile practitioner, front-end and back-end software developer
+              with enormous experience in a large range of modern web technologies. Also experienced in desktop and mobile
+              application development and Web APIs. Particularly passionate about Python, Django, Extreme Programming,
+              DevOps culture, and Agile/Lean software development.
+              The organizer of the Beijing Python Meetup.
+            title: Behavior-driven Development in Python
+            desc: |
+              Behavior-driven Development (or Acceptance Test-driven Development) is a powerful Agile engineering practice
+              that compliments other Agile and XP practices such as TDD, Continuous Delivery, etc.
 
-          The main translator of the book «Gray Hat Hacking The Ethical Hacker's Handbook, Fourth Edition» (ISBN：9787302428671)
-          and «Linux Hardening in Hostile Networks, First Edition»（ISBN: 9787115544384）.
+              BDD Scenarios are high-level feature tests acting as "Specification by Example" written in a Gherkin DSL
+              which is accessible to non-technical team members (like Product Managers, QA, etc).
 
-          With strong interest and practical ability in technology innovation, I am enthusiastic in take part in various
-          activities of the Open Source Community, and please refer to the following URL for my previous speaking experience:
-          <https://github.com/XianBeiTuoBaFeng2015/MySlides>
-        title: A survey of current Python implementations
-        desc: |
-          Python has been ranked among the top 3 programming languages in the world for the past decade steadily,
-          and is the most preferred language in the fields of Artificial Intelligence、Data Processing、Scientific
-          Computing and DevOps etc. However, the performance of Python is still not satisfied due to many reasons.
+              In this talk, we'll explore:
+              - what BDD is
+              - what are its technical and team benefits
+              - what are the best Python tools for BDD (behave, pytest-bdd, cucumber)
+              - how to use those tools and how to write BDD scenarios
 
-          Fortunately, many emerging Python runtimes are coming in recent years and bringing new ideas to overcome the
-          bottlenecks of Python runtime performance. This topic summarizes and compares various Python implementations
-          that available today, and comes with the following sub-topics:
-
-          1. C-based Python implementation
-             a. make CPython faster;
-             b. newly-arrived project Cinder;
-          2. Java-based Python implementation, e.g. GraalPython and Jython;
-          3. LLVM-based Python implementation, e.g. Pyston;
-          4. DotNet-based Python implementation, e.g. IronPython and Pyjion;
-          5. WASM-based Python implementation, e.g. Pyodide;
-          6. Rust-based Python implementation, e.g. RustPython;
-          7. Comparison of the above Python implementations and their benchmarkings.
-
-          Major reference links for tech stack:
-          1. https://en.wikipedia.org/wiki/Python_(programming_language)
-          1. https://wiki.python.org/moin/PythonImplementations
-          1. https://github.com/python/cpython
-          1. https://github.com/facebookincubator/cinder
-          1. https://github.com/oracle/graalpython
-          1. https://github.com/jython/jython3
-          1. https://github.com/pyston/pyston
-          1. https://github.com/IronLanguages/ironpython3
-          1. https://github.com/tonybaloney/Pyjion
-          1. https://github.com/pyodide/pyodide
-          1. https://github.com/RustPython/RustPython
-        avatar: /2021/assets/people/lifeng.jpg
-        slug: python-impl
-        keynote: true
+              This will be a powerful new tool in your arsenal that you can bring back to your project and your team!
+            avatar: /2021/assets/people/edemchenko.jpg
+            slug: bdd-python
+            keynote: true
 
       - start:
         end:
-        speaker: Binxin Wang
-        company: Alibaba Cloud
-        intro: |
-          A technical expert, Microsoft MVP, translator of the Chinese version of _Hitchhiker's Guide to Python_,
-          I love to participate in open source projects and technology sharing, and am currently engaged in R&D in cloud computing.
-        title: How to develop and maintain large Python server-side applications
-        desc: |
-          Many people think that Python is not suitable for developing large server-side applications because it is slow, error-prone,
-          and difficult to maintain. Is this really the case? Or how do we deal with these issues?
+        talks:
+          - speaker: Feng Li
+            company: Indie Developer
+            intro: |
+              Had been worked in Motorola, Samsung, etc, now I am an indie developer.
+              Accumulated more than ten years experience in mobile development on various platforms,
+              and focused on Cloud & Edge Infrastructure during the past few years.
 
-          This talk will share why Python was chosen as the primary language for development of a large cloud service, how it was used
-          for architecture design, development, testing, monitoring, team collaboration, and how to ensure fast and smooth implementation
-          of business functions and maintainable code in architecture design, development, testing, monitoring, team collaboration,
-          application release, and more.
-        avatar: /2021/assets/people/wangbinxin.png
-        slug: python-big-scale
-        keynote: true
+              The main translator of the book «Gray Hat Hacking The Ethical Hacker's Handbook, Fourth Edition» (ISBN：9787302428671)
+              and «Linux Hardening in Hostile Networks, First Edition»（ISBN: 9787115544384）.
 
-      - start:
-        end:
-        speaker: 刘宇宙
-        company: fuzhi.ai
-        intro: |
-          I am a senior development engineer, currently working in fuzhi.ai, engaged in artificial intelligence-related research and development.
-          I have worked for Shanghai Haiding, Guangzhou Banggu and other tech companies.
-          I have been engaged in R&D of cloud computing IaaS, big data, IoT and artificial intelligence, and has deep research on Python.
+              With strong interest and practical ability in technology innovation, I am enthusiastic in take part in various
+              activities of the Open Source Community, and please refer to the following URL for my previous speaking experience:
+              <https://github.com/XianBeiTuoBaFeng2015/MySlides>
+            title: A survey of current Python implementations
+            desc: |
+              Python has been ranked among the top 3 programming languages in the world for the past decade steadily,
+              and is the most preferred language in the fields of Artificial Intelligence、Data Processing、Scientific
+              Computing and DevOps etc. However, the performance of Python is still not satisfied due to many reasons.
 
-          At present, I have published "Python3.5 Learn from Scratch", "Python3.7 Learn from Scratch", "Python3.8 Learn from Scratch", "Python Practical Tutorial",
-          and "Python Practical Database Tutorial", "Python Practical Database Application and Data Acquisition", "Python Practical Data Analysis and Processing",
-          "Learn Python Well from Zero to Project Practice", "Python Advanced Programming: Writing More Efficient and Elegant Python Code" and other Python books.
-        title: Exploration of AI backend architecture
-        desc: |
-          In the current period of rapid development of artificial intelligence, more and more companies are gradually joining this track, and more
-          good AI products are emerging. However, as AI technology is maturing continuously, some problems are also exposed, such as how to better
-          realize the landing of AI products?
+              Fortunately, many emerging Python runtimes are coming in recent years and bringing new ideas to overcome the
+              bottlenecks of Python runtime performance. This topic summarizes and compares various Python implementations
+              that available today, and comes with the following sub-topics:
 
-          To achieve better implementation of AI products, having a good backend to interact with AI is very critical,
-          and having a mature and stable AI backend architecture is a tiger's wing for companies that use a lot of AI technology.
-        slug: ai-backend-architect
-        keynote: true
+              1. C-based Python implementation
+                a. make CPython faster;
+                b. newly-arrived project Cinder;
+              2. Java-based Python implementation, e.g. GraalPython and Jython;
+              3. LLVM-based Python implementation, e.g. Pyston;
+              4. DotNet-based Python implementation, e.g. IronPython and Pyjion;
+              5. WASM-based Python implementation, e.g. Pyodide;
+              6. Rust-based Python implementation, e.g. RustPython;
+              7. Comparison of the above Python implementations and their benchmarkings.
 
-      - start:
-        end:
-        speaker: Frost Ming
-        company: Foris Co. Ltd.
-        intro: |
-          PyPA member, creator of PDM, maintainer of Pipenv. I am devoted to improving
-          the Python packaging ecosystem and am an experienced Web developer.
-        title: Python Packaging 101
-        desc: |
-          Python packaging is a thing that every Pythonista may need to know and use.
-          The talk tries to bring the best practice of modern Python packaging to the audienc
-          by introducing the history of Python packaging and demonstrating what is happening behind `pip install`.
-        avatar: /2021/assets/people/mingxi.png
-        slug: python-packaging-101
-        keynote: true
+              Major reference links for tech stack:
+              1. https://en.wikipedia.org/wiki/Python_(programming_language)
+              1. https://wiki.python.org/moin/PythonImplementations
+              1. https://github.com/python/cpython
+              1. https://github.com/facebookincubator/cinder
+              1. https://github.com/oracle/graalpython
+              1. https://github.com/jython/jython3
+              1. https://github.com/pyston/pyston
+              1. https://github.com/IronLanguages/ironpython3
+              1. https://github.com/tonybaloney/Pyjion
+              1. https://github.com/pyodide/pyodide
+              1. https://github.com/RustPython/RustPython
+            avatar: /2021/assets/people/lifeng.jpg
+            slug: python-impl
+            keynote: true
 
       - start:
         end:
-        speaker: Aber
-        company: ANTIY Lab
-        intro: |
-          The creator of some non-famous Web frameworks and toolboxes such as MingShe, Index.py, Baize
-        title: Sugarizing Python——MingShe
-        desc: |
-          This talk focuses on how to use Guido's PEG parser for Python 3.9 to create a Python superset,
-          adding as much syntax as you want to bring Python to life.
-          Next, I'll demonstrate a superset language I wrote using this technique, MingShe,
-          which includes convenient syntax for pipes, partial functions, null merging, optional chaining, and more.
-          And you can import MingShe's code directly as a Python module, without having to compile it in advance.
-        avatar: /2021/assets/people/Aber.jpg
-        slug: python-with-sugar
-        keynote: true
+        talks:
+          - speaker: Binxin Wang
+            company: Alibaba Cloud
+            intro: |
+              A technical expert, Microsoft MVP, translator of the Chinese version of _Hitchhiker's Guide to Python_,
+              I love to participate in open source projects and technology sharing, and am currently engaged in R&D in cloud computing.
+            title: How to develop and maintain large Python server-side applications
+            desc: |
+              Many people think that Python is not suitable for developing large server-side applications because it is slow, error-prone,
+              and difficult to maintain. Is this really the case? Or how do we deal with these issues?
+
+              This talk will share why Python was chosen as the primary language for development of a large cloud service, how it was used
+              for architecture design, development, testing, monitoring, team collaboration, and how to ensure fast and smooth implementation
+              of business functions and maintainable code in architecture design, development, testing, monitoring, team collaboration,
+              application release, and more.
+            avatar: /2021/assets/people/wangbinxin.png
+            slug: python-big-scale
+            keynote: true
 
       - start:
         end:
-        speaker: Siwei Gu
-        company: VeSoft.Inc
-        intro: |
-          A Shanghai-based software engineer working at vesoft as a developer advocate for Nebula Graph (an open source distributed graph database).
+        talks:
+          - speaker: 刘宇宙
+            company: fuzhi.ai
+            intro: |
+              I am a senior development engineer, currently working in fuzhi.ai, engaged in artificial intelligence-related research and development.
+              I have worked for Shanghai Haiding, Guangzhou Banggu and other tech companies.
+              I have been engaged in R&D of cloud computing IaaS, big data, IoT and artificial intelligence, and has deep research on Python.
 
-          My job is to improve the learning, development, and community engagement experience for developers by creating content and
-          building tools around the Nebula Graph Database. I consider it a privilege and a valuable opportunity to work openly in the
-          open source community and (having spent the first few years of my career realizing) love helping others with my ideas and learned skills.
+              At present, I have published "Python3.5 Learn from Scratch", "Python3.7 Learn from Scratch", "Python3.8 Learn from Scratch", "Python Practical Tutorial",
+              and "Python Practical Database Tutorial", "Python Practical Database Application and Data Acquisition", "Python Practical Data Analysis and Processing",
+              "Learn Python Well from Zero to Project Practice", "Python Advanced Programming: Writing More Efficient and Elegant Python Code" and other Python books.
+            title: Exploration of AI backend architecture
+            desc: |
+              In the current period of rapid development of artificial intelligence, more and more companies are gradually joining this track, and more
+              good AI products are emerging. However, as AI technology is maturing continuously, some problems are also exposed, such as how to better
+              realize the landing of AI products?
 
-          More about my presentation: https://siwei.io/about/ \
-          Some of my past talks: https://siwei.io/talk/ \
-          Personal twitter: https://twitter.com/wey_gu
+              To achieve better implementation of AI products, having a good backend to interact with AI is very critical,
+              and having a mature and stable AI backend architecture is a tiger's wing for companies that use a lot of AI technology.
+            slug: ai-backend-architect
+            keynote: true
 
-          I worked at Ericsson for almost 10 years: 2011 to 2021. My role was System Manager for the Cloud Execution Envrioment (CEE)
-          development team, where I spent most of my time helping Ericsson IaaS products and solutions evolve by designing and developing
-          more than 20 CEE 6.6.2 and CEE 10 features and enhancements across compute, storage, networking, lifecycle management and security
-          products and solutions. I am also responsible for evangelizing CEE products in China (both externally and internally).
+      - start:
+        end:
+        talks:
+          - speaker: Frost Ming
+            company: Foris Co. Ltd.
+            intro: |
+              PyPA member, creator of PDM, maintainer of Pipenv. I am devoted to improving
+              the Python packaging ecosystem and am an experienced Web developer.
+            title: Python Packaging 101
+            desc: |
+              Python packaging is a thing that every Pythonista may need to know and use.
+              The talk tries to bring the best practice of modern Python packaging to the audienc
+              by introducing the history of Python packaging and demonstrating what is happening behind `pip install`.
+            avatar: /2021/assets/people/mingxi.png
+            slug: python-packaging-101
+            keynote: true
 
-          I am the host of the Open Source Face-to-Face Podcast (unfortunately, only the zero issue has been sent out yet)
+      - start:
+        end:
+        talks:
+          - speaker: Aber
+            company: ANTIY Lab
+            intro: |
+              The creator of some non-famous Web frameworks and toolboxes such as MingShe, Index.py, Baize
+            title: Sugarizing Python——MingShe
+            desc: |
+              This talk focuses on how to use Guido's PEG parser for Python 3.9 to create a Python superset,
+              adding as much syntax as you want to bring Python to life.
+              Next, I'll demonstrate a superset language I wrote using this technique, MingShe,
+              which includes convenient syntax for pipes, partial functions, null merging, optional chaining, and more.
+              And you can import MingShe's code directly as a Python module, without having to compile it in advance.
+            avatar: /2021/assets/people/Aber.jpg
+            slug: python-with-sugar
+            keynote: true
 
-        title: Graph database puzzle solving and quick start application
-        desc: |
-          What is a graph database? Why Yet Another Database? What problems can it solve?
+      - start:
+        end:
+        talks:
+          - speaker: Siwei Gu
+            company: VeSoft.Inc
+            intro: |
+              A Shanghai-based software engineer working at vesoft as a developer advocate for Nebula Graph (an open source distributed graph database).
 
-          This talk will demystify graph databases and share, demo from zero to one, the speaker's own interesting open source
-          projects built in Python based on graph databases.
-          - Nebula Siwi, a full-stack single-domain intelligent question-and-answer bot built on graph database and Python
-          - Equity penetration, a small project based on Python Faker to generate data to demonstrate the equity relationship penetration query
-        avatar: /2021/assets/people/gusiwei.png
-        slug: graph-database
-        keynote: true
+              My job is to improve the learning, development, and community engagement experience for developers by creating content and
+              building tools around the Nebula Graph Database. I consider it a privilege and a valuable opportunity to work openly in the
+              open source community and (having spent the first few years of my career realizing) love helping others with my ideas and learned skills.
+
+              More about my presentation: https://siwei.io/about/ \
+              Some of my past talks: https://siwei.io/talk/ \
+              Personal twitter: https://twitter.com/wey_gu
+
+              I worked at Ericsson for almost 10 years: 2011 to 2021. My role was System Manager for the Cloud Execution Envrioment (CEE)
+              development team, where I spent most of my time helping Ericsson IaaS products and solutions evolve by designing and developing
+              more than 20 CEE 6.6.2 and CEE 10 features and enhancements across compute, storage, networking, lifecycle management and security
+              products and solutions. I am also responsible for evangelizing CEE products in China (both externally and internally).
+
+              I am the host of the Open Source Face-to-Face Podcast (unfortunately, only the zero issue has been sent out yet)
+
+            title: Graph database puzzle solving and quick start application
+            desc: |
+              What is a graph database? Why Yet Another Database? What problems can it solve?
+
+              This talk will demystify graph databases and share, demo from zero to one, the speaker's own interesting open source
+              projects built in Python based on graph databases.
+              - Nebula Siwi, a full-stack single-domain intelligent question-and-answer bot built on graph database and Python
+              - Equity penetration, a small project based on Python Faker to generate data to demonstrate the equity relationship penetration query
+            avatar: /2021/assets/people/gusiwei.png
+            slug: graph-database
+            keynote: true
 
   - date: '10/17'
     events: []
