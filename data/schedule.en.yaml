@@ -140,30 +140,6 @@ schedule:
       - start:
         end:
         talks:
-          - speaker: 刘宇宙
-            company: fuzhi.ai
-            intro: |
-              I am a senior development engineer, currently working in fuzhi.ai, engaged in artificial intelligence-related research and development.
-              I have worked for Shanghai Haiding, Guangzhou Banggu and other tech companies.
-              I have been engaged in R&D of cloud computing IaaS, big data, IoT and artificial intelligence, and has deep research on Python.
-
-              At present, I have published "Python3.5 Learn from Scratch", "Python3.7 Learn from Scratch", "Python3.8 Learn from Scratch", "Python Practical Tutorial",
-              and "Python Practical Database Tutorial", "Python Practical Database Application and Data Acquisition", "Python Practical Data Analysis and Processing",
-              "Learn Python Well from Zero to Project Practice", "Python Advanced Programming: Writing More Efficient and Elegant Python Code" and other Python books.
-            title: Exploration of AI backend architecture
-            desc: |
-              In the current period of rapid development of artificial intelligence, more and more companies are gradually joining this track, and more
-              good AI products are emerging. However, as AI technology is maturing continuously, some problems are also exposed, such as how to better
-              realize the landing of AI products?
-
-              To achieve better implementation of AI products, having a good backend to interact with AI is very critical,
-              and having a mature and stable AI backend architecture is a tiger's wing for companies that use a lot of AI technology.
-            slug: ai-backend-architect
-            keynote: true
-
-      - start:
-        end:
-        talks:
           - speaker: Frost Ming
             company: Foris Co. Ltd.
             intro: |
