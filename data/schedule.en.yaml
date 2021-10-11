@@ -13,199 +13,820 @@
 #   slug: justo-sit-amet-sapien
 #   keynote: true
 schedule:
-  - date: '10/16'
-    events:
-      - start:
-        end:
-        talks:
-          - speaker: Ewa Jodlowska
-            company: PSF Executive Director
-            intro: |
-              Ewa Jodlowska is the Executive Director of the Python Software Foundation. Ewa has been with the PSF since 2012
-              and prior to that she assisted with PyCon US as a contractor. Ewa's responsibilities include managing the staff,
-              giving direction and leadership to the Foundation, working with the board of directors on long-range strategic
-              planning, community outreach, and overseeing financial and program operations to name a few. Ewa is embarking
-              on a new career path at the end of 2021 and will miss working with great Pythonistas all around the world!
+- date: 10/16
+  events:
+  - end: '10:15'
+    meetings:
+    - avatar: /2021/assets/people/Ewa.jpg
+      company: Executive Director of the Python Software Foundation
+      desc: ''
+      intro: 'Ewa Jodlowska is the Executive Director of the Python Software Foundation.
+        Ewa has been with the PSF since 2012 and prior to that she assisted with PyCon
+        US as a contractor. Ewa''s responsibilities include managing the staff, giving
+        direction and leadership to the Foundation, working with the board of directors
+        on long-range strategic planning, community outreach, and overseeing financial
+        and program operations to name a few. Ewa is embarking on a new career path
+        at the end of 2021 and will miss working with great Pythonistas all around
+        the world!
 
-              Connect with Ewa via her Twitter account!
-            title: The Python Software Foundation's role in Python's ecosystem
-            desc:
-            keynote: true
-            avatar: /2021/assets/people/ewa.jpg
-            slug: psf-in-python-ecosystem
+        Connect with Ewa via her Twitter account!'
+      keynote: true
+      slug: psf-in-python-ecosystem
+      speaker: Ewa Jodlowska
+      title: The Python Software Foundation's role in Python's ecosystem
+      venue: 主会场
+    start: 09:30
+  - end: '11:00'
+    meetings:
+    - avatar: /2021/assets/people/XiaoHan.jpg
+      company: The Founder & Chairman of Jina AI
+      desc: ''
+      intro: Dr. Han Xiao [http://linkedin.com/in/hxiao87] who is well known for the
+        development of the next-gen search infrastructure at Tencent, and for his
+        leadership with Tencent’s Open Source Program Office where he fostered the
+        company’s open source and dev-ops culture. Xiao served as a board member at
+        Linux Foundation AI in 2019. He is also the Founder & Chairman of the German-Chinese
+        Association of AI.
+      keynote: true
+      slug: ai-first
+      speaker: Han Xiao
+      title: 'The First Step to AI-First: Forget About AI'
+      venue: 主会场
+    start: '10:15'
+  - end: '11:45'
+    meetings:
+    - avatar: null
+      company: ''
+      desc: ''
+      intro: ''
+      keynote: true
+      slug: high-performance-parallel
+      speaker: ''
+      title: 在 “Python” 中实现高性能并行计算
+      venue: 主会场
+    start: '11:00'
+  - end: '12:00'
+    meetings:
+    - avatar: /2021/assets/people/LiZheao.png
+      company: Senior Engineer of Taichi Graphics, Microsoft MVP
+      desc: ''
+      intro: Senior Engineer of Taichi Graphics, Microsoft MVP
+      keynote: false
+      slug: ''
+      speaker: Manjusaka
+      title: 分会场介绍 & 抽奖
+      venue: ''
+    start: '11:45'
+  - end: '13:00'
+    meetings:
+    - avatar: null
+      company: ''
+      desc: ''
+      intro: ''
+      keynote: false
+      slug: ''
+      speaker: ''
+      title: 午间休息
+      venue: ''
+    start: '12:00'
+  - end: '13:45'
+    meetings:
+    - avatar: /2021/assets/people/Aber.jpg
+      company: 鸣蛇的创造者，Index.py、baize 等非知名 Web 框架、工具箱的制作者
+      desc: This talk focuses on how to use the PEG parser Guido wrote for Python
+        3.9 to create a Python superset, adding the syntax you want to bring Python
+        to life. It includes convenient syntax for pipes, partial functions, null
+        merging, optional chaining, and more, and you can import Naruto's code directly
+        as a Python module without having to compile it in advance.
+      intro: ''
+      keynote: true
+      slug: python-with-sugar
+      speaker: Aber
+      title: 为 Python 加糖 —— 鸣蛇
+      venue: 分会场A
+    start: '13:00'
+  - end: '14:30'
+    meetings:
+    - avatar: /2021/assets/people/FrostMing.jpg
+      company: PyPA member, creator of PDM, maintainer of Pipenv
+      desc: Python packaging is a thing that every Pythonista may need to know and
+        use. The talk tries to bring the best practice of modern Python packaging
+        to the audience by introducing the history of Python packaging and demonstrating
+        what is happening behind pip install.
+      intro: PyPA member, creator of PDM, maintainer of Pipenv. I am devoted to improving
+        the Python packaging ecosystem and am an experienced Web developer.
+      keynote: true
+      slug: python-packaging-101
+      speaker: Frost Ming
+      title: Python 打包 101
+      venue: 分会场A
+    start: '13:45'
+  - end: '15:15'
+    meetings:
+    - avatar: /2021/assets/people/TanXiao.jpg
+      company: Advanced Development in AsiaInfo
+      desc: Python 3.10's new syntax feature Structual Pattern Matching is just an
+        enhanced version of switch case; I'll share what patterns are in pattern matching;
+        pattern matching implementations for each language; what syntax Python's pattern
+        matching supports, the advantages and disadvantages of using pattern matching;
+        and do-it-yourself pattern matching. I will explain what pattern matching
+        is, what syntax Python supports, the advantages and disadvantages of using
+        pattern matching, and how to implement pattern matching yourself.
+      intro: 亚信科技高级开发，前蚂蚁金服开发工程师，多年 Web 前后端经验，目前从事低代码、3D 可视化领域的开发。
+      keynote: true
+      slug: pattern-matching
+      speaker: Xiao Tan
+      title: 如何用好 Python 的模式匹配语法
+      venue: 分会场A
+    start: '14:30'
+  - end: '16:15'
+    meetings:
+    - avatar: /2021/assets/people/LiZheao.png
+      company: Senior Engineer of Taichi Graphics, Microsoft MVP
+      desc: 'With the further development of cloud computing, the online problems
+        we face are becoming more and more complex. We may need to go deeper into
+        the kernel to get all kinds of information including and not only network
+        packets and process information when troubleshooting online problems. This
+        has led to an increasing need for Linux kernel debugging tools
 
-      - start:
-        end:
-        talks:
-          - speaker: Evgeny Demchenko
-            company: Stealth Startup
-            intro: |
-              Experienced CTO, team lead, CSM, architect, Agile practitioner, front-end and back-end software developer
-              with enormous experience in a large range of modern web technologies. Also experienced in desktop and mobile
-              application development and Web APIs. Particularly passionate about Python, Django, Extreme Programming,
-              DevOps culture, and Agile/Lean software development.
-              The organizer of the Beijing Python Meetup.
-            title: Behavior-driven Development in Python
-            desc: |
-              Behavior-driven Development (or Acceptance Test-driven Development) is a powerful Agile engineering practice
-              that compliments other Agile and XP practices such as TDD, Continuous Delivery, etc.
 
-              BDD Scenarios are high-level feature tests acting as "Specification by Example" written in a Gherkin DSL
-              which is accessible to non-technical team members (like Product Managers, QA, etc).
+        Since Linux 4.x, Linux has provided good tools in the kernel, including eBPF,
+        to enable us to get into the kernel and get the information we need.
 
-              In this talk, we'll explore:
-              - what BDD is
-              - what are its technical and team benefits
-              - what are the best Python tools for BDD (behave, pytest-bdd, cucumber)
-              - how to use those tools and how to write BDD scenarios
 
-              This will be a powerful new tool in your arsenal that you can bring back to your project and your team!
-            avatar: /2021/assets/people/EvgenyDemchenko.jpg
-            slug: bdd-python
-            keynote: true
+        This talk will take you through some practical examples to get a little taste
+        of what Python + BCC can do for our online debugging.'
+      intro: Senior Engineer of Taichi Graphics, Microsoft MVP
+      keynote: true
+      slug: python-bcc
+      speaker: Manjusaka
+      title: Python 与 BCC 的结合：内核可观测性的新手段
+      venue: 分会场A
+    start: '15:30'
+  - end: '17:00'
+    meetings:
+    - avatar: /2021/assets/people/SongCongwei.jpg
+      company: Assistant Researcher, Beijing Yanqi Lake Institute of Applied Mathematics
+      desc: After Learning many computer languages, many people may have the idea
+        of designing their own computer language. The key task is to design the language's
+        grammar parser. Most current languages are parsed based on context-independent
+        grammars. The expression parsing grammar PEG, a potential substitute for context-independent
+        grammars, can also be implemented as a parser for computer languages and has
+        many advantages that formal grammars do not have, such as ease of implementation,
+        fast parsing, and no ambiguity. In addition, experts are experimenting with
+        implementing Python parsers with PEGs. pyparsing is an easy-to-use PEG package
+        for Python. The main goal of the presentation is to demonstrate how to design
+        parsers with pyparsing. It will cover PEG principles and parser implementation
+        techniques, the pyparsing design style, a demonstration of a computer language
+        of your own design, and a series of interesting examples.
+      intro: 北京雁栖湖应用数学研究院助理研究员，从事机器学习的研究
+      keynote: false
+      slug: make-new-language
+      speaker: Congwei Song
+      title: 用 PyParsing/PEG 设计自己的计算语言
+      venue: 分会场A
+    - avatar: /2021/assets/people/anonymous.jpg
+      company: ''
+      desc: "I will present an “AI pair programmer” research prototype from Nokia\
+        \ Bell Labs that aims to assist Python developers to work with open\n  source\
+        \ libraries for data science. Our AI assistant for Jupyter notebooks\n  auto-completes\
+        \ Python code based on natural language intent, a practice we\n  call “natural\
+        \ language-guided programming”. That is, by writing a short\n  inline comment\
+        \ in their code (e.g., “plot this data in a bar chart”),\n  developers can\
+        \ query the AI for a contextualized code snippet that implements\n  their\
+        \ intent.\n \nI will explain on a high-level how we trained the machine learning\
+        \ model that sits at the core of the AI pair programmer. This will give guidance\
+        \ on\n  how to optimally use this next-generation autocompletion tool and\
+        \ will help\n  in understanding its current limitations and pitfalls. The\
+        \ machine learning\n  model that we trained is published on the Hugging Face\
+        \ model hub and is small\n  enough to be deployed without an exuberant amount\
+        \ of computational resources."
+      intro: "I am researcher at Nokia Bell Labs with an interest in creating smart\
+        \ tools to help developers code more efficiently. I hold a PhD\n  in Computer\
+        \ Science from KU Leuven."
+      keynote: false
+      slug: nlgp
+      speaker: Geert Heyman
+      title: AI 结对编程
+      venue: 分会场A
+    - avatar: /2021/assets/people/Yingshaoxo.jpg
+      company: Fargo Wealth Group
+      desc: 'Python Runner for Apache APISIX allows Python developers to quickly get
+        started with Apache APISIX plug-in development and easily develop Apache APISIX-based
+        gateway plug-ins (e.g., speed limit, flow limit, fuse, downgrade, etc.) without
+        having to pay attention to the specifics of the Nginx C and Lua layers of
+        implementation.
 
-      - start:
-        end:
-        talks:
-          - speaker: Feng Li
-            company: Indie Developer
-            intro: |
-              Had been worked in Motorola, Samsung, etc, now I am an indie developer.
-              Accumulated more than ten years experience in mobile development on various platforms,
-              and focused on Cloud & Edge Infrastructure during the past few years.
+        Apache APISIX and Python Rnuner communicate via Unix Domain Socket local sockets.
+        When Apache APISIX receives a request, it makes an RPC call to complete the
+        logic in the Python plug-in and responds to Apache APISIX to continue the
+        request process.'
+      intro: 'I''m a self-taught coder.
 
-              The main translator of the book «Gray Hat Hacking The Ethical Hacker's Handbook, Fourth Edition» (ISBN：9787302428671)
-              and «Linux Hardening in Hostile Networks, First Edition»（ISBN: 9787115544384）.
 
-              With strong interest and practical ability in technology innovation, I am enthusiastic in take part in various
-              activities of the Open Source Community, and please refer to the following URL for my previous speaking experience:
-              <https://github.com/XianBeiTuoBaFeng2015/MySlides>
-            title: A survey of current Python implementations
-            desc: |
-              Python has been ranked among the top 3 programming languages in the world for the past decade steadily,
-              and is the most preferred language in the fields of Artificial Intelligence、Data Processing、Scientific
-              Computing and DevOps etc. However, the performance of Python is still not satisfied due to many reasons.
+        I know most of the top programming languages.
 
-              Fortunately, many emerging Python runtimes are coming in recent years and bringing new ideas to overcome the
-              bottlenecks of Python runtime performance. This topic summarizes and compares various Python implementations
-              that available today, and comes with the following sub-topics:
 
-              1. C-based Python implementation
-                a. make CPython faster;
-                b. newly-arrived project Cinder;
-              2. Java-based Python implementation, e.g. GraalPython and Jython;
-              3. LLVM-based Python implementation, e.g. Pyston;
-              4. DotNet-based Python implementation, e.g. IronPython and Pyjion;
-              5. WASM-based Python implementation, e.g. Pyodide;
-              6. Rust-based Python implementation, e.g. RustPython;
-              7. Comparison of the above Python implementations and their benchmarkings.
+        And I love sharing.'
+      keynote: false
+      slug: python-clould-from-golang
+      speaker: yingshaoxo
+      title: Python 助你快速上手 Apache APISIX 开发
+      venue: 分会场A
+    start: '16:15'
+  - end: '13:45'
+    meetings:
+    - avatar: /2021/assets/people/ZhangJintao.jpg
+      company: 技术专家，Kubernetes ingress-nginx reviewer, Apache APISIX committer
+      desc: 'Cloud-native has become one of the hottest technology trends. Along with
+        the popularity of CI/CD and GitOps, the common problem for developers is how
+        to ensure efficient delivery of Python projects and improve the overall stability
+        of their applications.
 
-              Major reference links for tech stack:
-              1. https://en.wikipedia.org/wiki/Python_(programming_language)
-              1. https://wiki.python.org/moin/PythonImplementations
-              1. https://github.com/python/cpython
-              1. https://github.com/facebookincubator/cinder
-              1. https://github.com/oracle/graalpython
-              1. https://github.com/jython/jython3
-              1. https://github.com/pyston/pyston
-              1. https://github.com/IronLanguages/ironpython3
-              1. https://github.com/tonybaloney/Pyjion
-              1. https://github.com/pyodide/pyodide
-              1. https://github.com/RustPython/RustPython
-            avatar: /2021/assets/people/lifeng.jpg
-            slug: python-impl
-            keynote: true
 
-      - start:
-        end:
-        talks:
-          - speaker: Binxin Wang
-            company: Alibaba Cloud
-            intro: |
-              A technical expert, Microsoft MVP, translator of the Chinese version of _Hitchhiker's Guide to Python_,
-              I love to participate in open source projects and technology sharing, and am currently engaged in R&D in cloud computing.
-            title: How to develop and maintain large Python server-side applications
-            desc: |
-              Many people think that Python is not suitable for developing large server-side applications because it is slow, error-prone,
-              and difficult to maintain. Is this really the case? Or how do we deal with these issues?
+        This session will introduce how to build a cloud-native GitOps toolchain for
+        Python projects to ensure the stability of the application and deliver the
+        project more efficiently.'
+      intro: 技术专家，Kubernetes ingress-nginx reviewer, Apache APISIX committer, 公众号：MoeLove
+      keynote: true
+      slug: python-cloud-git-ops
+      speaker: Jintao Zhang
+      title: 打造 Python 项目的云原生 GitOps 工具链
+      venue: 分会场B
+    start: '13:00'
+  - end: '14:30'
+    meetings:
+    - avatar: /2021/assets/people/WangBo.jpg
+      company: AI Engineer in Jina AI
+      desc: "Every Python developer knows `ndarray` is the basic data structure of\
+        \ Numpy, `DataFrame` is the basic data structure of Pandas. Jina, as an open-source\n\
+        \  project aimed at AI-powered search, we expect users can get familiar with\n\
+        \  Jina in no time, and become Jina user, even contributors. For this reason,\
+        \ we\n  would like to design an elegant data structure that can help us achieve\
+        \ such\n  a goal. With the release of Jina 2.0, we've received over 10,000\
+        \ stars on\n  Github, and this can not be achieved without Jina Primitive\
+        \ Data Types. In\n  this speech, I would like to discuss the following topics:\n\
+        \n1. The motivation for designing Jina Primitive Data Types.\n2. Our design\
+        \ principles.\n3. The evolution of Jina Primitive Data Types.\n4. The future\
+        \ directions.\n\nI wish this 30-minute talk could inspire our attendance to\
+        \ design their own data structure with Python."
+      intro: "Bo received BSc from Lanzhou University, China and MSc from TU Delft,\
+        \ the Netherlands. Major in multimedia information retrieval. He used to work\
+        \ for\n  IBM (Amsterdam), Sensara (Rotterdam) as AI Engineer. In 2020, He\
+        \ joined Jina\n  AI (Berlin) as AI Engineer. He has published 3 long/short\
+        \ papers in ACM\n  Multimedia and related workshops. And represented Jina\
+        \ AI spoke at ECIR\n  (European Conference of Information Retrieval) on Python\
+        \ and Neural search.\n  His major interest is AI-powered information retrieval\
+        \ (or neural information\n  retrieval) and open source. He is the main contributor\
+        \ of Jina, and one of\n  the Lead developers of MatchZoo."
+      keynote: true
+      slug: primitive-data-types
+      speaker: Bo Wang
+      title: 'Robust & Ease to use: The Design and Evolution of Python-based Primitive
+        Data Types'
+      venue: 分会场B
+    start: '13:45'
+  - end: '15:15'
+    meetings:
+    - avatar: /2021/assets/people/WangHailiang.jpg
+      company: Co-founder & CEO of Chatopera
+      desc: "For data scientists and developers, natural language processing is a\
+        \ major aspect of implementing AI applications, how do I need to get started\
+        \ as a Python developer and what are the best tools available? As a contributor\
+        \ or publisher of several Python\n  contributors or publishers of several\
+        \ packages related to natural language processing, this share will shed light\
+        \ on synonym processing, Chinese corpus datasets, dependency analysis, word\
+        \ vectors, cluster analysis, and chatbots."
+      intro: "王海良，Chatopera 联合创始人 & CEO。2011 年毕业于北京邮电大学，后加入 IBM 工作四年，先后工作于软件开发实验室和创新中心。从\
+        \ 2016 年开始工作于创业公司，三角兽 AI 算法工程师，呤呤英语 AI\n  产品负责人，负责智能对话系统研发。具有丰富的项目落地经验，熟悉机器学习，搜索引擎，自然语言处理，业务流程引擎。2018\n\
+        \  年出版行业首本问答对话机器学习书籍《智能问答与深度学习》，并在 GitHub 上发布了大量的开源项目，并在开发者社区得到了广泛的认可。"
+      keynote: true
+      slug: nlp
+      speaker: Hai Liang WANG
+      title: 使用 Python 完成若干自然语言处理任务
+      venue: 分会场B
+    start: '14:30'
+  - end: '16:15'
+    meetings:
+    - avatar: /2021/assets/people/LomisChen.jpg
+      company: Program Manager at Microsoft
+      desc: The usage of python in data science and machine learning has been explosive
+        over the last few years and there's been more developer needs and support
+        in the community than ever. In this talk, I will walk you through how you
+        could seamlessly perform tasks ranging from exploratory analysis to machine
+        learning across various Microsoft tooling including GitHub, Visual Studio
+        Code, as well as Azure Machine Learning.
+      intro: Lomis Chen is currently a Program Manager at Microsoft with a focus on
+        data science & AI tooling for python developers on Azure. She has a deep interest
+        in UX and data science and has previously worked on Azure CLI with a focus
+        on UX and CSAT improvement. Prior to joining DevDiv she'd worked under Windows
+        on CodeHub the inner source platform, a static code analysis service, as well
+        as OSS security.
+      keynote: true
+      slug: data-science
+      speaker: Lomis Chen
+      title: 如何用 Github、VSCode 和 Azure 优化数据科学工作效率
+      venue: 分会场B
+    start: '15:30'
+  - end: '17:00'
+    meetings:
+    - avatar: /2021/assets/people/WangNan.jpg
+      company: Co-founder and CTO of Jina AI
+      desc: This talk focuses on how we help the Jina Hub developer community balance
+        development efficiency and maintainability through the use of the Python native
+        Abstract Syntax Tree (ast) module in Jina Hub, which is designed to provide
+        developers with the various Executors needed to build neural search systems
+        using Jina. Not only can developers find the Executor they need at Jina Hub,
+        but they can also publish custom Executors and share them with the entire
+        community. By using the ast module to parse developers' code, we automate
+        and standardize the generation and management of Dockerfiles and installation
+        dependencies, allowing developers to focus more on the core functionality
+        of the Executor. In addition, we use the ast module to help developers automatically
+        generate Executor details to further facilitate sharing with the community.
+        ast allows us to lower the development threshold and attract more developers
+        to join the Jina Hub community by improving the maintainability of the code
+        while ensuring the efficiency of community development.
+      intro: "Dr. Nan Wang is the Co-Founder and CTO of Jina AI. Working on deep learning\
+        \ algorithms since back in 2009, Nan believes the future of AI is open source.\n\
+        \  After working for more than 6 years at Zalando (2015-17) and Tencent\n\
+        \  (2017-20), Nan has experience in developing and launching various AI\n\
+        \  algorithms in production."
+      keynote: false
+      slug: ast
+      speaker: Nan Wang
+      title: ast 模块如何帮助 Jina Hub 开发者高效开发
+      venue: 分会场B
+    - avatar: /2021/assets/people/GuMengjia.jpg
+      company: Zilliz 数据工程师，麦吉尔大学信息学硕士
+      desc: 'DNA sequences have a wide range of applications in molecular biology
+        and medical research, such as gene tracing, species identification, and disease
+        diagnosis. If a large number of samples are taken in combination with the
+        emerging genetic big data, the experimental results are usually more convincing
+        and can be put into real-world applications more effectively. However, traditional
+        nucleic acid sequence matching methods have many limitations and are not applicable
+        to large scale data, which makes real world applications have to make a trade-off
+        between cost and accuracy. To alleviate the constraints of nucleic acid sequence
+        data characteristics, vectorization is a better choice for large amounts of
+        DNA sequences. The implementation of DNA sequence vectorization can improve
+        efficiency while helping to reduce the cost of research projects or system
+        builds.
 
-              This talk will share why Python was chosen as the primary language for development of a large cloud service, how it was used
-              for architecture design, development, testing, monitoring, team collaboration, and how to ensure fast and smooth implementation
-              of business functions and maintainable code in architecture design, development, testing, monitoring, team collaboration,
-              application release, and more.
-            avatar: /2021/assets/people/wangbinxin.png
-            slug: python-big-scale
-            keynote: true
 
-      - start:
-        end:
-        talks:
-          - speaker: Frost Ming
-            company: Foris Co. Ltd.
-            intro: |
-              PyPA member, creator of PDM, maintainer of Pipenv. I am devoted to improving
-              the Python packaging ecosystem and am an experienced Web developer.
-            title: Python Packaging 101
-            desc: |
-              Python packaging is a thing that every Pythonista may need to know and use.
-              The talk tries to bring the best practice of modern Python packaging to the audienc
-              by introducing the history of Python packaging and demonstrating what is happening behind `pip install`.
-            avatar: /2021/assets/people/FrostMing.jpg
-            slug: python-packaging-101
-            keynote: true
+        Based on this idea, we tried to build a gene sequence classification system
+        by combining NLP models and Milvus, an open source vector database. Tested
+        with experimental data based on Milvus'' python SDK, we found that the system
+        not only identifies gene classes in milliseconds, but is also more accurate
+        than common classifiers in the field of machine learning.'
+      intro: Zilliz 数据工程师，麦吉尔大学信息学硕士。在 Zilliz 的主要工作是参与开源项目 Milvus 的社区运营与维护，为用户提供升级推荐系统、搭建基因序列分类模型等不同场景下的解决方案。野草般顽强，解决问题时百折不挠、遇强愈强。
+      keynote: false
+      slug: dna
+      speaker: Mengjia Gu
+      title: 用 AI 识别基因，从向量化 DNA 序列开始
+      venue: 分会场B
+    - avatar: /2021/assets/people/WuShuai.jpg
+      company: Qihoo360, network security expert
+      desc: "In security testing, binary vulnerability mining is often combined with\
+        \ Python, which can better combine ELF programs under Linux with Python; this\
+        \ lecture\n  mainly introduces the use of Python's \"pwntools\" framework\
+        \ in\n  CTF-pwn to write examples of vulnerability exploitation examples and\
+        \ crack\n  programs Get the host's permission; in the form of vulnerabilities,\
+        \ show how\n  to use Python to deal with the \"charm\" of binary security\
+        \ branches\n  in the security field."
+      intro: "qihoo360, network security expert, has 5 years of information security\
+        \ experience, familiar with various mainstream information security\n  technologies\
+        \ and risk assessment, and is good at security assessment,\n  penetration\
+        \ testing, and business system vulnerability discovery. Have unique\n  insights\
+        \ into binary vulnerability mining."
+      keynote: false
+      slug: binary-leak
+      speaker: Ralph Wu
+      title: Python 安全测试之二进制漏洞挖掘
+      venue: 分会场B
+    start: '16:15'
+  - end: '15:30'
+    meetings:
+    - avatar: null
+      company: ''
+      desc: ''
+      intro: ''
+      keynote: false
+      slug: ''
+      speaker: ''
+      title: 中场休息 / 抽奖
+      venue: ''
+    start: '15:15'
+  - end: '17:15'
+    meetings:
+    - avatar: null
+      company: ''
+      desc: ''
+      intro: ''
+      keynote: false
+      slug: ''
+      speaker: ''
+      title: 抽奖
+      venue: ''
+    start: '17:00'
+- date: 10/17
+  events:
+  - end: '10:15'
+    meetings:
+    - avatar: /2021/assets/people/LiFeng.jpg
+      company: Independent developer
+      desc: "Python has been ranked among the top 3 programming languages in the world\
+        \ for the past decade steadily , and is the most preferred language in the\
+        \ fields of Artificial Intelligence、Data Processing、Scientific Computing and\
+        \ DevOps etc. However, the performance of Python is still not satisfied due\
+        \ to many reasons. Fortunately, many emerging Python runtimes are coming in\
+        \ recent years and bringing new ideas to overcome the bottlenecks of Python\
+        \ runtime performance. This topic summarizes and compares various Python implementations\
+        \ that available today, and comes with the following sub-topics:      \n \
+        \       1) C-based Python implementation\n             1.1) make CPython faster;\n\
+        \             1.2) newly-arrived project Cinder;\n        2) Java-based Python\
+        \ implementation, e.g. GraalPython and Jython; \n        3) LLVM-based Python\
+        \ implementation, e.g. Pyston;\n        4) DotNet-based Python implementation,\
+        \ e.g. IronPython and Pyjion;\n        5) WASM-based Python implementation,\
+        \ e.g. Pyodide;  \n        6) Rust-based Python implementation, e.g. RustPython;\n\
+        \        7) Comparison of the above Python implementations and their benchmarkings.\
+        \    \n\n注：主要技术栈参考链接 (Major reference links for tech stack)  \n        https://en.wikipedia.org/wiki/Python_(programming_language)\n\
+        \        https://wiki.python.org/moin/PythonImplementations\n        https://github.com/python/cpython\n\
+        \        https://github.com/facebookincubator/cinder\n        https://github.com/oracle/graalpython\n\
+        \        https://github.com/jython/jython3\n        https://github.com/pyston/pyston\n\
+        \        https://github.com/IronLanguages/ironpython3\n        https://github.com/tonybaloney/Pyjion\n\
+        \        https://github.com/pyodide/pyodide\n        https://github.com/RustPython/RustPython"
+      intro: "Had been worked in Motorola, Samsung, etc, now I am an indie developer.\
+        \ \nAccumulated more than ten years experience in mobile development on various\
+        \ platforms，and focused on Cloud & Edge Infrastructure during the past few\
+        \ years.\nThe main translator of the book «Gray Hat Hacking The Ethical Hacker's\
+        \ Handbook, Fourth Edition» (ISBN：9787302428671) and «Linux Hardening in Hostile\
+        \ Networks, First Edition»（ISBN: 9787115544384）.\nWith strong interest and\
+        \ practical ability in technology innovation, I am enthusiastic in take part\
+        \ in various activities of the Open Source Community, and please refer to\
+        \ the following URL for my previous speaking experience:\n      https://github.com/XianBeiTuoBaFeng2015/MySlides"
+      keynote: true
+      slug: python-impl
+      speaker: Feng Li
+      title: Python 当前实现综述
+      venue: 主会场
+    start: 09:30
+  - end: '11:00'
+    meetings:
+    - avatar: /2021/assets/people/LaiqiangDing.jpg
+      company: Head of Alibaba Cloud SLS Shanghai team
+      desc: 'As business innovation accelerates in the era of digital intelligence
+        and automation, increasingly complex architectures and huge data volumes have
+        placed higher demands on centralized big data platforms. On the other hand,
+        how to quickly build applications, processes, and business solutions continue
+        to accumulate, which has led to the explosion of Low-Code products in various
+        fields in the past two years, and their related technologies are also applicable
+        under the observability platform.
 
-      - start:
-        end:
-        talks:
-          - speaker: Aber
-            company: ANTIY Lab
-            intro: |
-              The creator of some non-famous Web frameworks and toolboxes such as MingShe, Index.py, Baize
-            title: Sugarizing Python——MingShe
-            desc: |
-              This talk focuses on how to use Guido's PEG parser for Python 3.9 to create a Python superset,
-              adding as much syntax as you want to bring Python to life.
-              Next, I'll demonstrate a superset language I wrote using this technique, MingShe,
-              which includes convenient syntax for pipes, partial functions, null merging, optional chaining, and more.
-              And you can import MingShe's code directly as a Python module, without having to compile it in advance.
-            avatar: /2021/assets/people/Aber.jpg
-            slug: python-with-sugar
-            keynote: true
+        This session introduces how to use low-code technologies (Python as an example)
+        in building observability platforms to innovate the experience of using products
+        and improve the flexibility of scenarios and engineering efficiency of solutions.
+        The presentation will cover the key aspects of flexible data collection and
+        processing, intelligent analysis, monitoring and alerting, and response automation,
+        involving cloud-native, stream batch computing, OLAP, DSL, orchestration and
+        templating technologies.
 
-      - start:
-        end:
-        talks:
-          - speaker: Siwei Gu
-            company: VeSoft.Inc
-            intro: |
-              A Shanghai-based software engineer working at vesoft as a developer advocate for Nebula Graph (an open source distributed graph database).
+        Presentation outline. 1:
 
-              My job is to improve the learning, development, and community engagement experience for developers by creating content and
-              building tools around the Nebula Graph Database. I consider it a privilege and a valuable opportunity to work openly in the
-              open source community and (having spent the first few years of my career realizing) love helping others with my ideas and learned skills.
+        1. background overview of observability and low-code technologies
 
-              More about my presentation: https://siwei.io/about/ \
-              Some of my past talks: https://siwei.io/talk/ \
-              Personal twitter: https://twitter.com/wey_gu
+        2. technical challenges, architecture design and technical difficulties in
+        each aspect of the observability platform 3. best practices and use of Python
+        technologies
 
-              I worked at Ericsson for almost 10 years: 2011 to 2021. My role was System Manager for the Cloud Execution Envrioment (CEE)
-              development team, where I spent most of my time helping Ericsson IaaS products and solutions evolve by designing and developing
-              more than 20 CEE 6.6.2 and CEE 10 features and enhancements across compute, storage, networking, lifecycle management and security
-              products and solutions. I am also responsible for evangelizing CEE products in China (both externally and internally).
+        4. future expectations'
+      intro: 阿里云 SLS 上海负责人，从业超过 10 + 年，曾任 Splunk 中国实验室高级技术架构师、擅⻓ AIOps/SecOps 的大数据
+        分析平台构建与场景落地。乐于分享，历届 PyCon / 云栖 / CSDN 大会或直播讲师，分享超过 20 多个不同议题演讲或 直播，近百篇技术产品文章，覆盖开源
+        AIOps 中台搭建、可观测告警运维平台实践、大数据分析可视化、工作流调 度、函数式、设计模式等方面，广受好评。
+      keynote: true
+      slug: low-code
+      speaker: Laiqiang Ding
+      title: 可观测性平台下的低代码技术实践
+      venue: 主会场
+    start: '10:15'
+  - end: '11:45'
+    meetings:
+    - avatar: null
+      company: ''
+      desc: ''
+      intro: ''
+      keynote: true
+      slug: ''
+      speaker: ''
+      title: 神秘大咖
+      venue: 主会场
+    start: '11:00'
+  - end: '12:00'
+    meetings:
+    - avatar: null
+      company: ''
+      desc: ''
+      intro: ''
+      keynote: false
+      slug: ''
+      speaker: ''
+      title: 分会场介绍
+      venue: ''
+    start: '11:45'
+  - end: '13:00'
+    meetings:
+    - avatar: null
+      company: ''
+      desc: ''
+      intro: ''
+      keynote: false
+      slug: ''
+      speaker: ''
+      title: 午间休息
+      venue: ''
+    start: '12:00'
+  - end: '13:45'
+    meetings:
+    - avatar: /2021/assets/people/GuSiwei.jpg
+      company: Vesoft Inc.
+      desc: 'What is a graph database? Why Yet Another Database? What problems can
+        it solve?
 
-              I am the host of the Open Source Face-to-Face Podcast (unfortunately, only the zero issue has been sent out yet)
+        This talk will demystify graph databases and share, demo from zero to one,
+        the speaker''s own interesting open source projects built in Python based
+        on graph databases.
 
-            title: Graph database puzzle solving and quick start application
-            desc: |
-              What is a graph database? Why Yet Another Database? What problems can it solve?
+        - Nebula Siwi, a full-stack single-domain intelligent question-and-answer
+        bot built on graph database and Python
 
-              This talk will demystify graph databases and share, demo from zero to one, the speaker's own interesting open source
-              projects built in Python based on graph databases.
-              - Nebula Siwi, a full-stack single-domain intelligent question-and-answer bot built on graph database and Python
-              - Equity penetration, a small project based on Python Faker to generate data to demonstrate the equity relationship penetration query
-            avatar: /2021/assets/people/GuSiwei.jpg
-            slug: graph-database
-            keynote: true
+        - Equity penetration, a small project based on Python Faker to generate data
+        to demonstrate the equity relationship penetration query'
+      intro: '我是一个在上海的软件工程师，我在 vesoft 担任 Nebula Graph（开源的分布式图数据库）的社区开发者布道师。
 
-  - date: '10/17'
-    events: []
+
+        我的工作是通过围绕 Nebula Graph Database 创作内容，构建工具来改善开发者的学习、开发、社区参与体验。
+
+
+        我在开源社区开放的工作，并（花了职业生涯中的前些年意识到）热爱用自己的思想和学到的技术帮助到别人，我认为这是一种的荣幸和宝贵的机遇。
+
+
+        我的介绍更多内容： https://siwei.io/about/
+
+        我的部分往期 talk： https://siwei.io/talk/
+
+        个人 twitter：           https://twitter.com/wey_gu
+
+
+        # 过往经历
+
+        我曾在爱立信工作了近十年：2011 年到 2021 年。 角色是云计算产品 Cloud Execution Envrioment (CEE)  研发团队的系统经理
+        ，我大部分的工作是通过设计开发 20 多个 CEE 6.6.2 和 CEE 10 的功能与改进，涵盖计算、存储、网络、生命周期管理和安全等领域，来帮助爱立信
+        IaaS 产品与解决方案不断进化。 同时，我也负责 CEE 产品在中国区的布道（面向外部与内部）。
+
+
+        开源面对面 Podcast 的 Host（可惜还只发出了第零期）'
+      keynote: true
+      slug: graph-database
+      speaker: Siwei Gu
+      title: 图数据库解谜与上手应用
+      venue: 分会场A
+    start: '13:00'
+  - end: '14:30'
+    meetings:
+    - avatar: /2021/assets/people/anonymous.jpg
+      company: ''
+      desc: Deep learning has been adopted in more and more industries in the recent
+        10 years. It changes the human society much more than the past years. So what
+        kind of problems could it be leveraged at? How to open the door of deep learning,
+        where should I start as a beginner? In the sharing, I will introduce the process
+        of deep learning, some important fundamental math background. and will talk
+        about how neural network works in deep learning. And will demo how to build
+        a neural network, and how to design different level algorithm for the network.
+        Last but not least, how to set up a production service for a neural network.
+      intro: A years Pythonist. I have been working many year in the field of search
+        engine and algorithm. I was in behave of Dianping Search Engine and Algorithm
+        Team. I built the team from ground up, I designed and implemented a scalable
+        search engine and ranking algorithm platform at Dianping.  I am working on
+        the industrial application of deep learning currently, and scalable deep learning
+        platform design and optimizing.
+      keynote: true
+      slug: image-dl
+      speaker: Shaogang Lv
+      title: 用 Python 搭建图像识别神经网络
+      venue: 分会场A
+    start: '13:45'
+  - end: '15:15'
+    meetings:
+    - avatar: /2021/assets/people/ZhuXingliang.jpg
+      company: Neo4j certified expert, Microsoft MCT, former Microsoft MVP
+      desc: A movie has multiple roles such as actor, director, producer, and writer.
+        Sometimes the actor and producer are the same person, and the movie also has
+        a lot of properties. How to design and develop from the database to the front-end
+        application? This session will get you started with Graph Database modeling,
+        and then build API and front-end application, perhaps a full-stack application
+        development method you haven't seen before.
+      intro: Shiny Zhu who is a Neo4j Certified Professional, Microsoft MCT and ex-Microsoft
+        MVP. He has 15+ years of experience in software development, and recognized
+        himself as an almost full stack developer. He has been active in several developer
+        communities for 10+ years. Now he is working in both development and community
+        as a developer advocate of Neo4j in APAC. He is learning Graph Data Science
+        and application development that opened a new data app development perspective.
+      keynote: true
+      slug: movie-app
+      speaker: Xingliang Zhu
+      title: 使用 Python 和图模型构建一个电影应用
+      venue: 分会场A
+    start: '14:30'
+  - end: '16:15'
+    meetings:
+    - avatar: /2021/assets/people/MengFanchao.jpg
+      company: ''
+      desc: In this talk, we will introduce how to use dash and echarts to quickly
+        build a large visualization screen. With the dash framework, data engineers
+        can easily build dynamic reports, while echarts' rich legends make data representation
+        more vivid and intuitive. This session will quickly introduce the basic methods
+        of using dash and echarts together, and provide step by step instructions
+        for creating complex charts such as maps, so that you can quickly master the
+        use of dash and echarts.
+      intro: 折腾过 JTAG 调试器，嵌入式编译器，IDE, 也折腾过前后端，Docker, K8s 的真全栈工程师，擅长多种语言的 hello world.
+        最近在某神秘车厂折腾数据可视化相关的东西，妄图用 python 来搞定一切，并将 python 作为人生的养老语言.
+      keynote: true
+      slug: dash-echarts
+      speaker: Fanchao Meng
+      title: Building Interactive Dashboards with Dash & ECharts
+      venue: 分会场A
+    start: '15:30'
+  - end: '17:00'
+    meetings:
+    - avatar: /2021/assets/people/WuJingjing.jpg
+      company: School of Artificial Intelligence, Beijing University of Posts and
+        Telecommunications
+      desc: python-wechaty is a framework for developers to quickly develop intelligent
+        chatbots, using a set of code can run on a variety of different IM platforms,
+        such as WeChat, enterprise WeChat, WeChat Public, Nail, FeiShu and WhatsApp
+        and so on. Rich plug-ins allow developers to quickly implement conversation
+        platform docking, such as Microsoft QnaMaker, LUIS has a simple and easy to
+        understand interface, easy to extend plug-ins, platform one-click adaptation
+        and many other features.
+      intro: 北京邮电大学人工智能学院在读硕士，微软中国自然语言处理实习生，python-wechaty 作者，chatbot 以及深度学习技术爱好者。
+      keynote: true
+      slug: python-wechaty
+      speaker: Jingjing Wu
+      title: Python-Wechaty：对话式 RPA SDK
+      venue: 分会场A
+    start: '16:15'
+  - end: '13:45'
+    meetings:
+    - avatar: /2021/assets/people/WangBinxin.png
+      company: Ali Cloud
+      desc: 'Many people think that Python is not suitable for developing large server-side
+        applications because it is slow, error-prone, and difficult to maintain. Is
+        this really the case? Or how do we deal with these issues?
+
+        This talk will share why a large cloud service chose Python as its primary
+        language for development, how to ensure fast and smooth implementation of
+        business functions and maintainable code in architecture design, development,
+        testing, monitoring, team collaboration, application release, and more.'
+      intro: 技术专家，微软 MVP，《Python 最佳实践指南》中文版译者，热爱参与开源项目和技术分享，目前从事云计算领域的研发工作。
+      keynote: true
+      slug: python-big-scale
+      speaker: Binxin Wang
+      title: 如何开发和维护大型 Python 服务端应用
+      venue: 分会场B
+    start: '13:00'
+  - end: '14:30'
+    meetings:
+    - avatar: /2021/assets/people/KinfeyLo.jpg
+      company: Microsoft Cloud Advocate
+      desc: "I believe that every developer used Github , but do you know Github Action\
+        \ ? It can do CI / CD iterations for your application better. This course\
+        \ is for Python in cloud-native, IoT, machine learning scenarios combined\
+        \ with GitHub\n  Action completes modern application deployment and management,\
+        \ including Python environment updates, Python backend development iterations,\
+        \ IoT scenario extensions, and MLOps-based machine learning full scenario\
+        \ optimization."
+      intro: 微软 Cloud Advocate, 前微软最有价值之家，微软技术社区区域总监，超过 10 年的云原生，移动应用，人工智能经验，为教育，金融，医疗，电信提供解决方案。现阶段主要为不同行业布道相关技术以及技术方案
+      keynote: true
+      slug: github-action
+      speaker: Kinfey Lo
+      title: 让 Github Action 加快你的 Python 应用场景迭代
+      venue: 分会场B
+    start: '13:45'
+  - end: '15:15'
+    meetings:
+    - avatar: /2021/assets/people/ZhaoXin.jpg
+      company: Qihoo360, network security expert
+      desc: "\"The \"art\" of Python security testing automation focuses on information\
+        \ security testing.\"Python has become the mainstream script\n  development\
+        \ language, occupying the top of the list. Based on the\n  vulnerabilities,\
+        \ penetration testing tools and attack means used in daily\n  network security\
+        \ attack and defense, it introduces the principle of Python\n  automated security\
+        \ testing in a comprehensive and fitting way, It can make\n  the audience\
+        \ feel the smell of \"hacker Python\"."
+      intro: "qihoo360 - network security expert, two years of information security\
+        \ lecturer experience, good at Web penetration testing, code audit,\n  vulnerability\
+        \ mining, tool development, and has its own unique understanding\n  of Web\
+        \ automated penetration testing."
+      keynote: true
+      slug: auto-test
+      speaker: Xin Zhao
+      title: Python 安全测试之自动化的 "艺术"
+      venue: 分会场B
+    start: '14:30'
+  - end: '15:30'
+    meetings:
+    - avatar: null
+      company: ''
+      desc: ''
+      intro: ''
+      keynote: false
+      slug: ''
+      speaker: ''
+      title: 中场休息 / 抽奖
+      venue: ''
+    start: '15:15'
+  - end: '16:15'
+    meetings:
+    - avatar: /2021/assets/people/EvgenyDemchenko.jpg
+      company: Stealth Startup
+      desc: "Behavior-driven Development (or Acceptance Test-driven Development) is\
+        \ a powerful Agile engineering practice that compliments other Agile and XP\
+        \ practices such as TDD, Continuous Delivery, etc.\n\nBDD Scenarios are high-level\
+        \ feature tests acting as \"Specification by Example\" written in a Gherkin\
+        \ DSL which is accessible to non-technical team members (like Product Managers,\
+        \ QA, etc).\n\nIn this talk, we'll explore:\n- what BDD is\n- what are its\
+        \ technical and team benefits \n- what are the best Python tools for BDD (behave,\
+        \ pytest-bdd, cucumber)\n- how to use those tools and how to write BDD scenarios\n\
+        \nThis will be a powerful new tool in your arsenal that you can bring back\
+        \ to your project and your team!"
+      intro: 'Experienced CTO, team lead, CSM, architect, Agile practitioner, front-end
+        and back-end software developer with enormous experience in a large range
+        of modern web technologies. Also experienced in desktop and mobile application
+        development and Web APIs.
+
+        Particularly passionate about Python, Django, Extreme Programming, DevOps
+        culture, and Agile/Lean software development.
+
+        The organizer of the Beijing Python Meetup.'
+      keynote: true
+      slug: bdd
+      speaker: Evgeny Demchenko
+      title: Behavior-driven Development in Python
+      venue: 分会场B
+    start: '15:30'
+  - end: '17:00'
+    meetings:
+    - avatar: /2021/assets/people/anonymous.jpg
+      company: A software engineer from Intel, whose main job is the development and
+        maintenance of RayDP
+      desc: 'This talk will introduce our work RayDP, also known as Spark on Ray.
+
+        1. a short introduction to Spark and ray, and why we are doing this project.
+
+        2. how raydp works, a brief introduction to the principles.
+
+        3. what we can do with raydp and what are the benefits compared to the traditional
+        approach. Introduce a few typical scenarios. 4.
+
+        4. answer questions and discuss'
+      intro: ''
+      keynote: false
+      slug: raydp
+      speaker: Zhi Lin
+      title: 使用 RayDP 构建大规模的数据分析和人工智能管道
+      venue: 分会场B
+    - avatar: /2021/assets/people/Yingshaoxo.jpg
+      company: Fargo Wealth Group
+      desc: 'We love Python for its simplicity.
+
+
+        But we also wish that it could be a powerful programing language for production.
+
+
+        That''s why I made this video.
+
+
+        All I want to do is to make Python a better programming language.'
+      intro: 'I''m a self-taught coder.
+
+
+        I know most of the top programming languages.
+
+
+        And I love sharing.'
+      keynote: false
+      slug: apisix
+      speaker: yingshaoxo
+      title: What Python could learn from Golang
+      venue: 分会场B
+    start: '16:15'
+  - end: '17:15'
+    meetings:
+    - avatar: null
+      company: ''
+      desc: ''
+      intro: ''
+      keynote: false
+      slug: ''
+      speaker: ''
+      title: 抽奖
+      venue: ''
+    start: '17:00'
