@@ -96,7 +96,7 @@ const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
                               <a className="box">
                                 <div className="is-flex is-justify-content-space-between">
                                   <p className="title is-5">{m.title}</p>
-                                  <p className="has-text-grey is-size-6">
+                                  <p className="has-text-grey is-size-6 is-flex-shrink-0">
                                     {m.venue ? `${t('venue')} ${m.venue}` : t('main_venue')}
                                   </p>
                                 </div>
@@ -107,7 +107,7 @@ const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
                             <div className="box">
                               <div className="is-flex is-justify-content-space-between">
                                 <p className="title is-5">{m.title}</p>
-                                <p className="has-text-grey is-size-6">
+                                <p className="has-text-grey is-size-6 is-flex-shrink-0">
                                   {m.venue ? `${t('venue')} ${m.venue}` : t('main_venue')}
                                 </p>
                               </div>
@@ -127,6 +127,11 @@ const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
           )}
         </div>
       </section>
+      <style jsx>{`
+        .box {
+          height: 100%;
+        }
+      `}</style>
     </Layout>
   );
 };
