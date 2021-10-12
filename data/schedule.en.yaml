@@ -97,14 +97,14 @@ schedule:
       desc: This talk focuses on how to use the PEG parser Guido wrote for Python
         3.9 to create a Python superset, adding the syntax you want to bring Python
         to life. It includes convenient syntax for pipes, partial functions, null
-        merging, optional chaining, and more, and you can import Naruto's code directly
+        merging, optional chaining, and more, and you can import Mingshe's code directly
         as a Python module without having to compile it in advance.
       intro: The creator of Mingshe, the creator of non-well-known web frameworks
         and toolboxes such as Index.py and baize
       keynote: true
       slug: python-with-sugar
       speaker: Aber
-      title: Adding Sugar to Python - Naruto
+      title: Adding Sugar to Python - Mingshe
       venue: A
     - avatar: /2021/assets/people/ZhangJintao.jpg
       company: Technical expert，Kubernetes ingress-nginx reviewer, Apache APISIX committer
