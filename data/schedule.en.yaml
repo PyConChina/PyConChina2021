@@ -56,14 +56,17 @@ schedule:
     start: '11:00'
     talks:
     - avatar: /2021/assets/people/anonymous.jpg
-      company: CEO of Taichi Graphics, Founder of Tachi Programming Language; Compiler
-        Architect in Taichi Graphics
+      company: Taichi Graphics
       desc: ''
-      intro: ''
+      intro: 'Yuanming Hu is the CEO of Taichi Graphics and thefounder of Tachi Programming
+        Language
+
+
+        Ailing Zhang is a Compiler Architect in Taichi Graphics'
       keynote: true
       slug: high-performance-parallel
       speaker: Yuanming Hu & Ailing Zhang
-      title: writing high-performance parallel programs in “Python”
+      title: Writing high-performance parallel programs in Python
       venue: ''
   - end: '12:00'
     start: '11:45'
@@ -71,7 +74,14 @@ schedule:
     - avatar: /2021/assets/people/LiZheao.png
       company: Senior Engineer of Taichi Graphics, Microsoft MVP
       desc: ''
-      intro: Senior Engineer of Taichi Graphics, Microsoft MVP
+      intro: '* A cat slave
+
+        * A Python lover
+
+        * A Programmer in TaiChi Graphics
+
+
+        Would you like to join us?'
       keynote: false
       slug: ''
       speaker: Manjusaka
@@ -255,7 +265,14 @@ schedule:
 
         This talk will take you through some practical examples to get a little taste
         of what Python + BCC can do for our online debugging.'
-      intro: Senior Engineer of Taichi Graphics, Microsoft MVP
+      intro: '* A cat slave
+
+        * A Python lover
+
+        * A Programmer in TaiChi Graphics
+
+
+        Would you like to join us?'
       keynote: true
       slug: python-bcc
       speaker: Manjusaka
@@ -314,15 +331,18 @@ schedule:
         \ trained is published on the Hugging Face model hub and is small\n  enough\
         \ to be deployed without an exuberant amount of computational resources.\n\
         \  \n\n### Python helps you get quick start with Apache APISIX development\n\
-        \nspeaker: yingshaoxo\n\nintro:\nPython Runner for Apache APISIX allows Python\
-        \ developers to quickly get started with Apache APISIX plug-in development\
-        \ and easily develop Apache APISIX-based gateway plug-ins (e.g., speed limit,\
-        \ flow limit, fuse, downgrade, etc.) without having to pay attention to the\
-        \ specifics of the Nginx C and Lua layers of implementation.\nApache APISIX\
-        \ and Python Rnuner communicate via Unix Domain Socket local sockets. When\
-        \ Apache APISIX receives a request, it makes an RPC call to complete the logic\
-        \ in the Python plug-in and responds to Apache APISIX to continue the request\
-        \ process."
+        \nspeaker: Jinchao Shuai\n\nintro:\nPython is a 30-year-old development language,\
+        \ its rich ecology and simple syntax is favored by many people, and widely\
+        \ practiced in artificial intelligence, scientific computing, Web development\
+        \ and other fields, this sharing I will introduce the application of API gateway\
+        \ through Python combined with Apache APISIX. In order to achieve non-invasive\
+        \ development of Apache APISIX plugins through Python in the community, we\
+        \ have developed an Apache APISIX Python Runner project that allows developers\
+        \ to use Python to develop Apache APISIX plugins without having to pay attention\
+        \ to Nginx C and Lua implementation details, just focus on the business logic\
+        \ of the Python plugin.\nI will also share a case study to demonstrate how\
+        \ to develop and apply an Apache APISIX plugin to Apache APISIX with a few\
+        \ lines of Python code."
       intro: ''
       keynote: false
       slug: lightning_1_a
@@ -412,12 +432,12 @@ schedule:
         \ Python implementation, e.g. IronPython and Pyjion;\n- WASM-based Python\
         \ implementation, e.g. Pyodide;  \n- Rust-based Python implementation, e.g.\
         \ RustPython;\n- Comparison of the above Python implementations and their\
-        \ benchmarkings.    \n\nMajor reference links for tech stack:  \nhttps://en.wikipedia.org/wiki/Python_(programming_language)\
-        \  \nhttps://wiki.python.org/moin/PythonImplementations  \nhttps://github.com/python/cpython\
-        \  \nhttps://github.com/facebookincubator/cinder  \nhttps://github.com/oracle/graalpython\
-        \  \nhttps://github.com/jython/jython3  \nhttps://github.com/pyston/pyston\
-        \  \nhttps://github.com/IronLanguages/ironpython3  \nhttps://github.com/tonybaloney/Pyjion\
-        \  \nhttps://github.com/pyodide/pyodide  \nhttps://github.com/RustPython/RustPython"
+        \ benchmarkings.    \n\nMajor reference links for tech stack:  \n- https://en.wikipedia.org/wiki/Python_(programming_language)\
+        \  \n- https://wiki.python.org/moin/PythonImplementations  \n- https://github.com/python/cpython\
+        \  \n- https://github.com/facebookincubator/cinder  \n- https://github.com/oracle/graalpython\
+        \  \n- https://github.com/jython/jython3  \n- https://github.com/pyston/pyston\
+        \  \n- https://github.com/IronLanguages/ironpython3  \n- https://github.com/tonybaloney/Pyjion\
+        \  \n- https://github.com/pyodide/pyodide  \n- https://github.com/RustPython/RustPython"
       intro: "- Had been worked in Motorola, Samsung, etc, now I am an indie developer.\
         \ \n- Accumulated more than ten years experience in mobile development on\
         \ various platforms，and focused on Cloud & Edge Infrastructure during the\
@@ -432,7 +452,29 @@ schedule:
       slug: python-impl
       speaker: Feng Li
       title: A survey of current Python implementations
-      venue: ''
+      venue: A
+    - avatar: /2021/assets/people/WangBinxin.png
+      company: Ali Cloud
+      desc: 'Many people think that Python is not suitable for developing large server-side
+        applications because it is slow, error-prone, and difficult to maintain. Is
+        this really the case? Or how do we deal with these issues?
+
+        This talk will share why a large cloud service chose Python as its primary
+        language for development, how to ensure fast and smooth implementation of
+        business functions and maintainable code in architecture design, development,
+        testing, monitoring, team collaboration, application release, and more.'
+      intro: '- Technical expert, Microsoft MVP
+
+        - Translator of the Chinese version of "Python Best Practice Guide"
+
+        - Love to participate in open source projects and technology sharing
+
+        - Currently engaged in R&D in the field of cloud computing'
+      keynote: true
+      slug: python-big-scale
+      speaker: Binxin Wang
+      title: How to develop and maintain large Python server-side applications
+      venue: B
   - end: '11:00'
     start: '10:15'
     talks:
@@ -471,19 +513,73 @@ schedule:
       slug: low-code
       speaker: Laiqiang Ding
       title: Low-code technology practices in observability platforms
-      venue: ''
+      venue: A
+    - avatar: /2021/assets/people/KinfeyLo.jpg
+      company: Microsoft Cloud Advocate
+      desc: "I believe that every developer used Github , but do you know Github Action\
+        \ ? It can do CI / CD iterations for your application better. This course\
+        \ is for Python in cloud-native, IoT, machine learning scenarios combined\
+        \ with GitHub\n  Action completes modern application deployment and management,\
+        \ including Python environment updates, Python backend development iterations,\
+        \ IoT scenario extensions, and MLOps-based machine learning full scenario\
+        \ optimization."
+      intro: '- Microsoft Cloud Advocate, former Microsoft''s most valuable home,
+        regional director of Microsoft technical community
+
+        - More than 10 years of experience in cloud native, mobile applications, and
+        artificial intelligence, providing solutions for education, finance, healthcare,
+        and telecommunications
+
+        - At this stage, I mainly preach related technologies and technical solutions
+        for different industries'
+      keynote: true
+      slug: github-action
+      speaker: Kinfey Lo
+      title: Let Github Action accelerate your Python application scenario iterations
+      venue: B
   - end: '11:45'
     start: '11:00'
     talks:
-    - avatar: null
-      company: ''
-      desc: ''
-      intro: ''
+    - avatar: /2021/assets/people/ZhuXingliang.jpg
+      company: Neo4j certified expert, Microsoft MCT, former Microsoft MVP
+      desc: A movie has multiple roles such as actor, director, producer, and writer.
+        Sometimes the actor and producer are the same person, and the movie also has
+        a lot of properties. How to design and develop from the database to the front-end
+        application? This session will get you started with Graph Database modeling,
+        and then build API and front-end application, perhaps a full-stack application
+        development method you haven't seen before.
+      intro: "- Shiny Zhu who is a Neo4j Certified Professional, Microsoft MCT and\
+        \ ex-Microsoft MVP. \n- He has 15+ years of experience in software development,\
+        \ and recognized himself as an almost full stack developer. \n- He has been\
+        \ active in several developer communities for 10+ years. \n- Now he is working\
+        \ in both development and community as a developer advocate of Neo4j in APAC.\
+        \ \n- He is learning Graph Data Science and application development that opened\
+        \ a new data app development perspective."
       keynote: true
-      slug: ''
-      speaker: ''
-      title: The Mystery Man
-      venue: ''
+      slug: movie-app
+      speaker: Xingliang Zhu
+      title: Building a movie full stack app with Python in the Graph way
+      venue: A
+    - avatar: /2021/assets/people/ZhaoXin.jpg
+      company: Qihoo360, network security expert
+      desc: "\"The \"art\" of Python security testing automation focuses on information\
+        \ security testing.\"Python has become the mainstream script\n  development\
+        \ language, occupying the top of the list. Based on the\n  vulnerabilities,\
+        \ penetration testing tools and attack means used in daily\n  network security\
+        \ attack and defense, it introduces the principle of Python\n  automated security\
+        \ testing in a comprehensive and fitting way, It can make\n  the audience\
+        \ feel the smell of \"hacker Python\"."
+      intro: '- Two years of information security lecturer experience
+
+        - Good at Web penetration testing, code audit, vulnerability mining, tool
+        development
+
+        - Has its own unique understanding of Web automated penetration testing'
+      keynote: true
+      slug: auto-test
+      speaker: Xin Zhao
+      title: The "art" of Python security testing automation
+      venue: B
   - end: '12:00'
     start: '11:45'
     talks:
@@ -564,155 +660,6 @@ schedule:
       speaker: Siwei Gu
       title: Graph database mystery solving and hands-on application
       venue: A
-    - avatar: /2021/assets/people/WangBinxin.png
-      company: Ali Cloud
-      desc: 'Many people think that Python is not suitable for developing large server-side
-        applications because it is slow, error-prone, and difficult to maintain. Is
-        this really the case? Or how do we deal with these issues?
-
-        This talk will share why a large cloud service chose Python as its primary
-        language for development, how to ensure fast and smooth implementation of
-        business functions and maintainable code in architecture design, development,
-        testing, monitoring, team collaboration, application release, and more.'
-      intro: '- Technical expert, Microsoft MVP
-
-        - Translator of the Chinese version of "Python Best Practice Guide"
-
-        - Love to participate in open source projects and technology sharing
-
-        - Currently engaged in R&D in the field of cloud computing'
-      keynote: true
-      slug: python-big-scale
-      speaker: Binxin Wang
-      title: How to develop and maintain large Python server-side applications
-      venue: B
-  - end: '14:30'
-    start: '13:45'
-    talks:
-    - avatar: /2021/assets/people/anonymous.jpg
-      company: ''
-      desc: Deep learning has been adopted in more and more industries in the recent
-        10 years. It changes the human society much more than the past years. So what
-        kind of problems could it be leveraged at? How to open the door of deep learning,
-        where should I start as a beginner? In the sharing, I will introduce the process
-        of deep learning, some important fundamental math background. and will talk
-        about how neural network works in deep learning. And will demo how to build
-        a neural network, and how to design different level algorithm for the network.
-        Last but not least, how to set up a production service for a neural network.
-      intro: "A years Pythonist. I have been working many year in the field of search\
-        \ engine and algorithm. \n\nI was in behave of Dianping Search Engine and\
-        \ Algorithm Team. \n\nI built the team from ground up, I designed and implemented\
-        \ a scalable search engine and ranking algorithm platform at Dianping.  \n\
-        \nI am working on the industrial application of deep learning currently, and\
-        \ scalable deep learning platform design and optimizing."
-      keynote: true
-      slug: image-dl
-      speaker: Shaogang Lv
-      title: Build a neural network in python for image recognition
-      venue: A
-    - avatar: /2021/assets/people/KinfeyLo.jpg
-      company: Microsoft Cloud Advocate
-      desc: "I believe that every developer used Github , but do you know Github Action\
-        \ ? It can do CI / CD iterations for your application better. This course\
-        \ is for Python in cloud-native, IoT, machine learning scenarios combined\
-        \ with GitHub\n  Action completes modern application deployment and management,\
-        \ including Python environment updates, Python backend development iterations,\
-        \ IoT scenario extensions, and MLOps-based machine learning full scenario\
-        \ optimization."
-      intro: '- Microsoft Cloud Advocate, former Microsoft''s most valuable home,
-        regional director of Microsoft technical community
-
-        - More than 10 years of experience in cloud native, mobile applications, and
-        artificial intelligence, providing solutions for education, finance, healthcare,
-        and telecommunications
-
-        - At this stage, I mainly preach related technologies and technical solutions
-        for different industries'
-      keynote: true
-      slug: github-action
-      speaker: Kinfey Lo
-      title: Let Github Action accelerate your Python application scenario iterations
-      venue: B
-  - end: '15:15'
-    start: '14:30'
-    talks:
-    - avatar: /2021/assets/people/ZhuXingliang.jpg
-      company: Neo4j certified expert, Microsoft MCT, former Microsoft MVP
-      desc: A movie has multiple roles such as actor, director, producer, and writer.
-        Sometimes the actor and producer are the same person, and the movie also has
-        a lot of properties. How to design and develop from the database to the front-end
-        application? This session will get you started with Graph Database modeling,
-        and then build API and front-end application, perhaps a full-stack application
-        development method you haven't seen before.
-      intro: "- Shiny Zhu who is a Neo4j Certified Professional, Microsoft MCT and\
-        \ ex-Microsoft MVP. \n- He has 15+ years of experience in software development,\
-        \ and recognized himself as an almost full stack developer. \n- He has been\
-        \ active in several developer communities for 10+ years. \n- Now he is working\
-        \ in both development and community as a developer advocate of Neo4j in APAC.\
-        \ \n- He is learning Graph Data Science and application development that opened\
-        \ a new data app development perspective."
-      keynote: true
-      slug: movie-app
-      speaker: Xingliang Zhu
-      title: Building a movie full stack app with Python in the Graph way
-      venue: A
-    - avatar: /2021/assets/people/ZhaoXin.jpg
-      company: Qihoo360, network security expert
-      desc: "\"The \"art\" of Python security testing automation focuses on information\
-        \ security testing.\"Python has become the mainstream script\n  development\
-        \ language, occupying the top of the list. Based on the\n  vulnerabilities,\
-        \ penetration testing tools and attack means used in daily\n  network security\
-        \ attack and defense, it introduces the principle of Python\n  automated security\
-        \ testing in a comprehensive and fitting way, It can make\n  the audience\
-        \ feel the smell of \"hacker Python\"."
-      intro: '- Two years of information security lecturer experience
-
-        - Good at Web penetration testing, code audit, vulnerability mining, tool
-        development
-
-        - Has its own unique understanding of Web automated penetration testing'
-      keynote: true
-      slug: auto-test
-      speaker: Xin Zhao
-      title: The "art" of Python security testing automation
-      venue: B
-  - end: '15:30'
-    start: '15:15'
-    talks:
-    - avatar: null
-      company: ''
-      desc: ''
-      intro: ''
-      keynote: false
-      slug: ''
-      speaker: ''
-      title: Halftime/Lottery
-      venue: ''
-  - end: '16:15'
-    start: '15:30'
-    talks:
-    - avatar: /2021/assets/people/MengFanchao.jpg
-      company: ''
-      desc: In this talk, we will introduce how to use dash and echarts to quickly
-        build a large visualization screen. With the dash framework, data engineers
-        can easily build dynamic reports, while echarts' rich legends make data representation
-        more vivid and intuitive. This session will quickly introduce the basic methods
-        of using dash and echarts together, and provide step by step instructions
-        for creating complex charts such as maps, so that you can quickly master the
-        use of dash and echarts.
-      intro: 'A true full-stack engineer who has tossed JTAG debugger, embedded compiler,
-        IDE, front and back end, Docker, K8s, good at writing "hello world"s in ANY
-        languages.
-
-
-        Recently, I was tossing about things related to data visualization in a mysterious
-        car factory, trying to use python to get everything, and using python as the
-        language of life for the elderly.'
-      keynote: true
-      slug: dash-echarts
-      speaker: Fanchao Meng
-      title: Building Interactive Dashboards with Dash & ECharts
-      venue: A
     - avatar: /2021/assets/people/EvgenyDemchenko.jpg
       company: Stealth Startup
       desc: "Behavior-driven Development (or Acceptance Test-driven Development) is\
@@ -739,8 +686,111 @@ schedule:
       speaker: Evgeny Demchenko
       title: Behavior-driven Development in Python
       venue: B
-  - end: '17:00'
-    start: '16:15'
+  - end: '14:30'
+    start: '13:45'
+    talks:
+    - avatar: /2021/assets/people/LvShaogang.webp
+      company: CTO of Boldseas Technology Ltd.
+      desc: Deep learning has been adopted in more and more industries in the recent
+        10 years. It changes the human society much more than the past years. So what
+        kind of problems could it be leveraged at? How to open the door of deep learning,
+        where should I start as a beginner? In the sharing, I will introduce the process
+        of deep learning, some important fundamental math background. and will talk
+        about how neural network works in deep learning. And will demo how to build
+        a neural network, and how to design different level algorithm for the network.
+        Last but not least, how to set up a production service for a neural network.
+      intro: "A years Pythonist. I have been working many year in the field of search\
+        \ engine and algorithm. \n\nI was in behave of Dianping Search Engine and\
+        \ Algorithm Team. \n\nI built the team from ground up, I designed and implemented\
+        \ a scalable search engine and ranking algorithm platform at Dianping.  \n\
+        \nI am working on the industrial application of deep learning currently, and\
+        \ scalable deep learning platform design and optimizing."
+      keynote: true
+      slug: image-dl
+      speaker: Shaogang Lv
+      title: Build a neural network in python for image recognition
+      venue: A
+    - avatar: /2021/assets/people/PanJunyong.jpg
+      company: Serial entrepreneur, early organizer of Python/Zope user community
+        in China
+      desc: "Zope is a formerly brilliant web framework 20 years ago, known for its\
+        \ rapid development of applications directly on the browser, but wrong decisions\
+        \ and nearly dead.\r\n\r\neasyweb is a new generation of open source web framework\
+        \ that inherits Zope's premium home base and seeks to provide developers with\
+        \ a better low-code web development experience in the cloud era.\r\n\r\nThis\
+        \ topic will introduce some of easyweb's innovative designs, including cloud\
+        \ functions, Python front-end framework, visual model design, and visual workflow\
+        \ definition."
+      intro: 'Serial entrepreneur, early organizer of Python/Zope user community in
+        China
+
+
+        Long engaged in the development of Python-based enterprise content management
+        and low-code platforms'
+      keynote: true
+      slug: easyweb
+      speaker: Junyong Pan
+      title: 'easyweb: a tribute to Zope''s open source web framework for the cloud
+        era'
+      venue: B
+  - end: '15:15'
+    start: '14:30'
+    talks:
+    - avatar: /2021/assets/people/MengFanchao.jpg
+      company: Full-stack engineer of Tesla Shanghai Gigafactory, former ThoughtWorker,
+        GDG community lecturer, loves Python, Golang and K8s
+      desc: In this talk, we will introduce how to use dash and echarts to quickly
+        build a large visualization screen. With the dash framework, data engineers
+        can easily build dynamic reports, while echarts' rich legends make data representation
+        more vivid and intuitive. This session will quickly introduce the basic methods
+        of using dash and echarts together, and provide step by step instructions
+        for creating complex charts such as maps, so that you can quickly master the
+        use of dash and echarts.
+      intro: 'A true full-stack engineer who has tossed JTAG debugger, embedded compiler,
+        IDE, front and back end, Docker, K8s, good at writing "hello world"s in ANY
+        languages.
+
+
+        Recently, I was tossing about things related to data visualization in a mysterious
+        car factory, trying to use python to get everything, and using python as the
+        language of life for the elderly.'
+      keynote: true
+      slug: dash-echarts
+      speaker: Fanchao Meng
+      title: Building Interactive Dashboards with Dash & ECharts
+      venue: A
+    - avatar: /2021/assets/people/anonymous.jpg
+      company: Lunion Data CTO/Full stack engineer
+      desc: "Introduction to problems and methods of data processing in brain science\n\
+        1. Python ecology in brain science\n    * Data storage format\n    * Data\
+        \ analysis method\n    * Data presentation form\n2. Saas application practice\
+        \ for sleep classification based on EEG data\n    * Web technology architecture\n\
+        \    * Storage and calculation strategy\n    * Visualization method\n3. A\
+        \ brief description of the application of neuron classification for EEG data\n\
+        4. Follow-up application and technical challenges\n5. Some small detours using\
+        \ python"
+      intro: '- 2017～2019 Alibaba Algorithm Specialist / Data R&D Specialist
+
+        - 2015～2017 Coupang Senior Data Engineer'
+      keynote: true
+      slug: python-brain-science
+      speaker: Xing Zhang
+      title: Practice of Data Application in Brain Science
+      venue: B
+  - end: '15:30'
+    start: '15:15'
+    talks:
+    - avatar: null
+      company: ''
+      desc: ''
+      intro: ''
+      keynote: false
+      slug: ''
+      speaker: ''
+      title: Halftime/Lottery
+      venue: ''
+  - end: '16:15'
+    start: '15:30'
     talks:
     - avatar: /2021/assets/people/WuJingjing.jpg
       company: School of Artificial Intelligence, Beijing University of Posts and
@@ -765,22 +815,31 @@ schedule:
       speaker: Jingjing Wu
       title: Python-Wechaty：Conversational RPA SDK
       venue: A
+  - end: '17:00'
+    start: '16:15'
+    talks:
     - avatar: null
       company: ''
-      desc: "### Build Large-Scale Data Analytics and AI Pipeline Using RayDP\r\n\r\
-        \nspeaker: Zhi Lin\r\n\r\nintro:\r\nThis talk will introduce our work RayDP,\
-        \ also known as Spark on Ray.\r\n1. a short introduction to Spark and ray,\
-        \ and why we are doing this project.\r\n2. how raydp works, a brief introduction\
-        \ to the principles.\r\n3. what we can do with raydp and what are the benefits\
+      desc: "### Build Large-Scale Data Analytics and AI Pipeline Using RayDP\n\n\
+        speaker: Zhi Lin\n\nintro:\nThis talk will introduce our work RayDP, also\
+        \ known as Spark on Ray.\n1. a short introduction to Spark and ray, and why\
+        \ we are doing this project.\n2. how raydp works, a brief introduction to\
+        \ the principles.\n3. what we can do with raydp and what are the benefits\
         \ compared to the traditional approach. Introduce a few typical scenarios.\
-        \ 4.\r\n4. answer questions and discuss\r\n\r\n### What Python could learn\
-        \ from Golang\r\n\r\nspeaker: yingshaoxo\r\n\r\nintro:\r\nWe love Python for\
-        \ its simplicity.\r\n\r\nBut we also wish that it could be a powerful programing\
-        \ language for production.\r\n\r\nThat's why I made this video.\r\n\r\nAll\
-        \ I want to do is to make Python a better programming language."
+        \ 4.\n4. answer questions and discuss\n\n### What Python could learn from\
+        \ Golang\n\nspeaker: yingshaoxo\n\nintro:\nWe love Python for its simplicity.\n\
+        \nBut we also wish that it could be a powerful programing language for production.\n\
+        \nThat's why I made this video.\n\nAll I want to do is to make Python a better\
+        \ programming language.\n\n### How to contribute to an open source project\
+        \ without writing code?\n\nspeaker:Ruofei Zhao\n\nintro:  \nPerhaps most developers\
+        \ are under the impression that contributing code is the only way to contribute\
+        \ to an open-source project. Is the only way to become a contributor is by\
+        \ coding? If I'm not a developer, how can I become a contributor to an open-source\
+        \ project and even get promoted to committer? I will share with you other\
+        \ many ways to contribute to open source projects without coding."
       intro: ''
       keynote: false
-      slug: lightning_1_b
+      slug: lightning_2_b
       speaker: ''
       title: Lightning Talks
       venue: B
