@@ -251,13 +251,13 @@ schedule:
         \ PEG 作为上下文无关文法的潜代品，同样可以实现计算机语言解析器，并且有诸多形式文法不具有的优点，如易于实现，解析快速，无歧义等。此外专家们正在尝试用\
         \ PEG 实现 Python 的解析器。pyparsing 是 Python 简单易用的 PEG 包。演讲的主要目的是演示如何用 pyparsing\
         \ 设计解析器。涉及 PEG 原理和解析器实现技巧，pyparsing 设计风格，还会展示自己设计的计算机语言，以及一系列有趣的实例。\r\n\r\n\
-        \r\n### AI 结对编程\r\n\r\n演讲者：Geert Heyman\r\n\r\n演讲内容简介：\r\n我将介绍一个来自诺基亚贝尔实验室的\
+        \r\n### 自然语言辅助编程\r\n\r\n演讲者：Geert Heyman\r\n\r\n演讲内容简介：\r\n我将介绍一个来自诺基亚贝尔实验室的\
         \ \"AI 结对编程\" 研究原型，该原型旨在帮助 Python 开发者在数据科学应用中更好的使用开源开代码库。\r\n我们的 AI 助手可以在\
         \ Jupyter notebooks 中使用，它可以根具自然语言生成 Python 代码，这种做法我们称之为 \"自然语言引导的编程\"。也就是说，开发者可以通过在代码里写一些简短的注释的方法（例如，\"\
         在柱状图中绘制这个数据\"）来向 AI 查询他们需要的上下文代码片段。\r\n \r\n我将在很高的视角上解释我们是如何训练这个 AI 结对编程项目的核心机器学习模型。这里会重点介绍\
         \ 这个新一代自动生成代码工具的最佳实践和踩坑经验。\r\n我们训练好的这个机器学习模型已经发布在 Hugging Face model hub ,\
         \ 而且非常的轻量级，不需要部署在非常昂贵的机器上。\r\n\r\n### Python 助你快速上手 Apache APISIX 开发\r\n \r\
-        \n演讲者：Geert Heyman\r\n\r\n演讲内容简介：\r\nApache APISIX 的 Python Runner 使 Python\
+        \n演讲者：帅进超\r\n\r\n演讲内容简介：\r\nApache APISIX 的 Python Runner 使 Python\
         \ 开发者可以快速上手 Apache APISIX 的插件开发，无需关注 Nginx C 和 Lua 层的具体实现细节就可以轻松开发出基于 Apache\
         \ APISIX 的网关插件（如：限速、限流、熔断、降级等等）\r\nApache APISIX 和 Python Rnuner 通过 Unix Domain\
         \ Socket 本地套接字进行通信，当 Apache APISIX 接收到请求后会进行 RPC 调用在 Python 插件中完成逻辑处理把结果响应到\
