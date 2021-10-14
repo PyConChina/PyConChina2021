@@ -74,9 +74,7 @@ const Nav = function () {
               <Link href="/video-guide">
                 <a className="navbar-item">{t('video-guide')}</a>
               </Link>
-              <Link href="/souvenir">
-                <a className="navbar-item">{t('souvenir')}</a>
-              </Link>
+              <a className="navbar-item">{t('souvenir')}</a>
             </div>
           </div>
           <div className="navbar-item has-dropdown is-hoverable">
