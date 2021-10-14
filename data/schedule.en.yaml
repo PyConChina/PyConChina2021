@@ -736,28 +736,28 @@ schedule:
   - end: '15:15'
     start: '14:30'
     talks:
-    - avatar: /2021/assets/people/MengFanchao.jpg
-      company: Full-stack engineer of Tesla Shanghai Gigafactory, former ThoughtWorker,
-        GDG community lecturer, loves Python, Golang and K8s
-      desc: In this talk, we will introduce how to use dash and echarts to quickly
-        build a large visualization screen. With the dash framework, data engineers
-        can easily build dynamic reports, while echarts' rich legends make data representation
-        more vivid and intuitive. This session will quickly introduce the basic methods
-        of using dash and echarts together, and provide step by step instructions
-        for creating complex charts such as maps, so that you can quickly master the
-        use of dash and echarts.
-      intro: 'A true full-stack engineer who has tossed JTAG debugger, embedded compiler,
-        IDE, front and back end, Docker, K8s, good at writing "hello world"s in ANY
-        languages.
+    - avatar: /2021/assets/people/WuJingjing.jpg
+      company: School of Artificial Intelligence, Beijing University of Posts and
+        Telecommunications
+      desc: python-wechaty is a framework for developers to quickly develop intelligent
+        chatbots, using a set of code can run on a variety of different IM platforms,
+        such as WeChat, enterprise WeChat, WeChat Public, Nail, FeiShu and WhatsApp
+        and so on. Rich plug-ins allow developers to quickly implement conversation
+        platform docking, such as Microsoft QnaMaker, LUIS has a simple and easy to
+        understand interface, easy to extend plug-ins, platform one-click adaptation
+        and many other features.
+      intro: '- Master''s degree in School of Artificial Intelligence, Beijing University
+        of Posts and Telecommunications
 
+        - Microsoft China Natural Language Processing Intern
 
-        Recently, I was tossing about things related to data visualization in a mysterious
-        car factory, trying to use python to get everything, and using python as the
-        language of life for the elderly.'
+        - Author of [python-wechaty](https://github.com/wechaty/python-wechaty)
+
+        - chatbot and deep learning technology enthusiasts'
       keynote: true
-      slug: dash-echarts
-      speaker: Fanchao Meng
-      title: Building Interactive Dashboards with Dash & ECharts
+      slug: python-wechaty
+      speaker: Jingjing Wu
+      title: Python-Wechaty：Conversational RPA SDK
       venue: A
     - avatar: /2021/assets/people/anonymous.jpg
       company: Lunion Data CTO/Full stack engineer
@@ -792,29 +792,29 @@ schedule:
   - end: '16:15'
     start: '15:30'
     talks:
-    - avatar: /2021/assets/people/WuJingjing.jpg
-      company: School of Artificial Intelligence, Beijing University of Posts and
-        Telecommunications
-      desc: python-wechaty is a framework for developers to quickly develop intelligent
-        chatbots, using a set of code can run on a variety of different IM platforms,
-        such as WeChat, enterprise WeChat, WeChat Public, Nail, FeiShu and WhatsApp
-        and so on. Rich plug-ins allow developers to quickly implement conversation
-        platform docking, such as Microsoft QnaMaker, LUIS has a simple and easy to
-        understand interface, easy to extend plug-ins, platform one-click adaptation
-        and many other features.
-      intro: '- Master''s degree in School of Artificial Intelligence, Beijing University
-        of Posts and Telecommunications
+    - avatar: /2021/assets/people/MengFanchao.jpg
+      company: Full-stack engineer of Tesla Shanghai Gigafactory, former ThoughtWorker,
+        GDG community lecturer, loves Python, Golang and K8s
+      desc: In this talk, we will introduce how to use dash and echarts to quickly
+        build a large visualization screen. With the dash framework, data engineers
+        can easily build dynamic reports, while echarts' rich legends make data representation
+        more vivid and intuitive. This session will quickly introduce the basic methods
+        of using dash and echarts together, and provide step by step instructions
+        for creating complex charts such as maps, so that you can quickly master the
+        use of dash and echarts.
+      intro: 'A true full-stack engineer who has tossed JTAG debugger, embedded compiler,
+        IDE, front and back end, Docker, K8s, good at writing "hello world"s in ANY
+        languages.
 
-        - Microsoft China Natural Language Processing Intern
 
-        - Author of [python-wechaty](https://github.com/wechaty/python-wechaty)
-
-        - chatbot and deep learning technology enthusiasts'
+        Recently, I was tossing about things related to data visualization in a mysterious
+        car factory, trying to use python to get everything, and using python as the
+        language of life for the elderly.'
       keynote: true
-      slug: python-wechaty
-      speaker: Jingjing Wu
-      title: Python-Wechaty：Conversational RPA SDK
-      venue: A
+      slug: dash-echarts
+      speaker: Fanchao Meng
+      title: Building Interactive Dashboards with Dash & ECharts
+      venue: ''
   - end: '17:00'
     start: '16:15'
     talks:
@@ -842,7 +842,7 @@ schedule:
       slug: lightning_2_b
       speaker: ''
       title: Lightning Talks
-      venue: B
+      venue: ''
   - end: '17:15'
     start: '17:00'
     talks:

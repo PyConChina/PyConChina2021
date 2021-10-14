@@ -546,19 +546,21 @@ schedule:
   - end: '15:15'
     start: '14:30'
     talks:
-    - avatar: /2021/assets/people/MengFanchao.jpg
-      company: 特斯拉上海超级工厂的全栈工程师，前 ThoughtWorker, GDG 社区讲师，热爱 Python，Golang 以及 K8s
-      desc: 本次分享将会介绍使用 dash 和 echarts 快速构建可视化大屏的方法。借助 dash 框架，数据工程师可以十分轻松的完成动态报表的构建，而
-        echarts 丰富的图例则使得数据的表达更加的生动与直观。本次分享将会快速的介绍 dash 和 echarts 结合使用的基本方法，并针对涉及地图等复杂图表的创建进行
-        step by step 的指导，以便大家可以快速掌握 dash 和 echarts 的使用.
-      intro: '折腾过 JTAG 调试器，嵌入式编译器，IDE, 也折腾过前后端，Docker, K8s 的真全栈工程师，擅长多种语言的 hello world。
+    - avatar: /2021/assets/people/WuJingjing.jpg
+      company: 北京邮电大学人工智能学院
+      desc: python-wechaty 是一个让开发者快速开发出智能聊天机器人的框架，使用一套代码即可运行在多种不同 IM 平台，例如微信、企业微信、微信公众号、钉钉、飞书以及
+        WhatsApp 等。丰富的插件能够让开发者快速实现对话平台对接，如微软 QnaMaker、LUIS 拥有接口简单易懂，插件轻松扩展，平台一键适配等多种特性。
+      intro: '- 北京邮电大学人工智能学院在读硕士
 
+        - 微软中国自然语言处理实习生
 
-        最近在某神秘车厂折腾数据可视化相关的东西，妄图用 python 来搞定一切，并将 python 作为人生的养老语言。'
+        - [python-wechaty](https://github.com/wechaty/python-wechaty) 的作者
+
+        - chatbot 以及深度学习技术爱好者'
       keynote: true
-      slug: dash-echarts
-      speaker: 孟繁超
-      title: Building Interactive Dashboards with Dash & ECharts
+      slug: python-wechaty
+      speaker: 吴京京
+      title: Python-Wechaty：对话式 RPA SDK
       venue: A
     - avatar: /2021/assets/people/anonymous.jpg
       company: 上海麓联智能科技有限公司技术主管 / 全栈工程师
@@ -588,22 +590,20 @@ schedule:
   - end: '16:15'
     start: '15:30'
     talks:
-    - avatar: /2021/assets/people/WuJingjing.jpg
-      company: 北京邮电大学人工智能学院
-      desc: python-wechaty 是一个让开发者快速开发出智能聊天机器人的框架，使用一套代码即可运行在多种不同 IM 平台，例如微信、企业微信、微信公众号、钉钉、飞书以及
-        WhatsApp 等。丰富的插件能够让开发者快速实现对话平台对接，如微软 QnaMaker、LUIS 拥有接口简单易懂，插件轻松扩展，平台一键适配等多种特性。
-      intro: '- 北京邮电大学人工智能学院在读硕士
+    - avatar: /2021/assets/people/MengFanchao.jpg
+      company: 特斯拉上海超级工厂的全栈工程师，前 ThoughtWorker, GDG 社区讲师，热爱 Python，Golang 以及 K8s
+      desc: 本次分享将会介绍使用 dash 和 echarts 快速构建可视化大屏的方法。借助 dash 框架，数据工程师可以十分轻松的完成动态报表的构建，而
+        echarts 丰富的图例则使得数据的表达更加的生动与直观。本次分享将会快速的介绍 dash 和 echarts 结合使用的基本方法，并针对涉及地图等复杂图表的创建进行
+        step by step 的指导，以便大家可以快速掌握 dash 和 echarts 的使用.
+      intro: '折腾过 JTAG 调试器，嵌入式编译器，IDE, 也折腾过前后端，Docker, K8s 的真全栈工程师，擅长多种语言的 hello world。
 
-        - 微软中国自然语言处理实习生
 
-        - [python-wechaty](https://github.com/wechaty/python-wechaty) 的作者
-
-        - chatbot 以及深度学习技术爱好者'
+        最近在某神秘车厂折腾数据可视化相关的东西，妄图用 python 来搞定一切，并将 python 作为人生的养老语言。'
       keynote: true
-      slug: python-wechaty
-      speaker: 吴京京
-      title: Python-Wechaty：对话式 RPA SDK
-      venue: A
+      slug: dash-echarts
+      speaker: 孟繁超
+      title: Building Interactive Dashboards with Dash & ECharts
+      venue: ''
   - end: '17:00'
     start: '16:15'
     talks:
@@ -621,7 +621,7 @@ schedule:
       slug: lightning_2_b
       speaker: ''
       title: 闪电演讲
-      venue: B
+      venue: ''
   - end: '17:15'
     start: '17:00'
     talks:
