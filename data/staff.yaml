@@ -1,14 +1,41 @@
 organizers:
-  - name: 辛庆
-    position:
-    avatar:
-  - name: 晁倩
-    avatar:
-  - name: 王斌鑫
-    avatar:
-  - name: 明希
-    avatar:
-
-volunteers:
-  - name: xxx
-    avatar:
+- avatar: /2021/assets/people/XinQing.jpg
+  name: 辛庆
+  position: ''
+- avatar: /2021/assets/people/WangBinxin.png
+  name: 王斌鑫
+  position: 阿里云 技术专家
+- avatar: /2021/assets/people/FrostMing.jpg
+  name: 明希
+  position: Crypto.com 量化开发
+- avatar: /2021/assets/people/anonymous.jpg
+  name: 许银
+  position: 华为云 AI开发者生态
+- avatar: /2021/assets/people/anonymous.jpg
+  name: 晁倩
+  position: 华为云 AI开发者生态
+- avatar: /2021/assets/people/anonymous.jpg
+  name: 易慧媛
+  position: 西南财经大学 研究生
+- avatar: /2021/assets/people/ZhangJintao.jpg
+  name: 张晋涛
+  position: API7.AI 技术专家
+- avatar: /2021/assets/people/anonymous.jpg
+  name: 代少飞
+  position: 华港咨询 资深开发
+- avatar: /2021/assets/people/anonymous.jpg
+  name: 朱明放
+  position: 破晓团队 安全开发
+- avatar: /2021/assets/people/anonymous.jpg
+  name: 王梦兰
+  position: ''
+- avatar: /2021/assets/people/anonymous.jpg
+  name: 吴妙璇
+  position: ''
+- avatar: /2021/assets/people/LiZheao.png
+  name: 李者璈
+  position: ''
+- avatar: /2021/assets/people/TanXiao.jpg
+  name: 谭啸
+  position: 亚信科技 高级开发
+volunteers: []
