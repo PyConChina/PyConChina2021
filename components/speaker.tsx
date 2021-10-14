@@ -12,10 +12,6 @@ export type SpeakerType = {
 
 export const defaultAvatar = '/2021/assets/people/anonymous.jpg';
 
-const properTitle = (title: string): string => {
-  return title.length <= 50 ? title : title.slice(47) + '...';
-};
-
 export default function Speaker(props: SpeakerType) {
   return (
     <Link href={`/talks/${props.slug}`}>
@@ -28,11 +24,25 @@ export default function Speaker(props: SpeakerType) {
         <div className="card-content">
           <p className="title is-5">{props.speaker}</p>
           <p className="subtitle is-6">{props.company}</p>
-          <div className="content is-size-5">{properTitle(props.title)}</div>
+          <p className="content is-size-5">{props.title}</p>
         </div>
         <style jsx>{`
           .card-content {
-            height: 200px;
+            height: 210px;
+          }
+          .subtitle {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+          .content {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
           }
         `}</style>
       </a>
