@@ -46,7 +46,14 @@ const Home = (props: IndexProps) => {
           </div>
           <div className="buttons is-centered mt-2">
             {shouldShowLive ? (
-              <a className="button is-primary is-large is-rounded">{t('live_address')}</a>
+              <a
+                className="button is-primary is-large is-rounded"
+                href="https://www.huodongxing.com/event/9618480117522"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {t('live_address')}
+              </a>
             ) : (
               <Link href="/cfp">
                 <a className="button is-primary is-large is-rounded">{t('cfp')}</a>
