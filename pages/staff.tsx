@@ -25,7 +25,7 @@ const StaffItem = ({ staff }: { staff: Staff }) => (
       />
     </figure>
     <p className="is-size-5">{staff.name}</p>
-    {staff.position && <p className="is-size-6">{staff.name}</p>}
+    {staff.position && <p className="is-size-6">{staff.position}</p>}
   </div>
 );
 
