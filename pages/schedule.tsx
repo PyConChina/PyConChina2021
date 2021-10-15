@@ -9,7 +9,7 @@ import { useTranslation } from 'next-i18next';
 
 export type ScheduleTalk = {
   venue?: string;
-  title: string;
+  title?: string;
   speaker?: string;
   avatar?: string;
   company?: string;
@@ -21,6 +21,7 @@ export type ScheduleTalk = {
 };
 
 export type ScheduleEvent = {
+  type?: string;
   start: string;
   end: string;
   talks: ScheduleTalk[];
@@ -29,6 +30,38 @@ export type ScheduleEvent = {
 export type ScheduleItem = {
   date: string;
   events: ScheduleEvent[];
+};
+
+type ScheduleSection = {
+  events: ScheduleEvent[];
+  pyhouse?: ScheduleEvent;
+};
+
+const splitEvents = (events: ScheduleEvent[]): ScheduleSection[] => {
+  const result: ScheduleSection[] = [];
+  let current: ScheduleEvent[] = [];
+  for (const event of events) {
+    switch (event.type) {
+      case 'pyhouse':
+        result.push({ events: [...current], pyhouse: event });
+        current = [];
+        break;
+      case 'break':
+        if (current.length) {
+          result.push({ events: current });
+          current = [];
+        }
+        result.push({ events: [event] });
+        break;
+      default:
+        current.push(event);
+        break;
+    }
+  }
+  if (current.length) {
+    result.push({ events: current });
+  }
+  return result;
 };
 
 const EmptySchedule = () => {
@@ -47,12 +80,64 @@ const EmptySchedule = () => {
   );
 };
 
+const Talk = ({ talk }: { talk: ScheduleTalk }) => {
+  const { t } = useTranslation('common');
+  const className = talk.venue ? `box h-full venue-${talk.venue}` : 'box h-full';
+  if (!talk.title) {
+    return <div />;
+  }
+  return talk.slug ? (
+    <Link href={`/talks/${talk.slug}`}>
+      <a className={className}>
+        <div className="is-flex is-justify-content-space-between">
+          <p className="title is-5">{talk.title}</p>
+          <p className="has-text-grey is-size-6 is-flex-shrink-0">
+            {talk.venue ? `${t('venue')} ${talk.venue}` : t('main_venue')}
+          </p>
+        </div>
+        {talk.speaker && <p className="subtitle mt-2">{talk.speaker}</p>}
+      </a>
+    </Link>
+  ) : (
+    <div className={className}>
+      <div className="is-flex is-justify-content-space-between">
+        <p className="title is-5">{talk.title}</p>
+        <p className="has-text-grey is-size-6 is-flex-shrink-0">
+          {!talk.venue
+            ? t('main_venue')
+            : talk.venue === 'pyhouse'
+            ? talk.venue
+            : `${t('venue')} ${talk.venue}`}
+        </p>
+      </div>
+      {talk.speaker && <p className="subtitle mt-2">{talk.speaker}</p>}
+    </div>
+  );
+};
+
+const Event = ({ event }: { event: ScheduleEvent }) => {
+  const { t } = useTranslation('common');
+  return (
+    <>
+      <div className="timeline-marker"></div>
+      <div className="timeline-content is-flex is-flex-direction-column h-full">
+        <p className="heading">{event.start ? `${event.start} - ${event.end}` : t('TBD')}</p>
+        <div className="columns is-flex-grow-1">
+          {event.talks.map((m, j) => (
+            <div className="column" key={j}>
+              <Talk talk={m} />
+            </div>
+          ))}
+        </div>
+      </div>
+    </>
+  );
+};
+
 const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
   const [activeDate, setActiveDate] = useState(0);
   const { t } = useTranslation('common');
-  const events = schedule[activeDate].events.sort((a, b) =>
-    (a.start || '').localeCompare(b.start || '')
-  );
+  const sections = splitEvents(schedule[activeDate].events);
   return (
     <Layout title={t('schedule')}>
       <section className="section">
@@ -76,48 +161,27 @@ const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
               ))}
             </ul>
           </div>
-          {events.length === 0 ? (
+          {sections.length === 0 ? (
             <EmptySchedule />
           ) : (
             <div className="timeline mx-auto">
               <header className="timeline-header">
                 <span className="tag is-medium is-primary">{t('start')}</span>
               </header>
-              {events.map((e, i) => (
-                <div className="timeline-item" key={i}>
-                  <div className="timeline-marker"></div>
-                  <div className="timeline-content is-flex-grow-1">
-                    <p className="heading">{e.start ? `${e.start} - ${e.end}` : t('TBD')}</p>
-                    <div className="columns">
-                      {e.talks.map((m, j) => (
-                        <div className="column" key={j}>
-                          {m.slug ? (
-                            <Link href={`/talks/${m.slug}`}>
-                              <a className="box">
-                                <div className="is-flex is-justify-content-space-between">
-                                  <p className="title is-5">{m.title}</p>
-                                  <p className="has-text-grey is-size-6 is-flex-shrink-0">
-                                    {m.venue ? `${t('venue')} ${m.venue}` : t('main_venue')}
-                                  </p>
-                                </div>
-                                {m.speaker && <p className="subtitle mt-2">{m.speaker}</p>}
-                              </a>
-                            </Link>
-                          ) : (
-                            <div className="box">
-                              <div className="is-flex is-justify-content-space-between">
-                                <p className="title is-5">{m.title}</p>
-                                <p className="has-text-grey is-size-6 is-flex-shrink-0">
-                                  {m.venue ? `${t('venue')} ${m.venue}` : t('main_venue')}
-                                </p>
-                              </div>
-                              {m.speaker && <p className="subtitle mt-2">{m.speaker}</p>}
-                            </div>
-                          )}
-                        </div>
-                      ))}
-                    </div>
+              {sections.map((s, i) => (
+                <div className="is-flex timeline-item is-align-items-stretch" key={i}>
+                  <div className="is-flex-grow-2 is-flex-shrink-1">
+                    {s.events.map((e, j) => (
+                      <div key={j}>
+                        <Event event={e} />
+                      </div>
+                    ))}
                   </div>
+                  {s.pyhouse && (
+                    <div className="is-flex-grow-1 is-flex-shrink-1">
+                      <Event event={s.pyhouse} />
+                    </div>
+                  )}
                 </div>
               ))}
               <div className="timeline-header">

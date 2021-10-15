@@ -40,13 +40,10 @@ const generate = async () => {
   const calendar = ical({ name: 'PyConChina 2021 Calendar' });
   data.forEach(({ date, events }) => {
     events.forEach((event) => {
-      if (!event.start) {
+      if (!event.start || event.type === 'break') {
         return;
       }
-      event.talks.forEach(talk => {
-        if (talk.calendar === false) {
-          return;
-        }
+      event.talks.forEach((talk) => {
         const start = parseTime(date, event.start);
         const end = parseTime(date, event.end);
         console.log(`Adding schedule event: ${start} - ${end}`);
@@ -57,7 +54,7 @@ const generate = async () => {
           description: getDescription(talk),
           url: talk.slug ? `${baseUrl}/talks/${talk.slug}` : null,
         });
-      })
+      });
     });
   });
   const destPath = path.join(process.cwd(), 'public', 'calendar.ics');
