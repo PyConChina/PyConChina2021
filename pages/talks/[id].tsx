@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import { startAnimation } from 'framer-motion/types/animation/utils/transitions';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -106,7 +107,7 @@ export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
     for (let event of item.events) {
       for (let talk of event.talks) {
         if (talk.slug === params?.id) {
-          matchedEvent = { date: item.date, ...talk };
+          matchedEvent = { date: item.date, start: event.start, end: event.end, ...talk };
         }
       }
     }
