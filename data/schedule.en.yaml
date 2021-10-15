@@ -55,7 +55,7 @@ schedule:
       - end: '11:45'
         start: '11:00'
         talks:
-          - avatar: /2021/assets/people/anonymous.jpg
+          - avatar: /2021/assets/people/Taichi.jpg
             company: Taichi Graphics
             desc: ''
             intro: 'Yuanming Hu is the CEO of Taichi Graphics and thefounder of Tachi Programming

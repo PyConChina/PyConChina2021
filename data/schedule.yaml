@@ -52,7 +52,7 @@ schedule:
       - end: '11:45'
         start: '11:00'
         talks:
-          - avatar: /2021/assets/people/anonymous.jpg
+          - avatar: /2021/assets/people/Taichi.jpg
             company: 太极图形科技
             desc: ''
             intro: '胡渊鸣：太极图形科技 CEO，太极编程语言创始人
