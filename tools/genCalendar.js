@@ -10,7 +10,7 @@ const year = '2021';
 const baseUrl = 'https://cn.pycon.org';
 
 const parseTime = (date, time) => {
-  return dayjs(`${year}/${date} ${time}`, 'YYYY/MM/DD H:mm', 'Asia/Shanghai');
+  return dayjs(`${year}/${date} ${time}`, 'YYYY/MM/DD H:mm');
 };
 
 const loadData = async () => {
