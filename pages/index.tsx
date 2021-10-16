@@ -71,13 +71,13 @@ const Home = (props: IndexProps) => {
                       className="dropdown-item"
                       href="https://segmentfault.com/area/pyconchina-2021"
                     >
-                      CSDN
+                      思否
                     </a>
                     <a
                       href="https://live.csdn.net/room/pyconchina/KEfhW846"
                       className="dropdown-item"
                     >
-                      思否
+                      CSDN
                     </a>
                   </div>
                 </div>
