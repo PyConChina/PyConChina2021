@@ -248,7 +248,7 @@ schedule:
         start: '13:00'
         type: pyhouse
         talks:
-          - speaker: Qingyun / Mavin / Zhixiang Xu
+          - speaker: Qingyun / Mavin / Zhixiang Xu / Manjusaka Li
             keynote: false
             title: Things about opens source
             venue: 'pyhouse'
@@ -424,7 +424,7 @@ schedule:
           - keynote: false
             title: Students in Python Development
             venue: 'pyhouse'
-            speaker: Junjie Wang
+            speaker: Junjie Wang / Hui Li
       - end: '17:15'
         start: '17:00'
         type: break

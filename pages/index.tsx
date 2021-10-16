@@ -46,14 +46,42 @@ const Home = (props: IndexProps) => {
           </div>
           <div className="buttons is-centered mt-2">
             {shouldShowLive ? (
-              <a
-                className="button is-primary is-large is-rounded"
-                href="https://www.huodongxing.com/event/9618480117522"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {t('live_address')}
-              </a>
+              <div className="dropdown is-hoverable">
+                <div className="dropdown-trigger">
+                  <button
+                    className="button is-primary is-large is-rounded"
+                    aria-haspopup="true"
+                    aria-controls="dropdown-menu"
+                  >
+                    <span>{t('live_address')}</span>
+                    <span className="icon is-small">
+                      <i className="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div>
+                <div className="dropdown-menu" id="dropdown-menu" role="menu">
+                  <div className="dropdown-content">
+                    <a
+                      href="https://www.huodongxing.com/event/9618480117522"
+                      className="dropdown-item"
+                    >
+                      活动行
+                    </a>
+                    <a
+                      className="dropdown-item"
+                      href="https://segmentfault.com/area/pyconchina-2021"
+                    >
+                      CSDN
+                    </a>
+                    <a
+                      href="https://live.csdn.net/room/pyconchina/KEfhW846"
+                      className="dropdown-item"
+                    >
+                      思否
+                    </a>
+                  </div>
+                </div>
+              </div>
             ) : (
               <Link href="/cfp">
                 <a className="button is-primary is-large is-rounded">{t('cfp')}</a>

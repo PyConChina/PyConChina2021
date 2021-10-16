@@ -226,7 +226,7 @@ schedule:
         start: '13:00'
         type: pyhouse
         talks:
-          - speaker: 青云 / Mavin / 许智翔
+          - speaker: 青云 / Mavin / 许智翔 / 李者璈
             keynote: false
             title: 开源项目那些事
             venue: 'pyhouse'
@@ -340,7 +340,7 @@ schedule:
           - keynote: false
             title: 高中生、初中生参与 Python 开发的趣事
             venue: 'pyhouse'
-            speaker: 王俊杰
+            speaker: 王俊杰 / 李辉
       - end: '17:15'
         start: '17:00'
         type: break
