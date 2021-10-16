@@ -424,7 +424,7 @@ schedule:
           - keynote: false
             title: Students in Python Development
             venue: 'pyhouse'
-            speaker: Junjie Wang / Hui Li
+            speaker: Junjie Wang / Bowen Li / Andy Zhou / Rice Zong / Grey Li
       - end: '17:15'
         start: '17:00'
         type: break
