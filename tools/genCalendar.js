@@ -1,7 +1,9 @@
 const ical = require('ical-generator');
 const dayjs = require('dayjs');
-var utc = require('dayjs/plugin/utc');
+const utc = require('dayjs/plugin/utc');
+const timezone = require('dayjs/plugin/timezone');
 dayjs.extend(utc);
+dayjs.extend(timezone);
 const path = require('path');
 const fs = require('fs').promises;
 const yaml = require('js-yaml');
@@ -10,7 +12,7 @@ const year = '2021';
 const baseUrl = 'https://cn.pycon.org';
 
 const parseTime = (date, time) => {
-  return dayjs(`${year}/${date} ${time}`, 'YYYY/MM/DD H:mm');
+  return dayjs.tz(`${year}/${date} ${time}`, 'YYYY/MM/DD H:mm', 'Asia/Shanghai');
 };
 
 const loadData = async () => {
