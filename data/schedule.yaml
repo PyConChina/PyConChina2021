@@ -340,7 +340,7 @@ schedule:
           - keynote: false
             title: 高中生、初中生参与 Python 开发的趣事
             venue: 'pyhouse'
-            speaker: 王俊杰 / 李辉
+            speaker: 王俊杰 / 胡博文 / Andy Zhou / Rice Zong / 李辉
       - end: '17:15'
         start: '17:00'
         type: break
