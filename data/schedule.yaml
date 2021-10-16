@@ -62,7 +62,7 @@ schedule:
             keynote: true
             slug: high-performance-parallel
             speaker: 胡渊鸣&张爱玲
-            title: 在 Python 中实现高性能并行计算
+            title: 在 "Python" 中实现高性能并行计算
             venue: ''
       - end: '12:00'
         start: '11:45'
