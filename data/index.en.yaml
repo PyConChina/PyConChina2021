@@ -63,6 +63,9 @@ sponsors:
     - icon: /2021/assets/sponsors/freecodecamp.png
       link: https://www.freecodecamp.org/
       name: free Code Camp
+    - icon: /2021/assets/sponsors/helloflask.png
+      link: https://helloflask.com
+      name: HelloFlask
     level: Community Cooperation
   - items:
     - icon: /2021/assets/sponsors/huodongxing.png
