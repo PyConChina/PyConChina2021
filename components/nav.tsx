@@ -74,7 +74,13 @@ const Nav = function () {
               <Link href="/video-guide">
                 <a className="navbar-item">{t('video-guide')}</a>
               </Link>
-              <a className="navbar-item">{t('souvenir')}</a>
+              <a
+                href="https://weidian.com/?userid=1869700252&wfr=wx&source=home_shop&ifr=itemdetail&sfr=app"
+                target="blank"
+                className="navbar-item"
+              >
+                {t('souvenir')}
+              </a>
             </div>
           </div>
           <div className="navbar-item has-dropdown is-hoverable">
