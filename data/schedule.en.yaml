@@ -860,7 +860,21 @@ schedule:
             slug: dash-echarts
             speaker: Fanchao Meng
             title: Building Interactive Dashboards with Dash & ECharts
-            venue: ''
+            venue: 'A'
+          - avatar: /2021/assets/people/YuFangye.jpg
+            company: Neo4j Tech Expert
+            desc: |
+              This session will introduce how to quickly build a large visualization screen using dash and echarts.
+              With dash framework, data engineers can easily build dynamic reports, while the rich legend of echarts makes
+              the data presentation more vivid and intuitive. This sharing will quickly introduce the basic methods of using
+              dash and echarts together, and provide step by step guidance for creating complex charts such as maps.
+              This session will provide a step by step guide for creating complex charts such as maps, so that you can quickly master the use of dash and echarts.
+            intro: Years of experience in architecture design and software development, with a particular passion for data analysis, now as Technical Director of Neo4j APAC
+            keynote: true
+            slug: python-graphic-data
+            speaker: Fangye Yu
+            title: Python+Graph Data Science - Insurance Fraud Detection in Action
+            venue: B
       - end: '17:00'
         start: '16:15'
         talks:
@@ -888,7 +902,16 @@ schedule:
             slug: lightning_2_b
             speaker: ''
             title: Lightning Talks
-            venue: ''
+            venue: A
+          - avatar: /2021/assets/people/WangHao.jpg
+            company: Databricks Partner Solutions Architect
+            desc:
+            intro: Databricks Partner Solutions Architect，received MSc degree in CS, NUS
+            keynote: true
+            slug: pyspark
+            speaker: 汪浩
+            title: PySpark application in big data processing.
+            venue: B
       - end: '17:15'
         start: '17:00'
         talks:

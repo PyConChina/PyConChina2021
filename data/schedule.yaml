@@ -675,8 +675,20 @@ schedule:
             keynote: true
             slug: dash-echarts
             speaker: 孟繁超
-            title: Building Interactive Dashboards with Dash & ECharts
-            venue: ''
+            title: 用 Dash 和 ECharts 构建互动 Dashboard
+            venue: A
+          - avatar: /2021/assets/people/YuFangye.jpg
+            company: Neo4j 技术专家
+            desc: |
+              本次分享将会介绍使用 dash 和 echarts 快速构建可视化大屏的方法。借助 dash 框架，数据工程师可以十分轻松的完成动态报表的构建，而
+              echarts 丰富的图例则使得数据的表达更加的生动与直观。本次分享将会快速的介绍 dash 和 echarts 结合使用的基本方法，并针对涉及地图等复杂图表的创建进行
+              step by step 的指导，以便大家可以快速掌握 dash 和 echarts 的使用.
+            intro: 多年架构设计和软件开发工作经历，特别热衷于数据分析，现在是Neo4j亚太地区技术总监
+            keynote: true
+            slug: python-graphic-data
+            speaker: 俞方桦
+            title: Python+图数据科学 - 保险欺诈检测实战
+            venue: B
       - end: '17:00'
         start: '16:15'
         talks:
@@ -695,7 +707,16 @@ schedule:
             slug: lightning_2_b
             speaker: ''
             title: 闪电演讲
-            venue: ''
+            venue: A
+          - avatar: /2021/assets/people/WangHao.jpg
+            company: Databricks合作伙伴架构师
+            desc:
+            intro: Databricks合作伙伴架构师，硕士毕业于新加坡国立大学计算机学院。
+            keynote: true
+            slug: pyspark
+            speaker: 汪浩
+            title: 大规模数据处理中PySpark的应用
+            venue: B
       - end: '17:15'
         start: '17:00'
         talks:
