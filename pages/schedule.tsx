@@ -95,7 +95,12 @@ const Talk = ({ talk }: { talk: ScheduleTalk }) => {
             {talk.venue ? `${t('venue')} ${talk.venue}` : t('main_venue')}
           </p>
         </div>
-        {talk.speaker && <p className="subtitle mt-2">{talk.speaker}</p>}
+        {talk.speaker && (
+          <p className="subtitle mt-2">
+            {talk.speaker}{' '}
+            <span className="has-text-grey-light is-size-6">{talk.company || ''}</span>
+          </p>
+        )}
       </a>
     </Link>
   ) : (
@@ -105,12 +110,16 @@ const Talk = ({ talk }: { talk: ScheduleTalk }) => {
         <p className="has-text-grey is-size-6 is-flex-shrink-0">
           {!talk.venue
             ? t('main_venue')
-            : talk.venue === 'pyhouse'
+            : talk.venue === 'PyHouse'
             ? talk.venue
             : `${t('venue')} ${talk.venue}`}
         </p>
       </div>
-      {talk.speaker && <p className="subtitle mt-2">{talk.speaker}</p>}
+      {talk.speaker && (
+        <p className="subtitle mt-2">
+          {talk.speaker} <span className="has-text-grey-light is-size-6">{talk.company || ''}</span>
+        </p>
+      )}
     </div>
   );
 };
