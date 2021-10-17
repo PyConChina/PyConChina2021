@@ -861,7 +861,7 @@ schedule:
             speaker: Fanchao Meng
             title: Building Interactive Dashboards with Dash & ECharts
             venue: 'A'
-          - avatar: /2021/assets/people/YuFangye.jpg
+          - avatar: /2021/assets/people/Yufangye.jpg
             company: Neo4j Tech Expert
             desc: |
               This session will introduce how to quickly build a large visualization screen using dash and echarts.
