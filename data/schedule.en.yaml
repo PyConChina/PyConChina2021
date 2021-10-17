@@ -94,7 +94,7 @@ schedule:
           - speaker: PyCon China Orginizers
             keynote: false
             title: Pythonista AMA
-            venue: 'pyhouse'
+            venue: PyHouse
       - end: '13:00'
         start: '12:00'
         type: break
@@ -251,7 +251,7 @@ schedule:
           - speaker: Qingyun / Mavin / Zhixiang Xu / Manjusaka Li
             keynote: false
             title: Things about opens source
-            venue: 'pyhouse'
+            venue: PyHouse
       - end: '15:30'
         start: '15:15'
         type: break
@@ -423,7 +423,7 @@ schedule:
         talks:
           - keynote: false
             title: Students in Python Development
-            venue: 'pyhouse'
+            venue: PyHouse
             speaker: Junjie Wang / Bowen Li / Andy Zhou / Rice Zong / Grey Li
       - end: '17:15'
         start: '17:00'
@@ -626,7 +626,7 @@ schedule:
           - speaker: PyCon China Orginizers
             keynote: false
             title: Pythonista AMA
-            venue: 'pyhouse'
+            venue: PyHouse
       - end: '13:00'
         start: '12:00'
         type: break
@@ -771,7 +771,7 @@ schedule:
               era"
             venue: B
           - title: Interview with creator of Python Developer Survey
-            venue: pyhouse
+            venue: PyHouse
             speaker: Binxin Wang
             keynote: false
       - end: '15:15'
@@ -819,7 +819,7 @@ schedule:
             title: Practice of Data Application in Brain Science
             venue: B
           - title: Mobile Office Experience for Freelancers
-            venue: pyhouse
+            venue: PyHouse
             speaker: Feng Li / Shaogang Lu / Jintao Zhang
             keynote: false
       - end: '15:30'

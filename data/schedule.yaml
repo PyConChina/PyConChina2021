@@ -87,7 +87,7 @@ schedule:
           - speaker: PyCon China 组委会成员
             keynote: false
             title: Pythonista 之间的真心话
-            venue: 'pyhouse'
+            venue: PyHouse
       - end: '13:00'
         start: '12:00'
         type: break
@@ -229,7 +229,7 @@ schedule:
           - speaker: 青云 / Mavin / 许智翔 / 李者璈
             keynote: false
             title: 开源项目那些事
-            venue: 'pyhouse'
+            venue: PyHouse
       - end: '15:30'
         start: '15:15'
         type: break
@@ -339,7 +339,7 @@ schedule:
         talks:
           - keynote: false
             title: 高中生、初中生参与 Python 开发的趣事
-            venue: 'pyhouse'
+            venue: PyHouse
             speaker: 王俊杰 / 胡博文 / Andy Zhou / Rice Zong / 李辉
       - end: '17:15'
         start: '17:00'
@@ -494,7 +494,7 @@ schedule:
           - speaker: PyCon China 组委会成员
             keynote: false
             title: Pythonista 之间的真心话
-            venue: 'pyhouse'
+            venue: PyHouse
       - end: '13:00'
         start: '12:00'
         type: break
@@ -604,7 +604,7 @@ schedule:
             title: easyweb：致敬 Zope 的云时代开源 web 框架
             venue: B
           - title: Python 开发者调研问卷发起人访谈
-            venue: pyhouse
+            venue: PyHouse
             speaker: 王斌鑫
             keynote: false
       - end: '15:15'
@@ -642,7 +642,7 @@ schedule:
             title: 脑科学中的数据应用实践
             venue: B
           - title: 自由职业者移动办公新体验
-            venue: pyhouse
+            venue: PyHouse
             speaker: 李枫 / 吕绍刚 / 张晋涛
             keynote: false
       - end: '15:30'

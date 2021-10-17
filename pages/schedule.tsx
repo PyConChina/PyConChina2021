@@ -166,7 +166,7 @@ const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
           ) : (
             <div className="timeline mx-auto">
               <header className="timeline-header">
-                <span className="tag is-medium is-primary">{t('start')}</span>
+                <span className="tag is-medium">{t('start')}</span>
               </header>
               {sections.map((s, i) => (
                 <div className="is-flex timeline-item is-align-items-stretch" key={i}>
@@ -185,7 +185,7 @@ const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
                 </div>
               ))}
               <div className="timeline-header">
-                <span className="tag is-medium is-primary">{t('end')}</span>
+                <span className="tag is-medium">{t('end')}</span>
               </div>
             </div>
           )}
