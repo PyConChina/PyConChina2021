@@ -338,9 +338,30 @@ schedule:
         type: pyhouse
         talks:
           - keynote: false
+            avatar: /2021/assets/people/Students.png
             title: 高中生、初中生参与 Python 开发的趣事
             venue: 'pyhouse'
             speaker: 王俊杰 / 胡博文 / Andy Zhou / Rice Zong / 李辉
+            company: ''
+            intro: '高中生和初中生们是怎么学习 Python 的？他们都开发了什么项目？他们未来会计划做程序员吗？
+              在这场圆桌里，一个高中生和三个初中生会一起聊一聊他们学习和使用 Python 的经历，以及他们的未来畅想。'
+            desc: '
+              - 王俊杰：上海市浦东中学高一学生，Python 开发者（Web，爬虫，自动化）PHP 开发者，前端开发，网络安全爱好者，接触 Python 4 年。
+                Email：<variflight@feiyou.chat>
+
+              - 胡博文：上海市松江四中初三学生，喜爱编程，从初二开始自学 Python，是一名 Python 初学者。
+                Email：<bowen.hu@hotmail.com>。
+
+              - Andy Zhou：一个普普通通的初中生，喜欢编程，尤其热爱 Python 和 Go，Flask 框架忠实的爱好者。
+                开源项目：<https://github.com/z-t-y/Flog>、<https://github.com/z-t-y/flogo>
+
+              - Rice Zong：来自上海，就读于上民办兰生复旦中学，2022 届初中学生，程序爱好者。从 2017 年起接触 Python，
+                多次与 Andy Zhou 合作完成学校项目。喜欢 Flask Web 应用开发，以及使用 Python 解决个人与团队问题，常用账号为 rice0208。
+                个人网站：<https://rice0208.pythonanywhere.com>
+
+              - 李辉（主持人）：Flask 维护者，编程和写作爱好者。个人网站：<https://greyli.com>
+              '
+            slug: 'young-pythonistas'
       - end: '17:15'
         start: '17:00'
         type: break
