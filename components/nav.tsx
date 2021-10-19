@@ -88,8 +88,14 @@ const Nav = function () {
 
             <div className="navbar-dropdown">
               <a className="navbar-item">{t('beijing')}</a>
-              <a className="navbar-item">{t('shanghai')}</a>
-              <a href="http://hdxu.cn/t2YgP" className="navbar-item">
+              <a
+                href="https://www.huodongxing.com/event/3620062389300"
+                target="blank"
+                className="navbar-item"
+              >
+                {t('shanghai')}
+              </a>
+              <a href="http://hdxu.cn/t2YgP" target="blank" className="navbar-item">
                 {t('shenzhen')}
               </a>
               <a className="navbar-item">{t('hangzhou')}</a>
