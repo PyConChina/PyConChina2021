@@ -18,11 +18,11 @@ const defaultAvatar = '/2021/assets/people/anonymous.jpg';
 
 const StaffItem = ({ staff }: { staff: Staff }) => (
   <div className="has-text-centered is-flex-shrink-0 mb-6">
-    <figure className="image mb-0 is-128x128">
+    <figure className="image mb-2 is-128x128">
       <img className="is-rounded" src={staff.avatar || defaultAvatar} alt={staff.name} />
     </figure>
-    <p className="is-size-5">{staff.name}</p>
-    {staff.position && <p className="is-size-6">{staff.position}</p>}
+    <div className="is-size-5">{staff.name}</div>
+    {staff.position && <div className="is-size-6">{staff.position}</div>}
   </div>
 );
 
