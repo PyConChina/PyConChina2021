@@ -4,6 +4,9 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Layout from '../components/layout';
 import { loadYaml } from '../utils';
 import Image from 'next/image';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
+import remarkGfm from 'remark-gfm';
 
 type Staff = {
   name: string;
@@ -29,7 +32,15 @@ const StaffItem = ({ staff }: { staff: Staff }) => (
   </div>
 );
 
-const StaffPage = ({ organizers, volunteers }: { organizers: Staff[]; volunteers: Staff[] }) => {
+const StaffPage = ({
+  organizers,
+  volunteers,
+  donators,
+}: {
+  organizers: Staff[];
+  volunteers: Staff[];
+  donators: string;
+}) => {
   const { t } = useTranslation('common');
 
   return (
@@ -49,6 +60,12 @@ const StaffPage = ({ organizers, volunteers }: { organizers: Staff[]; volunteers
             {volunteers.map((staff, i) => (
               <StaffItem staff={staff} key={i} />
             ))}
+          </div>
+          <h2>{t('donators')}</h2>
+          <div className="content">
+            <ReactMarkdown rehypePlugins={[rehypeRaw]} plugins={[remarkGfm]}>
+              {donators}
+            </ReactMarkdown>
           </div>
         </div>
       </section>
