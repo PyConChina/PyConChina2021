@@ -145,7 +145,7 @@ const Home = (props: IndexProps) => {
               <div key={i} className="sponsor-group">
                 <h3 className="title is-4 mt-6">{level}</h3>
                 {items.map((item, j) => (
-                  <a href={item.link || '#'} key={j} className="mx-4 my-2 is-inline-block">
+                  <a href={item.link || '#'} key={j} className="mx-4 my-2 is-inline-block" target="_blank">
                     <img
                       alt={item.name}
                       src={item.icon}
