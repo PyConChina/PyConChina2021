@@ -100,6 +100,13 @@ const Nav = function () {
               </a>
               <a className="navbar-item">{t('hangzhou')}</a>
               <a className="navbar-item">{t('changsha')}</a>
+              <a
+                href="https://www.huodongxing.com/event/5622027779300"
+                target="blank"
+                className="navbar-item"
+              >
+                {t('chengdu')}
+              </a>
             </div>
           </div>
 
