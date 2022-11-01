@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { GetStaticProps } from 'next';
-import { useTranslation } from 'next-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useTranslation, useLanguageQuery } from 'next-export-i18n';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import Layout from '../components/layout';
@@ -26,7 +25,8 @@ type IndexProps = {
 };
 
 const Home = (props: IndexProps) => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
+  const [query] = useLanguageQuery();
 
   const shouldShowLive = new Date() >= new Date('2021-10-02T00:00:00+08:00');
 
@@ -83,7 +83,7 @@ const Home = (props: IndexProps) => {
                 </div>
               </div>
             ) : (
-              <Link href="/cfp">
+              <Link href={{query, pathname: '/cfp'}}>
                 <a className="button is-primary is-large is-rounded">{t('cfp')}</a>
               </Link>
             )}
@@ -131,7 +131,7 @@ const Home = (props: IndexProps) => {
             ))}
           </div>
           <div className="has-text-centered">
-            <Link href="/schedule">
+            <Link href={{query, pathname: '/schedule'}}>
               <a className="button is-primary is-large">{t('schedule')}</a>
             </Link>
           </div>
@@ -163,7 +163,7 @@ const Home = (props: IndexProps) => {
               </div>
             ))}
             <p>
-              <Link href="/assets/sponsorship.pdf">
+              <Link href={{query, pathname: '/assets/sponsorship.pdf'}}>
                 <a className="button is-primary is-large" target="_blank">
                   {t('sponsor_us')}
                 </a>
@@ -195,7 +195,6 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     props: {
       ...indexData,
       speakers,
-      ...(await serverSideTranslations(locale as string, ['common'])),
     },
   };
 };

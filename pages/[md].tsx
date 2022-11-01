@@ -3,51 +3,40 @@ Each entry of this page is a markdown file under /data/contents/
 */
 
 import { GetStaticPaths, GetStaticProps } from 'next';
-import { useTranslation } from 'next-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useTranslation, useSelectedLanguage } from 'next-export-i18n';
 import Layout from '../components/layout';
 import TextPage from '../components/TextPage';
 import { getMarkdownFiles, readData } from '../utils';
 
-const Markdown = ({ name, content }: { name: string; content: string }) => {
-  const { t } = useTranslation('common');
+const MarkdownContent = ({ name, contents }: { name: string; contents: Record<string, string> }) => {
+  const { t } = useTranslation();
+  const { lang } = useSelectedLanguage();
   return (
-    <Layout title={t(name)}>
-      <TextPage>{content}</TextPage>
+    <Layout title={t(name || '_default')}>
+      <TextPage>{contents?.[lang] || ''}</TextPage>
     </Layout>
   );
 };
 
-type Path = {
-  params: {
-    md: string;
-  };
-  locale: string;
-};
-
-export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
-  const paths: Path[] = [];
+export const getStaticPaths: GetStaticPaths = async () => {
   const names = await getMarkdownFiles('contents');
-  names.forEach((name) => {
-    paths.push(
-      ...(locales as string[]).map((locale) => ({
-        params: { md: name },
-        locale,
-      }))
-    );
-  });
+  const paths = names.map((name) => ({ params: { md: name } }));
   return {
     paths,
-    fallback: true,
+    fallback: false,
   };
 };
 
-export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
+export const getStaticProps: GetStaticProps = async ({ params }) => {
   const md = params?.md;
-  const content = await readData(`contents/${md}.md`, locale);
+  const contents = {
+    zh: await readData(`contents/${md}.md`, 'zh'),
+    en: await readData(`contents/${md}.md`, 'en')
+  }
+
   return {
-    props: { name: md, content, ...(await serverSideTranslations(locale as string, ['common'])) },
+    props: { name: md, contents },
   };
 };
 
-export default Markdown;
+export default MarkdownContent;

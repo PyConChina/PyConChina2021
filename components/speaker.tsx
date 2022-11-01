@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useLanguageQuery } from 'next-export-i18n';
 
 /* eslint-disable @next/next/no-img-element */
 export type SpeakerType = {
@@ -13,8 +14,9 @@ export type SpeakerType = {
 export const defaultAvatar = '/2021/assets/people/anonymous.jpg';
 
 export default function Speaker(props: SpeakerType) {
+  const [query] = useLanguageQuery();
   return (
-    <Link href={`/talks/${props.slug}`}>
+    <Link href={{query, pathname: `/talks/${props.slug}`}}>
       <a className="card is-block">
         <div className="card-image">
           <figure className="image is-square">

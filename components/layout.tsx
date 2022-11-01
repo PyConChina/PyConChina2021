@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'next-export-i18n';
 import { NextSeo } from 'next-seo';
 
 const variants = {
@@ -8,7 +8,7 @@ const variants = {
 };
 
 const Layout = function ({ children, title }: { children: React.ReactNode; title: string }) {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
   return (
     <>
       <NextSeo

@@ -3,4 +3,772 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:PyConChina 2021 Calendar
 X-WR-CALNAME:PyConChina 2021 Calendar
+BEGIN:VEVENT
+UID:d191a753-0f82-4790-a5f4-9b4b0b0ce23d
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T013000Z
+DTEND:20211016T021500Z
+SUMMARY:The Python Software Foundation's role in Python's ecosystem
+DESCRIPTION:Speaker: Ewa Jodlowska\n\nSpeaker Introduction: Ewa Jodlowska 
+ 是 Python 软件基金会的执行董事。 Ewa 自 2012 年以来一直
+ 在 PSF 工作，在此之前，她一直作为承包商协助 PyCon US。
+  在 PSF 中，Ewa 不仅负责管理员工、为基金会提供方向和
+ 领导，还要与董事会合作进行长期战略规划、社区外展
+ 以及监督财务和项目运营。 \n\nEwa 将在 2021 年底踏上新
+ 的职业道路，她将怀念与世界各地 Pythonista 共事的时光
+ ！\n\n关注 Ewa 的 Twitter 账户，获取她的最新动态！
+URL;VALUE=URI:https://cn.pycon.org/talks/psf-in-python-ecosystem
+END:VEVENT
+BEGIN:VEVENT
+UID:d8a2c8e1-785e-418a-9759-d20a9bacff40
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T021500Z
+DTEND:20211016T030000Z
+SUMMARY:The First Step to AI-First: Forget About AI
+DESCRIPTION:Speaker: 肖涵\n\nSpeaker Introduction: - Jina AI 创始人
+ 及 CEO，热门开源项目 Fashion-MNIST 和 Bert-as-service 的作者\n
+ - 曾在腾讯 AI Lab 负责基于深度学习搜索项目研发，作为
+ 腾讯开源办公室成员，代表腾讯担任 LFAI 开源基金会董
+ 事，并促进腾讯加入 TODO 基金会\n- 曾在德国 Zalando 公司
+ 担任高级研究员\n- 2014 年获得德国慕尼黑工业大学计算
+ 机博士学位。
+URL;VALUE=URI:https://cn.pycon.org/talks/ai-first
+END:VEVENT
+BEGIN:VEVENT
+UID:c12135a7-8428-45e1-a74a-d64d7bea8a0f
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T030000Z
+DTEND:20211016T034500Z
+SUMMARY:在 \"Python\" 中实现高性能并行计算
+DESCRIPTION:Speaker: 胡渊鸣&张爱玲\n\nSpeaker Introduction: 胡渊
+ 鸣：太极图形科技 CEO，太极编程语言创始人\n\n张爱玲：
+ 太极图形科技编译器架构师
+URL;VALUE=URI:https://cn.pycon.org/talks/high-performance-parallel
+END:VEVENT
+BEGIN:VEVENT
+UID:b2e4d93d-e1b0-4dac-b938-56ddb577d7eb
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T034500Z
+DTEND:20211016T040000Z
+SUMMARY:分会场介绍 & 抽奖
+DESCRIPTION:Speaker: 李者璈\n\nSpeaker Introduction: * 猫奴\n* 一个
+ 热爱 Python 的人\n* 太极图形搬砖者，欢迎一起搬砖
+END:VEVENT
+BEGIN:VEVENT
+UID:f68e3ef4-e13f-4f99-9d99-8da369a299f0
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T013000Z
+DTEND:20211016T040000Z
+SUMMARY:Pythonista 之间的真心话
+DESCRIPTION:Speaker: PyCon China 组委会成员
+END:VEVENT
+BEGIN:VEVENT
+UID:ac1f0e7e-7620-43ea-bb4b-dfb57a3da29f
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T050000Z
+DTEND:20211016T054500Z
+SUMMARY:为 Python 加糖 —— 鸣蛇
+DESCRIPTION:Speaker: Aber\n\nSpeaker Introduction: 鸣蛇的创造者，In
+ dex.py、baize 等非知名 Web 框架、工具箱的制作者\n\nDescript
+ ion: 本演讲主要阐述如何使用 Guido 为 Python3.9 编写的 PEG 
+ 解析器创造一个 Python 超集，加入自己想要的语法，给 Py
+ thon 带来新的活力。其次演示我使用这种技术编写的超集
+ 语言 —— 鸣蛇，它包含管道，偏函数，空值合并、可选
+ 链等便捷的语法，并且可以直接把鸣蛇的代码作为 Python 
+ 的模块进行导入，而不需要提前编译。
+URL;VALUE=URI:https://cn.pycon.org/talks/python-with-sugar
+END:VEVENT
+BEGIN:VEVENT
+UID:936e6716-bfca-4544-8ea5-558b0b823268
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T050000Z
+DTEND:20211016T054500Z
+SUMMARY:打造 Python 项目的云原生 GitOps 工具链
+DESCRIPTION:Speaker: 张晋涛\n\nSpeaker Introduction: - 技术专家\n- 
+ Kubernetes ingress-nginx 审查者\n- Apache APISIX 贡献者\n- 公众号
+ ：MoeLove\n\nDescription: 云原生已成为当前最火热的技术趋
+ 势之一。伴随着一众 CI/CD、GitOps 理念的流行，如何保障 
+ Python 项目的高效交付，及提升应用整体的稳定性也是众
+ 多开发者面临的共同问题之一。\n\n本次分享将从实践出
+ 发，介绍如何打造 Python 项目的云原生 GitOps 工具链，在
+ 保障应用稳定性的前提下，更高效的完成项目的交付。
+URL;VALUE=URI:https://cn.pycon.org/talks/python-cloud-git-ops
+END:VEVENT
+BEGIN:VEVENT
+UID:f21fc286-c869-4178-b89e-c115f5ebc37a
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T054500Z
+DTEND:20211016T063000Z
+SUMMARY:Python 打包 101
+DESCRIPTION:Speaker: 明希\n\nSpeaker Introduction: - PyPA 成员，PDM 
+ 作者及 Pipenv 维护者\n- 致力于改善 Python 打包生态\n- 同
+ 是也是一位有丰富经验的 Python Web 开发者\n\nDescription: Pyt
+ hon 打包是个每个 Python 开发都可能用到并且需要了解的
+ 知识。演讲试图从 Python 打包的历史进程开始，阐述 pip i
+ nstall 背后发生的过程，同时介绍当前 Python 打包的最佳
+ 实践。
+URL;VALUE=URI:https://cn.pycon.org/talks/python-packaging-101
+END:VEVENT
+BEGIN:VEVENT
+UID:1d7e2117-d888-48cf-a9ea-eed83aa6f25e
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T054500Z
+DTEND:20211016T063000Z
+SUMMARY:Robust & Ease to use: The Design and Evolution of Python-based Pri
+ mitive Data Types
+DESCRIPTION:Speaker: 王博\n\nSpeaker Introduction: - 本科毕业于兰
+ 州大学，硕士毕业于荷兰代尔夫特理工大学（2017），多
+ 媒体信息检索方向。\n- 曾在 IBM（阿姆斯特丹），Sensara
+ （鹿特丹）供职 AI Engineer，目前在 Jina AI（柏林）担任 AI
+  Engineer。\n- 曾在 ACM Multimedia 等学术期刊与 workshop 发表
+ 论文 3 篇，在 ECIR 等学术会议代表 Jina AI 演讲。\n- 兴趣
+ 为人工智能与信息检索的交叉（neural information retrieval）
+ 与开源。\n- 是 Jina（11，000 star）的主要维护者，也是基
+ 于深度学习和 Python 的信息检索库 MatchZoo （3500 star）的
+ 核心开发者。\n\nDescription: 每个 Python 使用者都知道 ndarra
+ y 是 Numpy 的基础数据结构，DataFrame 是 Pandas 的基础数据
+ 结构。作为开源，搜索与人工智能的融合，在 Jina 项目
+ 开发初期，我们想让用户能够在最短的时间内快速学习
+ ，使用并转化为 Jina 的用户，甚至贡献者。因此我们需
+ 要一套有强大表现力的数据结构来支撑这一目标。如今
+ 随着 Jina2.0 的发布，我们在 Github 上收获了 1 万 + 星星，
+ 这离不开简洁易用的 Jina Primitive Data Types。在这个演讲中
+ ，我想要讨论几个话题：\n\n1. 设计 Jina Primitive Data Types 
+ 的初衷（动机）\n2. 我们的设计准则\n3. 数据结构的演进\
+ n4. 将来的发展方向\n\n希望这个 30 分钟的演讲能够在某
+ 种程度上启发大家使用 Python 设计出强大的数据结构，避
+ 免可能遇到的弯路。
+URL;VALUE=URI:https://cn.pycon.org/talks/primitive-data-types
+END:VEVENT
+BEGIN:VEVENT
+UID:4b58f6ef-c6f2-4cbb-93cb-2594f907e8cc
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T063000Z
+DTEND:20211016T071500Z
+SUMMARY:如何用好 Python 的模式匹配语法
+DESCRIPTION:Speaker: 谭啸\n\nSpeaker Introduction: - 亚信科技高级
+ 开发，前蚂蚁金服开发工程师，多年 Web 前后端经验\n- 
+ 目前从事低代码、3D 可视化领域的开发\n\nDescription: Python
+ 3.10 新语法特性 Structual Pattern Matching 只是增强版的 switch 
+ case？我将在分享中讲解，模式匹配中的模式是什么；各
+ 个语言的模式匹配实现；Python 的模式匹配支持哪些语法
+ ，使用模式匹配的优点和缺点；自己动手实现模式匹配
+ 。
+URL;VALUE=URI:https://cn.pycon.org/talks/pattern-matching
+END:VEVENT
+BEGIN:VEVENT
+UID:7976bee2-e3eb-4110-9599-5c610c309cb2
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T063000Z
+DTEND:20211016T071500Z
+SUMMARY:使用 Python 完成若干自然语言处理任务
+DESCRIPTION:Speaker: 王海良\n\nSpeaker Introduction: - Chatopera 联合
+ 创始人 & CEO\n- 2011 年毕业于北京邮电大学，后加入 IBM 工
+ 作四年，先后工作于软件开发实验室和创新中心\n- 从 201
+ 6 年开始工作于创业公司，三角兽 AI 算法工程师，呤呤
+ 英语 AI 产品负责人，负责智能对话系统研发。\n- 具有丰
+ 富的项目落地经验，熟悉机器学习，搜索引擎，自然语
+ 言处理，业务流程引擎。\n- 2018 年出版行业首本问答对
+ 话机器学习书籍《智能问答与深度学习》，并在 GitHub 上
+ 发布了大量的开源项目，在开发者社区得到了广泛的认
+ 可。\n\nDescription: 对于数据科学家和开发者，自然语言处
+ 理是实现人工智能应用的一个主要方面，作为 Python 开发
+ 者，我需要怎么入门，有哪些好的工具？作为若干 Python\
+ n  自然语言处理相关包的贡献者或发布者，本分享将对
+ 同义词处理、中文语料数据集、依存关系分析、词向量
+ 、聚类分析和聊天机器人等知识娓娓道来。
+URL;VALUE=URI:https://cn.pycon.org/talks/nlp
+END:VEVENT
+BEGIN:VEVENT
+UID:f6e32c2f-96bb-4550-83c7-d58b7f454b00
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T050000Z
+DTEND:20211016T071500Z
+SUMMARY:开源项目那些事
+DESCRIPTION:Speaker: 青云 / Mavin / 许智翔 / 李者璈
+END:VEVENT
+BEGIN:VEVENT
+UID:985d3dcf-ad35-40c7-b450-bd0d9c182100
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T073000Z
+DTEND:20211016T081500Z
+SUMMARY:Python 与 BCC 的结合：内核可观测性的新手段
+DESCRIPTION:Speaker: 李者璈\n\nSpeaker Introduction: * 猫奴\n* 一个
+ 热爱 Python 的人\n* 太极图形搬砖者，欢迎一起搬砖\n\nDesc
+ ription: 随着云计算的进一步发展，我们所要面临的线上
+ 问题也越来越复杂化。我们可能在线上排查问题时需要
+ 去深入到内核中，去获取包含并不仅限于网络包，进程
+ 信息在内的各种相关的信息。这也让我们对 Linux 内核调
+ 试工具的需求也日渐增加\n\n在 Linux 4.x 之后，Linux 在内
+ 核中提供了 eBPF 在内的良好的工具让我们能够升入到内
+ 核去获取到我们所需要的信息。\n\n本次演讲将带大家从
+ 一些实际的例子出发，去一点点感受 Python + BCC 给我们线
+ 上调试所带来的便利
+URL;VALUE=URI:https://cn.pycon.org/talks/python-bcc
+END:VEVENT
+BEGIN:VEVENT
+UID:90518883-eaea-42fa-8d19-48f29ae5b2ac
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T073000Z
+DTEND:20211016T081500Z
+SUMMARY:如何用 Github、VSCode 和 Azure 优化数据科学工作效率
+DESCRIPTION:Speaker: Lomis Chen\n\nSpeaker Introduction: Lomis Chen 目前
+ 是 Microsoft 的项目经理，专注于为 Azure 上的 Python 开发人
+ 员提供数据科学和 AI 工具。\n\n 她对 UX 和数据科学有着
+ 浓厚的兴趣，之前曾在 Azure CLI 上工作，专注于 UX 和 CSAT
+  改进。\n\n 在加入 DevDiv 之前，她曾在 CodeHub 内部源平台
+ 、静态代码分析服务以及 OSS 安全方面在 Windows 下工作。
+ \n\nDescription: 在过去的几年里，python 在数据科学和机器
+ 学习中的应用是爆炸性的，而且社区中的开发者需求和
+ 支持也比以前多。在这次演讲中，我将带领大家了解如
+ 何在微软的各种工具中无缝地执行从探索性分析到机器
+ 学习的任务，包括 GitHub、Visual Studio Code 以及 Azure 机器
+ 学习。
+URL;VALUE=URI:https://cn.pycon.org/talks/data-science
+END:VEVENT
+BEGIN:VEVENT
+UID:1e6f1aed-ee12-4257-a6b4-e0027d8a08d4
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T081500Z
+DTEND:20211016T090000Z
+SUMMARY:闪电演讲
+DESCRIPTION:Description: ### 用 PyParsing/PEG 设计自己的计算机语
+ 言\n\n演讲者：宋丛威\n\n演讲内容简介：\n用 PyParsing/PEG 
+ 设计自己的计算机语言：\n学习了很多计算机语言之后，
+ 让很多人产生自己设计计算机语言的想法。关键的任务
+ 是设计语言的语法解析器。目前大多数语言的解析是基
+ 于上下文无关文法的。表达式解析文法 PEG 作为上下文无
+ 关文法的潜代品，同样可以实现计算机语言解析器，并
+ 且有诸多形式文法不具有的优点，如易于实现，解析快
+ 速，无歧义等。此外专家们正在尝试用 PEG 实现 Python 的
+ 解析器。pyparsing 是 Python 简单易用的 PEG 包。演讲的主要
+ 目的是演示如何用 pyparsing 设计解析器。涉及 PEG 原理和
+ 解析器实现技巧，pyparsing 设计风格，还会展示自己设计
+ 的计算机语言，以及一系列有趣的实例。\n\n\n### AI 结对
+ 编程\n\n演讲者：Geert Heyman\n\n演讲内容简介：\n我将介绍
+ 一个来自诺基亚贝尔实验室的 \"AI 结对编程\" 研究原型
+ ，该原型旨在帮助 Python 开发者在数据科学应用中更好的
+ 使用开源开代码库。\n我们的 AI 助手可以在 Jupyter notebook
+ s 中使用，它可以根具自然语言生成 Python 代码，这种做
+ 法我们称之为 \"自然语言引导的编程\"。也就是说，开发
+ 者可以通过在代码里写一些简短的注释的方法（例如，\"
+ 在柱状图中绘制这个数据\"）来向 AI 查询他们需要的上
+ 下文代码片段。\n \n我将在很高的视角上解释我们是如何
+ 训练这个 AI 结对编程项目的核心机器学习模型。这里会
+ 重点介绍 这个新一代自动生成代码工具的最佳实践和踩
+ 坑经验。\n我们训练好的这个机器学习模型已经发布在 Hu
+ gging Face model hub \, 而且非常的轻量级，不需要部署在非
+ 常昂贵的机器上。\n\n### Python 助你快速上手 Apache APISIX 
+ 开发\n \n演讲者：帅进超\n\n演讲内容简介：\nPython 作为
+ 一个有着 30 年历史的开发语言，它丰富的生态和简洁语
+ 法受到了很多人的青睐，并且在人工智能、科学计算、We
+ b 开发等领域广泛的实践，本次分享我将介绍下通过 Pytho
+ n 结合 Apache APISIX 在 API 网关上的应用。为了实现通过 Pyt
+ hon 无侵入的开发 Apache APISIX 插件在社区中我们开发了一
+ 个 Apache APISIX Python Runner 的项目通过 Python Runner 的加持可
+ 以让开发者在使用 Python 开发 Apache APISIX 插件时无需关注
+  Nginx C 和 Lua 的实现细节，只需专注 Python 插件的业务逻
+ 辑即可。   \n本次分享我也会通过一个案例来为大家实践
+ 演示一下，如何通过简单几行 Python 代码完成一个 Apache A
+ PISIX 插件的开发并应用到 Apache APISIX 中，欢迎感兴趣的
+ 小伙伴来一起交流。
+URL;VALUE=URI:https://cn.pycon.org/talks/lightning_1_a
+END:VEVENT
+BEGIN:VEVENT
+UID:f5c86e42-ca30-4203-a44d-b0b6b5c60cb0
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T081500Z
+DTEND:20211016T090000Z
+SUMMARY:闪电演讲
+DESCRIPTION:Description: ### ast 模块如何帮助 Jina Hub 开发者高
+ 效开发\n \n演讲者：王楠\n\n演讲内容简介：\n本次演讲主
+ 要通过 Python 原生的 Abstract Syntax Tree（ast）模块在 Jina Hub
+  中的应用，讲述我们如何帮助 Jina Hub 开发者社区兼顾开
+ 发效率和可维护性。Jina Hub 旨在为开发者提供使用 Jina 
+ 构建神经搜索系统所需的各种 Executor，开发者不仅可以
+ 在 Jina Hub 找到所需的 Executor，而且能够发布定制化 Execut
+ or 并与整个社区分享。通过使用 ast 模块解析开发者的代
+ 码，我们实现对 Dockerfile 和安装依赖包的自动生成和标
+ 准化管理，使得开发者能够更专注于 Executor 的核心功能
+ 开发。此外，我们使用 ast 模块帮助开发者自动生成 Execu
+ tor 的详情介绍，进一步便于开发者与社区分享。ast 模块
+ 使我们能够在保证社区开发效率的同时，提高代码的可
+ 维护性，从而降低开发门槛，吸引更多的开发者加入 Jina
+  Hub 社区。\n\n\n### 用 AI 识别基因，从向量化 DNA 序列开
+ 始\n \n演讲者：顾梦佳\n\n演讲内容简介：\nDNA 序列在分
+ 子生物学和医药研究中有着广泛的应用，比如基因溯源
+ 、物种鉴定、疾病诊断等。如果结合正在兴起的基因大
+ 数据，采取大量的样本，那么通常实验结果更具说服力
+ ，也能够更有效地投入现实应用。然而传统的核酸序列
+ 比对方法有着诸多限制，并不适用于大规模的数据，这
+ 使现实应用不得不在成本和准确率中做出取舍。为缓解
+ 核酸序列数据特性的掣肘，向量化是面对大量 DNA 序列时
+ 的一个更优选择。实现 DNA 序列向量化可以在提高效率的
+ 同时，也帮助降低项目研究或系统搭建的成本。\n\n在这
+ 个想法的基础上，我们尝试结合 NLP 模型和开源向量数据
+ 库 Milvus 搭建了一个基因序列分类系统。根据 Milvus 的 pyt
+ hon SDK 用实验数据进行测试，结果发现该系统不仅毫秒之
+ 间能够识别基因的类别，还比机器学习领域里常见的分
+ 类器们更加精准。\n\n\n### Python 安全测试之二进制漏洞挖
+ 掘\n \n演讲者：吴帅\n\n演讲内容简介：\n安全测试中，二
+ 进制漏洞挖掘也是经常使用 Python 进行联合，可以更好的
+ 将 Linux 下 ELF 程序与 Python 进行结合；本演讲主要通过介
+ 绍 CTF-pwn 中使用 Python 的”pwntools\"框架编写实例漏洞利
+ 用实例，破解程序拿到主机的权限；以漏洞的表现形式
+ ，展现如何使用 Python 处理安全领域中，二进制安全分支
+ 的\" 魅力”。
+URL;VALUE=URI:https://cn.pycon.org/talks/lightning_1_b
+END:VEVENT
+BEGIN:VEVENT
+UID:6eeef70e-79c2-475d-9d2b-7a7c616a5905
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211016T073000Z
+DTEND:20211016T090000Z
+SUMMARY:高中生、初中生参与 Python 开发的趣事
+DESCRIPTION:Speaker: 王俊杰 / 胡博文 / Andy Zhou / Rice Zong / 李
+ 辉\n\nSpeaker Introduction: 高中生和初中生们是怎么学习 Pytho
+ n 的？他们都开发了什么项目？他们未来会计划做程序员
+ 吗？ 在这场圆桌里，一个高中生和三个初中生会一起聊
+ 一聊他们学习和使用 Python 的经历，以及他们的未来畅想
+ 。\n\nDescription:  - 王俊杰：上海市浦东中学高一学生，Pyt
+ hon 开发者（Web，爬虫，自动化）PHP 开发者，前端开发，
+ 网络安全爱好者，接触 Python 4 年。 Email：<variflight@feiyou.
+ chat>\n- 胡博文：上海市松江四中初三学生，喜爱编程，
+ 从初二开始自学 Python，是一名 Python 初学者。 Email：<bowe
+ n.hu@hotmail.com>。\n- Andy Zhou：一个普普通通的初中生，喜
+ 欢编程，尤其热爱 Python 和 Go，Flask 框架忠实的爱好者。
+  开源项目：<https://github.com/z-t-y/Flog>、<https://github.com/z-t-
+ y/flogo>\n- Rice Zong：来自上海，就读于上民办兰生复旦中
+ 学，2022 届初中学生，程序爱好者。从 2017 年起接触 Pytho
+ n， 多次与 Andy Zhou 合作完成学校项目。喜欢 Flask Web 应
+ 用开发，以及使用 Python 解决个人与团队问题，常用账号
+ 为 rice0208。 个人网站：<https://rice0208.pythonanywhere.com>\n- 
+ 李辉（主持人）：Flask 维护者，编程和写作爱好者。个
+ 人网站：<https://greyli.com> 
+URL;VALUE=URI:https://cn.pycon.org/talks/young-pythonistas
+END:VEVENT
+BEGIN:VEVENT
+UID:c2e6dae1-a8d1-45d0-a86d-2e774597f597
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T013000Z
+DTEND:20211017T021500Z
+SUMMARY:Python 当前实现综述
+DESCRIPTION:Speaker: 李枫\n\nSpeaker Introduction: - 先后就职于摩
+ 托罗拉，三星等 IT 公司，现为独立开发者。\n- 在移动平
+ 台上积累了十年以上年研发经验，近几年主要专注于边
+ 缘计算 / 云计算基础设施领域。\n- 《灰帽黑客 第 4 版：
+ 正义黑客的道德规范、渗透测试、攻击方法和漏洞分析
+ 技术》（ISBN：9787302428671）和《恶意网络环境下的 Linux 
+ 防御之道 》（ISBN: 9787115544384）中文版的主要译者。\n- 
+ 对技术创新具有浓厚的兴趣和实践能力，热心参与开源
+ 社区的各种活动，之前参加的各种 IT 会议和技术分享请
+ 见: https://github.com/XianBeiTuoBaFeng2015/MySlides\n\nDescription: 最
+ 近十年 Python 已经稳居世界编程语言排名的前三，在诸如
+ 人工智能、数据处理、科学计算、运维等领域 Python 几乎
+ 都是首选开发语言。但由于很多原因迄今 Python 代码的执
+ 行效率仍然不尽如人意，幸运地是近些年新兴的 Python 运
+ 行时不断涌现，带来了很多克服影响 Python 运行时性能瓶
+ 颈的实现新思路。本议题总结和比较了目前已有的各类 P
+ ython 实现，并包含下列子话题：\n- 基于 C 的 Python 实现 \
+ n    - 让 CPython 更快；\n    - 新的 Cinder 项目；\n- 基于 Java
+  的 Python 实现（如 GraalPython 和 Jython）；\n- 基于 LLVM 的 P
+ ython 实现（如 Pyston）； \n- 基于.Net 的 Python 实现（如 Iro
+ nPython 和 Pyjion）；\n- 基于 WASM 的 Python 实现（如 Pyodide）
+ ；\n- 基于 Rust 的 Python 实现（如 RustPython）；\n- 上述 Pyth
+ on 实现的比较和性能测试。
+URL;VALUE=URI:https://cn.pycon.org/talks/python-impl
+END:VEVENT
+BEGIN:VEVENT
+UID:72ddc3ba-569f-41f0-ae9b-7c5ca71efda3
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T013000Z
+DTEND:20211017T021500Z
+SUMMARY:如何开发和维护大型 Python 服务端应用
+DESCRIPTION:Speaker: 王斌鑫\n\nSpeaker Introduction: - 技术专家，
+ 微软 MVP\n- 《Python 最佳实践指南》中文版译者\n- 热爱参
+ 与开源项目和技术分享\n- 目前从事云计算领域的研发工
+ 作\n\nDescription: 很多人认为 Python 不适合用来开发大型服
+ 务端应用，觉得它慢、容易出错、难以维护等。事实真
+ 的是这样吗？或者我们该如何面对这些问题？\n本次演讲
+ 会为大家分享一个大型云服务为何选择 Python 作为主要语
+ 言进行开发，如何在架构设计、开发、测试、监控、团
+ 队协作、应用发布等方面确保业务功能快速平稳实现，
+ 并保证代码的可维护性。
+URL;VALUE=URI:https://cn.pycon.org/talks/python-big-scale
+END:VEVENT
+BEGIN:VEVENT
+UID:82d9921c-4868-412d-9d51-dad48b508aee
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T021500Z
+DTEND:20211017T030000Z
+SUMMARY:可观测性平台下的低代码技术实践
+DESCRIPTION:Speaker: 丁来强\n\nSpeaker Introduction: 阿里云 SLS 上
+ 海负责人，从业超过 10 年，曾任 Splunk 中国实验室高级
+ 技术架构师、擅⻓ AIOps/SecOps 的大数据 分析平台构建与
+ 场景落地。\n\n乐于分享，历届 PyCon / 云栖 / CSDN 大会或
+ 直播讲师，分享超过 20 多个不同议题演讲或 直播，近百
+ 篇技术产品文章，覆盖开源 AIOps 中台搭建、可观测告警
+ 运维平台实践、大数据分析可视化、工作流调 度、函数
+ 式、设计模式等方面，广受好评。\n\nDescription: 随着数智
+ 与自动化时代，企业业务创新加速，日益复杂的架构以
+ 及庞大的数据量，对企业对中心化大数据平台提 出了更
+ 高的要求。这使得可观测性 (Observability) 平台成为 DevOps/I
+ T 管理领域的新趋势，另一方面，企业如 何快速构建应
+ 用、流程、业务解决方案持续积累，这两年也使得低代
+ 码 (Low-Code) 产品也在各个领域呈现爆发 式产生，其相关
+ 技术在可观测性平台下也同样适用。\n本次分享主要介绍
+ 在建设可观测性平台下时，如何使用低代码技术 (Python 
+ 为例)，革新产品的使用体验并提高 场景灵活性与方案落
+ 地工程效率。覆盖数据灵活采集与加工、智能分析、监
+ 控告警、响应自动化等关键环节，涉 及云原生、流批计
+ 算、OLAP、DSL、编排与模板化技术等。\n演讲提纲:\n1. 可
+ 观测性与低代码技术背景概述\n2. 可观测性平台下各环节
+ 的技术挑战、架构设计与技术难点 \n3. 最佳实践与 Python 
+ 技术使用\n4. 未来展望
+URL;VALUE=URI:https://cn.pycon.org/talks/low-code
+END:VEVENT
+BEGIN:VEVENT
+UID:014720a0-32d9-47be-a509-da44de4d7b45
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T021500Z
+DTEND:20211017T030000Z
+SUMMARY:让 Github Action 加快你的 Python 应用场景迭代
+DESCRIPTION:Speaker: Kinfey Lo\n\nSpeaker Introduction: - 微软 Cloud Adv
+ ocate\, 前微软最有价值之家，微软技术社区区域总监\n- 
+ 超过 10 年的云原生，移动应用，人工智能经验，为教育
+ ，金融，医疗，电信提供解决方案\n- 现阶段主要为不同
+ 行业布道相关技术以及技术方案\n\nDescription: 相信每一个
+ 开发人员都会用 Github \, 但你知道 Github Action 吗？他可以
+ 为你的应用更好地完成 CI / CD 的迭代。本课程针对 Python 
+ 在云原生，IoT \, 机器学习的场景结合 GitHub\n  Action 完成
+ 现代化应用的部署和管理，包括 Python 环境的更新，Python
+  后端开发的迭代，物联网场景的扩展以及基于 MLOps 的机
+ 器学习全场景优化
+URL;VALUE=URI:https://cn.pycon.org/talks/github-action
+END:VEVENT
+BEGIN:VEVENT
+UID:47fa0b37-4b56-43a4-806a-d3ba250f5893
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T030000Z
+DTEND:20211017T034500Z
+SUMMARY:使用 Python 和图模型构建一个电影应用
+DESCRIPTION:Speaker: 朱兴亮\n\nSpeaker Introduction: - Neo4j 认证专
+ 家，微软 MCT，前微软 MVP\n- 多年软件开发工作经历，属
+ 于几乎全占工程师，多年活跃于技术社区\n- 现在从事技
+ 术和社区的混合岗位开发者关系，负责 Neo4j 在亚太地区
+ 的开发者社区\n- 目前在学习图数据科学和应用，打开了
+ 新的开发视角\n\nDescription: 一部电影有演员、导演、制片
+ 和编剧等多种角色，有时候演员和制片是同一个人，电
+ 影也有不少属性信息，如何从数据库到前端应用都很直
+ 观地来设计和开发呢？本次分享将带你从图数据库的建
+ 模开始，然后构建 API 和前端应用，或许是一种你没有见
+ 过的全栈应用开发方式。
+URL;VALUE=URI:https://cn.pycon.org/talks/movie-app
+END:VEVENT
+BEGIN:VEVENT
+UID:3db803c7-7ccb-47f2-b877-2d300e8bfde3
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T030000Z
+DTEND:20211017T034500Z
+SUMMARY:Python 安全测试之自动化的 \"艺术\"
+DESCRIPTION:Speaker: 赵鑫\n\nSpeaker Introduction: - 两年信息安全
+ 讲师经验\n- 擅长 web 渗透测试、代码审计、漏洞挖掘，
+ 工具研发\n- 对 web 自动化渗透测试有着自己独特的认识\n
+ \nDescription: 《Python 安全测试之自动化的 \"艺术\"》，主
+ 要围绕在信息安全测试中，Python 成为主流的脚本开发语
+ 言占据了头榜，且基于日常网络安全攻防当中所使用的
+ 漏洞、渗透测试工具、攻击手段等方面，综合、贴合自
+ 动化测试的方式来介绍 python 自动化安全测试的原理，更
+ 能让听众感受到：\"黑客 Python\" 的气息。
+URL;VALUE=URI:https://cn.pycon.org/talks/auto-test
+END:VEVENT
+BEGIN:VEVENT
+UID:80712730-11aa-40f9-b5f7-41a98bd4543c
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T034500Z
+DTEND:20211017T040000Z
+SUMMARY:下午场主题介绍 / 抽奖
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:5bf05193-3f30-46f2-b3fd-0846e95685ae
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T013000Z
+DTEND:20211017T040000Z
+SUMMARY:Pythonista 之间的真心话
+DESCRIPTION:Speaker: PyCon China 组委会成员
+END:VEVENT
+BEGIN:VEVENT
+UID:95247fa3-fe92-4939-aa4b-d5356ca100c2
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T050000Z
+DTEND:20211017T054500Z
+SUMMARY:图数据库解谜与上手应用
+DESCRIPTION:Speaker: 古思为\n\nSpeaker Introduction: 我是一个在上
+ 海的软件工程师，我在 vesoft 担任 Nebula Graph（开源的分
+ 布式图数据库）的社区开发者布道师。\n\n我的工作是通
+ 过围绕 Nebula Graph Database 创作内容，构建工具来改善开发
+ 者的学习、开发、社区参与体验。\n\n我在开源社区开放
+ 的工作，并（花了职业生涯中的前些年意识到）热爱用
+ 自己的思想和学到的技术帮助到别人，我认为这是一种
+ 的荣幸和宝贵的机遇。\n\n- 我的介绍更多内容： https://si
+ wei.io/about/\n- 我的部分往期 talk： https://siwei.io/talk/\n- 个
+ 人 twitter：           https://twitter.com/wey_gu\n\n### 过往经历\n
+ 我曾在爱立信工作了近十年：2011 年到 2021 年。 角色是
+ 云计算产品 Cloud Execution Envrioment (CEE)  研发团队的系统经
+ 理 ，我大部分的工作是通过设计开发 20 多个 CEE 6.6.2 和 
+ CEE 10 的功能与改进，涵盖计算、存储、网络、生命周期
+ 管理和安全等领域，来帮助爱立信 IaaS 产品与解决方案
+ 不断进化。 同时，我也负责 CEE 产品在中国区的布道（
+ 面向外部与内部）。\n\n《开源面对面》播客的主持人（
+ 可惜还只发出了第零期）\n\nDescription: 图数据库是什么？
+ Why Yet Another Database? 它能解决什么问题？\n本次演讲会给
+ 大家解谜图数据库，并分享、Demo 从零到一，分享讲者自
+ 己用 Python 搭建的基于图数据库做出来的有趣开源项目：
+ \n- Nebula Siwi，一个基于图数据库 + Python 搭建的全栈单一
+ 领域智能问答机器人\n- 股权穿透，一个基于 Python Faker 
+ 生成数据，演示股权关系穿透查询的小项目
+URL;VALUE=URI:https://cn.pycon.org/talks/graph-database
+END:VEVENT
+BEGIN:VEVENT
+UID:d7319e45-7006-410e-b248-58ecfd93e3ec
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T050000Z
+DTEND:20211017T054500Z
+SUMMARY:Behavior-driven Development in Python
+DESCRIPTION:Speaker: Evgeny Demchenko\n\nSpeaker Introduction: - 资深 CT
+ O、团队负责人、CSM、架构师、敏捷实践者、前端和后端
+ 软件开发人员，在各种现代 Web 技术方面拥有丰富的经验
+ 。  在桌面和移动应用程序开发以及 Web API 方面也经验丰
+ 富\n- 热衷于 Python、Django、极限编程、DevOps 文化和敏捷
+ 软件开发\n- 北京 Python Meetup 的组织者\n\nDescription: 行为
+ 驱动开发（或验收测试驱动开发）是一种强大的敏捷工
+ 程实践，与其他敏捷和 XP 实践相得益彰，如 TDD、持续交
+ 付等。\n\nBDD 场景是高层次的功能测试，作为 \"实例规范
+ \" 用小黄瓜 DSL 编写，非技术团队成员（如产品经理、QA 
+ 等）可以使用。\n\n在本讲座中，我们将探讨。\n- 什么是
+  BDD\n- 其技术和团队优势是什么 \n- 什么是 BDD 的最佳 Pyth
+ on 工具（behave、pytest-bdd、cucumber）？\n- 如何使用这些工
+ 具以及如何编写 BDD 方案\n\n这将是你武库中的一个强大
+ 的新工具，你可以把它带回到你的项目和你的团队中去
+ ！
+URL;VALUE=URI:https://cn.pycon.org/talks/bdd
+END:VEVENT
+BEGIN:VEVENT
+UID:9f6ffb54-d9e8-4955-918c-0b525dcacff7
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T050000Z
+DTEND:20211017T054500Z
+SUMMARY:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:4257f5b9-bb08-4290-9a04-7aa4aeb4c239
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T054500Z
+DTEND:20211017T063000Z
+SUMMARY:用 Python 搭建图像识别神经网络
+DESCRIPTION:Speaker: 吕召刚\n\nSpeaker Introduction: Python 的忠实
+ 粉丝，在搜索算法领域耕耘多年，曾负责大众点评搜索
+ 算法团队，从 0 到 1 搭建搜索算法团队，设计和实现可
+ 扩展的搜索算法平台。\n\n目前致力于深度学习在行业化
+ 方向上的应用，以及可扩展的深度学习平台的设计和优
+ 化。\n\nDescription: 深度学习近十年来在不同行业的应用越
+ 来越多，对人类社会的影响也越来越大，是近几十年来
+ 的一场重大技术革命。 深度学习能够用于解决哪些典型
+ 的问题？如何开启深度学习的大门？此次分享讲介绍深
+ 度学习的流程，以及一些重要的基础数学知识，作为深
+ 度学习的神经网络是如何工作的，如何能够快速搭建一
+ 个深度学习的神经网络，如何设计网络的不同层，如何
+ 在生产环境中使用神经网络？
+URL;VALUE=URI:https://cn.pycon.org/talks/image-dl
+END:VEVENT
+BEGIN:VEVENT
+UID:a34b9566-806a-4cf7-bc7e-e60846c0fbbe
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T054500Z
+DTEND:20211017T063000Z
+SUMMARY:easyweb：致敬 Zope 的云时代开源 web 框架
+DESCRIPTION:Speaker: 潘俊勇\n\nSpeaker Introduction: 连续创业者，
+ 早期中国 Python/Zope 用户社区组织者\n\n长期从事基于 Pytho
+ n 的企业内容管理和低代码平台的开发\n\nDescription: Zope 
+ 是 20 年前曾经辉煌的 web 框架，以其直接在浏览器上快
+ 速开发应用而闻名，却错误决策而几近死去。\neasyweb 是
+ 新一代开源 web 框架，继承了 Zope 的优质家底，力图在云
+ 时代为开发者提供更好的低代码 web 开发体验。\n本主题
+ 将介绍 easyweb 的一些创新设计，包括云函数，Python 前端
+ 框架，可视化模型设计，可视化工作流定义。
+URL;VALUE=URI:https://cn.pycon.org/talks/easyweb
+END:VEVENT
+BEGIN:VEVENT
+UID:42c64725-e60b-4e2c-bb93-a496fc17aed0
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T054500Z
+DTEND:20211017T063000Z
+SUMMARY:Python 开发者调研问卷发起人访谈
+DESCRIPTION:Speaker: 王斌鑫
+END:VEVENT
+BEGIN:VEVENT
+UID:b985255c-506d-4fa2-bd08-ff2a10811587
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T063000Z
+DTEND:20211017T071500Z
+SUMMARY:Python-Wechaty：对话式 RPA SDK
+DESCRIPTION:Speaker: 吴京京\n\nSpeaker Introduction: - 北京邮电大
+ 学人工智能学院在读硕士\n- 微软中国自然语言处理实习
+ 生\n- [python-wechaty](https://github.com/wechaty/python-wechaty) 的作
+ 者\n- chatbot 以及深度学习技术爱好者\n\nDescription: python-we
+ chaty 是一个让开发者快速开发出智能聊天机器人的框架
+ ，使用一套代码即可运行在多种不同 IM 平台，例如微信
+ 、企业微信、微信公众号、钉钉、飞书以及 WhatsApp 等。
+ 丰富的插件能够让开发者快速实现对话平台对接，如微
+ 软 QnaMaker、LUIS 拥有接口简单易懂，插件轻松扩展，平台
+ 一键适配等多种特性。
+URL;VALUE=URI:https://cn.pycon.org/talks/python-wechaty
+END:VEVENT
+BEGIN:VEVENT
+UID:9e3987da-ae64-49da-a028-be7b4e53009d
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T063000Z
+DTEND:20211017T071500Z
+SUMMARY:脑科学中的数据应用实践
+DESCRIPTION:Speaker: 掌星\n\nSpeaker Introduction: - 2017～2019 阿里
+ 巴巴 算法专家 / 数据研发专家\n- 2015～2017 Coupang 高级数
+ 据工程师\n\nDescription: 脑科学中数据处理的问题与方法介
+ 绍\n1. Python 在脑科学的生态\n   * 数据存储格式\n   * 数据
+ 分析方法\n   * 数据呈现形式\n2. 针对脑电数据进行睡眠
+ 分类的 saas 应用实践\n   * Web 技术架构\n   * 存储和计算
+ 策略\n   * 可视化方法\n3. 针对脑电数据进行神经元分类
+ 的应用简单描述\n4. 后续应用和技术挑战\n5. 使用 Python 
+ 的一些小弯路
+URL;VALUE=URI:https://cn.pycon.org/talks/python-brain-science
+END:VEVENT
+BEGIN:VEVENT
+UID:7a0fd9b5-03e5-42c6-8a0c-868b13813acf
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T063000Z
+DTEND:20211017T071500Z
+SUMMARY:自由职业者移动办公新体验
+DESCRIPTION:Speaker: 李枫 / 吕绍刚 / 张晋涛
+END:VEVENT
+BEGIN:VEVENT
+UID:6c835a89-4673-4a72-9a7b-6a75248287a3
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T073000Z
+DTEND:20211017T081500Z
+SUMMARY:用 Dash 和 ECharts 构建互动 Dashboard
+DESCRIPTION:Speaker: 孟繁超\n\nSpeaker Introduction: 折腾过 JTAG 调
+ 试器，嵌入式编译器，IDE\, 也折腾过前后端，Docker\, K8s 
+ 的真全栈工程师，擅长多种语言的 hello world。\n\n最近在
+ 某神秘车厂折腾数据可视化相关的东西，妄图用 python 来
+ 搞定一切，并将 python 作为人生的养老语言。\n\nDescription
+ : 本次分享将会介绍使用 dash 和 echarts 快速构建可视化大
+ 屏的方法。借助 dash 框架，数据工程师可以十分轻松的
+ 完成动态报表的构建，而 echarts 丰富的图例则使得数据
+ 的表达更加的生动与直观。本次分享将会快速的介绍 dash
+  和 echarts 结合使用的基本方法，并针对涉及地图等复杂
+ 图表的创建进行 step by step 的指导，以便大家可以快速掌
+ 握 dash 和 echarts 的使用.
+URL;VALUE=URI:https://cn.pycon.org/talks/dash-echarts
+END:VEVENT
+BEGIN:VEVENT
+UID:b5609c40-3d6d-46d9-8c39-8943722e1443
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T073000Z
+DTEND:20211017T081500Z
+SUMMARY:Python+图数据科学 - 保险欺诈检测实战
+DESCRIPTION:Speaker: 俞方桦\n\nSpeaker Introduction: 多年架构设计
+ 和软件开发工作经历，特别热衷于数据分析，现在是Neo4j
+ 亚太地区技术总监\n\nDescription: 本次分享将会介绍使用 da
+ sh 和 echarts 快速构建可视化大屏的方法。借助 dash 框架
+ ，数据工程师可以十分轻松的完成动态报表的构建，而\n
+ echarts 丰富的图例则使得数据的表达更加的生动与直观。
+ 本次分享将会快速的介绍 dash 和 echarts 结合使用的基本
+ 方法，并针对涉及地图等复杂图表的创建进行\nstep by step
+  的指导，以便大家可以快速掌握 dash 和 echarts 的使用.\n
+URL;VALUE=URI:https://cn.pycon.org/talks/python-graphic-data
+END:VEVENT
+BEGIN:VEVENT
+UID:73f04da3-1ed3-4e52-a547-8eaaedf8e8dc
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T081500Z
+DTEND:20211017T090000Z
+SUMMARY:闪电演讲
+DESCRIPTION:Description: ### 使用 RayDP 构建大规模的数据分析
+ 和人工智能管道\n \n演讲者：林之\n\n演讲内容简介：\n本
+ 次演讲会介绍一下我们的工作 RayDP，也就是 Spark on Ray。\
+ n1. 简短的介绍一下 Spark 和 ray，我们为什么要做这个项
+ 目。\n2. raydp 是怎么工作的，简单介绍一下原理。\n3. 我
+ 们可以用 raydp 做到什么，与传统的做法对比，有什么好
+ 处。介绍几个典型的场景。\n4. 答疑讨论\n\n\n### What Python
+  could learn from Golang\n \n演讲者：yingshaoxo\n\n演讲内容简介
+ ：\n我们喜欢 Python 因为它的简单性。\n\n但我们也希望它
+ 能成为一种强大的生产用编程语言。\n\n这就是我制作这
+ 个视频的原因。\n\n我想做的就是让 Python 成为更好的编
+ 程语言。\n\n\n### 不写代码，如何为开源项目做贡献？\n\n
+ 演讲者：赵若妃\n\n演讲内容简介：\n也许在大多数开发
+ 者的印象中，贡献代码是为开源项目做贡献的唯一方式
+ 。成为贡献者只能通过贡献代码的方式吗？如果我不会
+ 写代码，并非开发者，怎样才能成为一个开源项目的贡
+ 献者，甚至晋升为 committer 呢？我将从非代码贡献方面，
+ 为大家分享为开源项目贡献的多种方式。
+URL;VALUE=URI:https://cn.pycon.org/talks/lightning_2_b
+END:VEVENT
+BEGIN:VEVENT
+UID:1a5e305b-b5b7-4a94-8f3a-c457a9dad4a1
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T081500Z
+DTEND:20211017T090000Z
+SUMMARY:大规模数据处理中PySpark的应用
+DESCRIPTION:Speaker: 汪浩\n\nSpeaker Introduction: Databricks合作伙
+ 伴架构师，硕士毕业于新加坡国立大学计算机学院。
+URL;VALUE=URI:https://cn.pycon.org/talks/pyspark
+END:VEVENT
+BEGIN:VEVENT
+UID:b1718339-4e75-4625-bd0d-78b60243c617
+SEQUENCE:0
+DTSTAMP:20221101T051630Z
+DTSTART:20211017T090000Z
+DTEND:20211017T091500Z
+SUMMARY:抽奖
+DESCRIPTION:
+END:VEVENT
 END:VCALENDAR

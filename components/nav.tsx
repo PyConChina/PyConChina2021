@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import cn from 'classnames';
 import { useRouter } from 'next//router';
-import { useTranslation } from 'next-i18next';
+import { useTranslation, useLanguageQuery, LanguageSwitcher, useSelectedLanguage } from 'next-export-i18n';
 
 const range = (start: number, end: number): number[] => {
   return Array.from({ length: end - start + 1 }, (_, i) => i + start);
@@ -12,7 +12,11 @@ const range = (start: number, end: number): number[] => {
 const Nav = function () {
   const [active, setActive] = useState(false);
   const router = useRouter();
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
+  const [query] = useLanguageQuery();
+  const { lang } = useSelectedLanguage();
+
+  const langSwitch = lang === 'en' ? 'zh' : 'en';
 
   useEffect(() => {
     const handleRouteChange = () => {
@@ -27,7 +31,7 @@ const Nav = function () {
   return (
     <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
-        <Link href="/">
+        <Link href={{query, pathname: '/'}}>
           <a className="navbar-item">
             <img src="/2021/assets/images/logo2021.png" alt="pychina" />
             <span className="ml-2 has-text-weight-bold">PyCon China</span>
@@ -53,10 +57,10 @@ const Nav = function () {
             <a className="navbar-link">{t('about')}</a>
 
             <div className="navbar-dropdown">
-              <Link href="/about">
+              <Link href={{query, pathname: '/about'}}>
                 <a className="navbar-item">PyCon China</a>
               </Link>
-              <Link href="/coc">
+              <Link href={{query, pathname: '/coc'}}>
                 <a className="navbar-item">{t('coc')}</a>
               </Link>
             </div>
@@ -65,13 +69,13 @@ const Nav = function () {
             <a className="navbar-link">{t('conference')}</a>
 
             <div className="navbar-dropdown">
-              <Link href="/schedule">
+              <Link href={{query, pathname: '/schedule'}}>
                 <a className="navbar-item">{t('schedule')}</a>
               </Link>
-              <Link href="/cfp">
+              <Link href={{query, pathname: '/cfp'}}>
                 <a className="navbar-item">{t('cfp')}</a>
               </Link>
-              <Link href="/video-guide">
+              <Link href={{query, pathname: '/video-guide'}}>
                 <a className="navbar-item">{t('video-guide')}</a>
               </Link>
               <a
@@ -114,10 +118,10 @@ const Nav = function () {
             <a className="navbar-link">{t('staff')}</a>
 
             <div className="navbar-dropdown">
-              <Link href="/staff">
+              <Link href={{query, pathname: '/staff'}}>
                 <a className="navbar-item">{t('staff_list')}</a>
               </Link>
-              <Link href="/joinus">
+              <Link href={{query, pathname: '/joinus'}}>
                 <a className="navbar-item">{t('joinus')}</a>
               </Link>
             </div>
@@ -153,9 +157,9 @@ const Nav = function () {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
-              <Link href={router.asPath} locale={router.locale === 'zh' ? 'en' : 'zh'}>
-                <a className="button is-rounded">{t('locale')}</a>
-              </Link>
+              <a className="button is-rounded">
+                <LanguageSwitcher lang={langSwitch}>{langSwitch.toUpperCase()}</LanguageSwitcher>
+              </a>
               <a
                 className="button is-primary is-rounded"
                 href="https://www.huodongxing.com/event/9618480117522"

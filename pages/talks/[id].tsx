@@ -1,18 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 import { startAnimation } from 'framer-motion/types/animation/utils/transitions';
 import { GetStaticPaths, GetStaticProps } from 'next';
-import { useTranslation } from 'next-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useTranslation } from 'next-export-i18n';
 import ReactMarkdown from 'react-markdown';
 import Layout from '../../components/layout';
 import { loadYaml } from '../../utils';
 import { ScheduleEvent, ScheduleItem } from '../schedule';
 
-type Path = {
+interface Path {
   params: {
     id: string;
   };
-  locale: string;
 };
 
 type TalkEvent = {
@@ -31,7 +29,7 @@ type TalkEvent = {
 const defaultAvatar = '/2021/assets/people/anonymous.jpg';
 
 const Talk = (props: TalkEvent) => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
   return (
     <Layout title={t('talk')}>
       <div className="container py-6">
@@ -80,28 +78,26 @@ const Talk = (props: TalkEvent) => {
   );
 };
 
-export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
+export const getStaticPaths: GetStaticPaths = async () => {
   const { schedule } = await loadYaml('schedule.yaml');
-  const paths = [] as Array<Path>;
+  const paths = [] as Path[];
   schedule.forEach((s: ScheduleItem) => {
     s.events.forEach((e) => {
       e.talks.forEach((t) => {
         if (t.slug) {
-          for (let locale of locales as string[]) {
-            paths.push({ params: { id: t.slug }, locale });
-          }
+          paths.push({ params: { id: t.slug } });
         }
       });
     });
   });
   return {
     paths,
-    fallback: true,
+    fallback: false,
   };
 };
 
-export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
-  const { schedule } = await loadYaml('schedule.yaml', locale);
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const { schedule } = await loadYaml('schedule.yaml');
   let matchedEvent = {} as TalkEvent;
   for (let item of schedule) {
     for (let event of item.events) {
@@ -113,7 +109,7 @@ export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
     }
   }
   return {
-    props: { ...matchedEvent, ...(await serverSideTranslations(locale as string, ['common'])) },
+    props: { ...matchedEvent },
   };
 };
 

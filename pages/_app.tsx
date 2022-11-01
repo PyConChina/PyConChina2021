@@ -3,7 +3,6 @@ import Head from 'next/head';
 import Footer from '../components/footer';
 import Nav from '../components/nav';
 import { DefaultSeo } from 'next-seo';
-import { appWithTranslation } from 'next-i18next';
 
 import '../styles/global.scss';
 
@@ -34,4 +33,4 @@ function MyApp({ Component, pageProps, router }: AppProps) {
     </>
   );
 }
-export default appWithTranslation(MyApp);
+export default MyApp;

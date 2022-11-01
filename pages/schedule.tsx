@@ -4,8 +4,7 @@ import { loadYaml } from '../utils';
 import cn from 'classnames';
 import Link from 'next/link';
 import Layout from '../components/layout';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { useTranslation } from 'next-i18next';
+import { useTranslation, useLanguageQuery } from 'next-export-i18n';
 
 export type ScheduleTalk = {
   venue?: string;
@@ -65,13 +64,14 @@ const splitEvents = (events: ScheduleEvent[]): ScheduleSection[] => {
 };
 
 const EmptySchedule = () => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
+  const [query] = useLanguageQuery();
   return (
     <div className="hero is-medium">
       <div className="hero-body has-text-centered">
         <p className="title">{t('stay_tuned')}</p>
         <p>
-          <Link href="/cfp">
+          <Link href={{pathname: '/cfp', query}}>
             <a className="button is-primary is-large">{t('cfp')}</a>
           </Link>
         </p>
@@ -81,13 +81,14 @@ const EmptySchedule = () => {
 };
 
 const Talk = ({ talk }: { talk: ScheduleTalk }) => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
+  const [query] = useLanguageQuery();
   const className = talk.venue ? `box h-full venue-${talk.venue}` : 'box h-full';
   if (!talk.title) {
     return <div />;
   }
   return talk.slug ? (
-    <Link href={`/talks/${talk.slug}`}>
+    <Link href={{pathname: `/talks/${talk.slug}`, query}}>
       <a className={className}>
         <div className="is-flex is-justify-content-space-between">
           <p className="title is-5">{talk.title}</p>
@@ -125,7 +126,7 @@ const Talk = ({ talk }: { talk: ScheduleTalk }) => {
 };
 
 const Event = ({ event }: { event: ScheduleEvent }) => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
   return (
     <>
       <div className="timeline-marker"></div>
@@ -145,7 +146,8 @@ const Event = ({ event }: { event: ScheduleEvent }) => {
 
 const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
   const [activeDate, setActiveDate] = useState(0);
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
+  const [query] = useLanguageQuery();
   const sections = splitEvents(schedule[activeDate].events);
   return (
     <Layout title={t('schedule')}>
@@ -153,7 +155,7 @@ const Schedule = ({ schedule }: { schedule: Array<ScheduleItem> }) => {
         <div className="container">
           <h1 className="title">{t('schedule')}</h1>
           <div className="has-text-centered">
-            <Link href="/calendar.ics">
+            <Link href={{pathname: '/calendar.ics', query}}>
               <a download className="button is-primary">
                 {t('add_to_calendar')}(.ics)
               </a>
@@ -214,7 +216,6 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
       schedule: data.schedule as ScheduleItem[],
-      ...(await serverSideTranslations(locale as string, ['common'])),
     },
   };
 };

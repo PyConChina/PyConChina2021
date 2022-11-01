@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { GetStaticProps } from 'next';
-import { useTranslation } from 'next-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useTranslation } from 'next-export-i18n';
 import Layout from '../components/layout';
 import { loadYaml } from '../utils';
 import ReactMarkdown from 'react-markdown';
@@ -35,7 +34,7 @@ const StaffPage = ({
   volunteers: Staff[];
   donators: string;
 }) => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
 
   return (
     <Layout title={t('staff_list')}>
@@ -74,7 +73,6 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
       ...data,
-      ...(await serverSideTranslations(locale as string, ['common'])),
     },
   };
 };

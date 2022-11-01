@@ -1,10 +1,8 @@
-import { GetStaticProps } from 'next';
-import { useTranslation } from 'next-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useTranslation } from 'next-export-i18n';
 import Layout from '../components/layout';
 
 const NotFound = () => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
   return (
     <Layout title={t('notfound')}>
       <div className="container">
@@ -28,12 +26,6 @@ const NotFound = () => {
       </div>
     </Layout>
   );
-};
-
-export const getStaticProps: GetStaticProps = async ({ locale }) => {
-  return {
-    props: { ...(await serverSideTranslations(locale as string, ['common'])) },
-  };
 };
 
 export default NotFound;

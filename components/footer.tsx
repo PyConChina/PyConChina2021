@@ -1,7 +1,7 @@
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'next-export-i18n';
 
 const Footer = function () {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
   return (
     <div className="columns has-text-centered footer-body">
       <div className="column">
